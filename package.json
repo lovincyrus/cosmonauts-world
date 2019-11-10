@@ -9,6 +9,7 @@
   },
   "dependencies": {
     "@zeit/next-css": "^1.0.1",
+    "framer-motion": "^1.6.15",
     "next": "9.0.5",
     "react": "16.9.0",
     "react-dom": "16.9.0"
