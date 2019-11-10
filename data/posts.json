@@ -58,5 +58,50 @@
     "name": "MESG",
     "website": "https://mesg.com/",
     "image": "https://i.imgur.com/Y0Lcz16.jpg"
+  },
+  {
+    "name": "DecentRandom",
+    "website": "https://decentrandom.com/",
+    "image": "https://i.imgur.com/aNIon9c.png"
+  },
+  {
+    "name": "Regen Network",
+    "website": "https://www.regen.network/",
+    "image": "https://i.imgur.com/3lgoUme.jpg"
+  },
+  {
+    "name": "BigchainDB",
+    "website": "https://www.bigchaindb.com/",
+    "image": "https://i.imgur.com/sfSwKym.jpg"
+  },
+  {
+    "name": "Cyber Consensus Computer",
+    "website": "https://cybercongress.ai/",
+    "image": "https://i.ibb.co/w7cXnhw/logo-1567516869-70529.png"
+  },
+  {
+    "name": "Microtick",
+    "website": "https://gitlab.com/microtick/mtkit",
+    "image": "https://i.imgur.com/uki9tbG.png"
+  },
+  {
+    "name": "IOV",
+    "website": "https://www.iov.one/",
+    "image": "https://i.imgur.com/mgspSIy.png"
+  },
+  {
+    "name": "IRIS",
+    "website": "https://www.irisnet.org/",
+    "image": "https://i.imgur.com/z1AaVyw.png?1"
+  },
+  {
+    "name": "DATA Chain",
+    "website": "https://data.eco/",
+    "image": "https://i.imgur.com/tclTSgh.png?1"
+  },
+  {
+    "name": "Akash",
+    "website": "https://akash.network/",
+    "image": "https://i.imgur.com/0MOUS9Y.png"
   }
 ]

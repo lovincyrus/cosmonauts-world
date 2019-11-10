@@ -25,12 +25,12 @@ const Companies = () => (
     <div className="wrapper">
       <div className="grid">
         {posts.map((item, index) => (
-          <motion.div variants={postVariants}>
+          <motion.div variants={postVariants} key={index}>
             <a href={item.website} target="blank_" rel="noopener noreferrer">
               <motion.div whileHover="hover" variants={{ hover: { scale: 0.96 } }}>
-                <div className="item" key={index}>
+                <div className="item">
                   <img src={item.image} className="logo"/>
-                  <h3 className="font-bold">{item.name}</h3>
+                  <h3 className="font-medium py-2">{item.name}</h3>
                 </div>
                 </motion.div>
             </a>
@@ -43,33 +43,42 @@ const Companies = () => (
     {`
       .wrapper {
         padding-top: 80px;
-        max-width: 1920px;
-        margin-left: auto;
-        margin-right: auto;
-        display: grid;
-        grid-template-columns: repeat(8, 1fr);
+        margin: 0 auto;
+        max-width: 76em;
       }
 
       .grid {
-        grid-area: 1/2/1/-2;
         display: grid;
         grid-template-columns: repeat(3, 1fr);
+        gap: 1.5rem;
       }
 
       .item {
-        display: flex;
         justify-content: center;
         align-items: center;
         flex-direction: column;
         padding: 32px 14px 20px 32px;
         border-style: none;
-        box-shadow: 0 3px 6px rgba(0,0,0,.04);
-        border-radius: 2px;
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.08);
+        background: rgb(255, 255, 255);
+        border-radius: 8px;
       }
 
       .logo {
         width: 72px;
         height: 72px;
+      }
+
+      @media screen and (max-width: 900px) {
+        .grid {
+          grid-template-columns: repeat(2,1fr);
+        }
+      }
+
+      @media screen and (max-width: 500px) {
+        .grid {
+          grid-template-columns: repeat(1,1fr);
+        }
       }
     `}
     </style>
