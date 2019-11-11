@@ -42,8 +42,8 @@ function Companies() {
                       <p className="network-status text-xs">{item.network}<span className="status-indicator"/></p>
                       <img src={item.image} alt={item.name} className="logo"/>
                       <h3 className="font-medium py-3">{item.name}</h3>
-                      {item.tags.map(tag => (
-                        <p className="tags">{tag}</p>
+                      {item.tags.map((tag, index) => (
+                        <p className="tags" key={index}>{tag}</p>
                       ))}
                       {/* <p>{item.description.substr(0, 150).trim()} ...</p> */}
                     </div>
