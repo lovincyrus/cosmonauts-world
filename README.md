@@ -1,6 +1,6 @@
 # nextjs-template
 
-> Next.js + Tailwind CSS
+> Next.js + Tailwind CSS + Framer Motion API + Feather icons
 
 ## To run this code:
 
