@@ -118,13 +118,13 @@ function Companies() {
           position: absolute;
           right: 10px;
           top: 10px;
-          opacity: 0.35;
+          opacity: 0.85;
         }
 
         .status-indicator {
           display: inline-block;
           border-radius: 50%;
-          background-color: #4bd28f;
+          background-color: yellowgreen;
           width: 8px;
           height: 8px;
           margin-left: 3px;
