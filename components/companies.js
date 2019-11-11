@@ -57,7 +57,7 @@ function Companies() {
           
           <div className="btn-container">
             <button onClick={() => setTrunc(false)}>
-              View all {posts.length} posts →
+              View all {posts.length} projects →
             </button>
           </div>
 
