@@ -60,7 +60,7 @@
     "description": "The Cosmos Hub is the first of thousands of interconnected blockchains that will eventually comprise the Cosmos Network . The primary token of the Cosmos Hub is the ATOM , but the Hub will support many tokens in the future",
     "website": "https://althea.net/",
     "image": "https://i.imgur.com/3uF0znH.png",
-    "network": "mainnet",
+    "network": "testnet",
     "tags": ["tendermint bft"]
   },
   {
