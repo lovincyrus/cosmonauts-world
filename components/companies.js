@@ -39,6 +39,7 @@ function Companies() {
                 <a href={item.website} target="blank_" rel="noopener noreferrer" title={item.name}>
                   <motion.div whileHover="hover" variants={{ hover: { scale: 0.96 } }}>
                     <div className="item">
+                      <p className="network-status text-xs">{item.network}<span className="status-indicator"/></p>
                       <img src={item.image} alt={item.name} className="logo"/>
                       <h3 className="font-medium py-3">{item.name}</h3>
                       {item.tags.map(tag => (
@@ -67,6 +68,7 @@ function Companies() {
                 <a href={item.website} target="blank_" rel="noopener noreferrer" title={item.name}>
                   <motion.div whileHover="hover" variants={{ hover: { scale: 0.96 } }}>
                     <div className="item">
+                      <p className="network-status text-xs">{item.network}<span className="status-indicator"/></p>
                       <img src={item.image} alt={item.name} className="logo"/>
                       <h3 className="font-medium py-3">{item.name}</h3>
                       {item.tags.map(tag => (
@@ -109,6 +111,24 @@ function Companies() {
           box-shadow: 0 4px 8px rgba(0, 0, 0, 0.08);
           background: rgb(255, 255, 255);
           border-radius: 4px;
+          position: relative;
+        }
+
+        .network-status {
+          position: absolute;
+          right: 10px;
+          top: 10px;
+          opacity: 0.35;
+        }
+
+        .status-indicator {
+          display: inline-block;
+          border-radius: 50%;
+          background-color: #4bd28f;
+          width: 8px;
+          height: 8px;
+          margin-left: 3px;
+          vertical-align: initial;
         }
 
         .logo {
