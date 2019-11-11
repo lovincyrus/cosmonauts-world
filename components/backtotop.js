@@ -1,20 +1,14 @@
 import React from 'react'
 
-const scrollTo = top => {
+const scrollToTop = top => {
   window.scrollTo({ top, behavior: 'smooth' });
 };
 
-// const scrollToTop = () => {
-//   if (window) {
-//     window.scrollTo(0, 0);
-//   }
-// };
-
 const BackToTop = () => (
   <>
-    <button onClick={() => scrollTo(0)}>
+    <button onClick={() => scrollToTop(0)}>
       <div>
-        <span>Back to Top</span>
+        <span>Back to Top &#x2191;</span>
       </div>
     </button>
   </>

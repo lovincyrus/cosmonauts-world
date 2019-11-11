@@ -1,5 +1,8 @@
 import React, { useState } from 'react'
+import Link from 'next/link'
 import { motion } from 'framer-motion'
+import BackToTop from '../components/backtotop'
+
 import posts from '../data/posts'
 
 const postVariants = {
@@ -13,11 +16,11 @@ const postVariants = {
   }
 };
 
-export default function Companies() {
-  const [truncated] = useState(true)
+function Companies() {
+  const [truncated, setTrunc] = useState(true)
   const [numToPost] = useState(9)
-  const truncatedPosts = truncated ? posts.slice(0, numToPost) : posts
-
+  const truncatedPosts = posts.slice(0, numToPost)
+  
   return (
     <>
       <motion.div
@@ -26,38 +29,59 @@ export default function Companies() {
         exit="exit"
         variants={{ exit: { transition: { staggerChildren: 0.1 } } }}
       >
-      <div className="wrapper">
-        <div className="grid">
-          {truncatedPosts.map((item, index) => (
-            <motion.div variants={postVariants} key={index}>
-              <a href={item.website} target="blank_" rel="noopener noreferrer" title={item.name}>
-                <motion.div whileHover="hover" variants={{ hover: { scale: 0.96 } }}>
-                  <div className="item">
-                    <img src={item.image} alt={item.name} className="logo"/>
-                    <h3 className="font-medium py-5">{item.name}</h3>
-                    <p>{item.description.substr(0, 500).trim()} ...</p>
-                  </div>
-                  </motion.div>
-              </a>
-            </motion.div>
-          ))}
-        </div>
-      </div>
-
-      {truncatedPosts && (
-        <div className="btn-container">
-          <a onClick={() => console.log(posts)}>
-            <button>
+      {truncated ? (
+        <div className="py-10 wrapper">
+          <div className="grid">
+            {truncatedPosts.map((item, index) => (
+              <motion.div variants={postVariants} key={index}>
+                <a href={item.website} target="blank_" rel="noopener noreferrer" title={item.name}>
+                  <motion.div whileHover="hover" variants={{ hover: { scale: 0.96 } }}>
+                    <div className="item">
+                      <img src={item.image} alt={item.name} className="logo"/>
+                      <h3 className="font-medium py-5">{item.name}</h3>
+                      <p>{item.description.substr(0, 200).trim()} ...</p>
+                    </div>
+                    </motion.div>
+                </a>
+              </motion.div>
+            ))}
+          </div>
+          
+          <div className="btn-container">
+            <button onClick={() => setTrunc(false)}>
               View all {posts.length} posts →
             </button>
-          </a>
+          </div>
+
+        </div>
+      ) : (
+        <div className="py-10 wrapper">
+          <div className="grid">
+            {posts.map((item, index) => (
+              <motion.div variants={postVariants} key={index}>
+                <a href={item.website} target="blank_" rel="noopener noreferrer" title={item.name}>
+                  <motion.div whileHover="hover" variants={{ hover: { scale: 0.96 } }}>
+                    <div className="item">
+                      <img src={item.image} alt={item.name} className="logo"/>
+                      <h3 className="font-medium py-5">{item.name}</h3>
+                      <p>{item.description.substr(0, 200).trim()} ...</p>
+                    </div>
+                    </motion.div>
+                </a>
+              </motion.div>
+            ))}
+          </div>
+
+          <div className="btn-container">
+            <BackToTop />
+          </div>
+
         </div>
       )}
 
       <style jsx>
       {`
         .wrapper {
-          padding-top: 40px;
           margin: 0 auto;
           max-width: 76em;
         }
@@ -118,3 +142,5 @@ export default function Companies() {
     </>
   )
 }
+
+export default Companies
