@@ -1,6 +1,5 @@
-import React from 'react'
+import React, { useState } from 'react'
 import { motion } from 'framer-motion'
-
 import posts from '../data/posts'
 
 const postVariants = {
@@ -15,7 +14,9 @@ const postVariants = {
 };
 
 export default function Companies() {
-  const truncatedPosts = posts.slice(0, 9)
+  const [truncated] = useState(true)
+  const [numToPost] = useState(9)
+  const truncatedPosts = truncated ? posts.slice(0, numToPost) : posts
 
   return (
     <>
@@ -32,8 +33,9 @@ export default function Companies() {
               <a href={item.website} target="blank_" rel="noopener noreferrer" title={item.name}>
                 <motion.div whileHover="hover" variants={{ hover: { scale: 0.96 } }}>
                   <div className="item">
-                    <img src={item.image} className="logo"/>
+                    <img src={item.image} alt={item.name} className="logo"/>
                     <h3 className="font-medium py-5">{item.name}</h3>
+                    <p>{item.description.substr(0, 500).trim()} ...</p>
                   </div>
                   </motion.div>
               </a>
@@ -41,6 +43,16 @@ export default function Companies() {
           ))}
         </div>
       </div>
+
+      {truncatedPosts && (
+        <div className="btn-container">
+          <a onClick={() => console.log(posts)}>
+            <button>
+              View all {posts.length} posts →
+            </button>
+          </a>
+        </div>
+      )}
 
       <style jsx>
       {`
@@ -60,7 +72,7 @@ export default function Companies() {
           justify-content: center;
           align-items: center;
           flex-direction: column;
-          padding: 32px 14px 20px 32px;
+          padding: 1.5rem;
           border-style: none;
           box-shadow: 0 4px 8px rgba(0, 0, 0, 0.08);
           background: rgb(255, 255, 255);
@@ -70,6 +82,23 @@ export default function Companies() {
         .logo {
           width: 72px;
           height: 72px;
+        }
+
+        .btn-container {
+          margin-top: 32px;
+          width: 100%;
+          -webkit-box-pack: center;
+          justify-content: center;
+          display: flex;
+        }
+
+        button {
+          width: 100%;
+          font-weight: 600;
+          color: rgb(92, 97, 102);
+          background: rgb(236, 237, 238);
+          padding: 12px;
+          border-radius: 4px;
         }
 
         @media screen and (max-width: 900px) {
