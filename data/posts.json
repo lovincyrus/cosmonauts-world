@@ -3,126 +3,147 @@
     "name": "Cosmos Hub",
     "description": "The Cosmos Hub is the first of thousands of interconnected blockchains that will eventually comprise the Cosmos Network . The primary token of the Cosmos Hub is the ATOM , but the Hub will support many tokens in the future",
     "website": "https://cosmos.network/intro/hub",
-    "image": "https://i.imgur.com/5AqpWnN.png"
+    "image": "https://i.imgur.com/5AqpWnN.png",
+    "tags": ["cosmos sdk"]
   },
   {
     "name": "Binance Chain",
     "description": "Binance Chain is a blockchain software system developed by Binance and its community. Binance DEX refers to the decentralized exchange features developed on top of Binance Chain. The purpose of the new blockchain and DEX is to create an alternative marketplace for issuing and exchanging digital assets in a decentralized manner.",
     "website": "https://binance-chain.github.io/",
-    "image": "https://i.imgur.com/wx9kC5q.png"
+    "image": "https://i.imgur.com/wx9kC5q.png",
+    "tags": ["tendermint bft"]
   },
   {
     "name": "Kira Interchain Exchange",
     "description": "Kira is a next generation hyperscale decentralized exchange (DEX) engineered for cross-chain transfers and frictionless trading. On the one hand, Kira aims to deliver all the liquidity, performance and trading sophistication of a centralised exchange but without the custody, downtime and fraud risk that plague our industry. On the other hand, Kira offers stronger security guarantees than state-of-the-art DEXs, but with a powerful governance model that builds trust and engagement whilst actively resisting corruption.",
     "website": "https://kiraex.com/",
-    "image": "https://i.imgur.com/r0U4CJ0.png"
+    "image": "https://i.imgur.com/r0U4CJ0.png",
+    "tags": ["cosmos sdk", "tendermint bft"]
   },
   {
     "name": "Aragon",
     "description": "Aragon empowers you to freely organize and collaborate without borders or intermediaries. Create global, bureaucracy-free organizations, companies, and communities.",
     "website": "https://aragon.org/",
-    "image": "https://avatars0.githubusercontent.com/u/24612534"
+    "image": "https://avatars0.githubusercontent.com/u/24612534",
+    "tags": ["cosmos sdk", "tendermint bft"]
   },
   {
     "name": "e-Money.com",
     "description": "Today’s global transaction market is filled with high and non-transparent fees as well as lengthy processes. Engaging in a global money transfer is both expensive and unnecessarily slow. What if you could transfer money from one account to another anywhere in the world, with low cost transparent fees and in real-time, making the transaction instant and painless? e-Money empowers People and Businesses to make instant global transactions using the technology of tomorrow.",
     "website": "https://e-money.com/",
-    "image": "https://i.imgur.com/XZbrFUw.png"
+    "image": "https://i.imgur.com/XZbrFUw.png",
+    "tags": ["cosmos sdk", "tendermint bft"]
   },
   {
     "name": "Sentinel",
     "description": "The Cosmos Hub is the first of thousands of interconnected blockchains that will eventually comprise the Cosmos Network . The primary token of the Cosmos Hub is the ATOM , but the Hub will support many tokens in the future",
     "website": "https://sentinel.co/",
-    "image": "https://i.imgur.com/ub7Lzj5.png"
+    "image": "https://i.imgur.com/ub7Lzj5.png",
+    "tags": ["tendermint bft"]
   },
   {
     "name": "COMDEX",
     "description": "The Cosmos Hub is the first of thousands of interconnected blockchains that will eventually comprise the Cosmos Network . The primary token of the Cosmos Hub is the ATOM , but the Hub will support many tokens in the future",
     "website": "https://comdex.sg/",
-    "image": "https://i.imgur.com/QUHqCKA.jpg"
+    "image": "https://i.imgur.com/QUHqCKA.jpg",
+    "tags": ["cosmos sdk", "tendermint bft"]
   },
   {
     "name": "Althea",
     "description": "The Cosmos Hub is the first of thousands of interconnected blockchains that will eventually comprise the Cosmos Network . The primary token of the Cosmos Hub is the ATOM , but the Hub will support many tokens in the future",
     "website": "https://althea.net/",
-    "image": "https://i.imgur.com/3uF0znH.png"
+    "image": "https://i.imgur.com/3uF0znH.png",
+    "tags": ["tendermint bft"]
   },
   {
     "name": "datopia",
     "description": "The Cosmos Hub is the first of thousands of interconnected blockchains that will eventually comprise the Cosmos Network . The primary token of the Cosmos Hub is the ATOM , but the Hub will support many tokens in the future",
     "website": "https://datopia.io/",
-    "image": "https://i.imgur.com/dPNumgL.png"
+    "image": "https://i.imgur.com/dPNumgL.png",
+    "tags": ["tendermint bft"]
   },
   {
     "name": "ProximaX",
     "description": "The Cosmos Hub is the first of thousands of interconnected blockchains that will eventually comprise the Cosmos Network . The primary token of the Cosmos Hub is the ATOM , but the Hub will support many tokens in the future",
     "website": "https://www.proximax.io/",
-    "image": "https://i.imgur.com/PqdiQUw.jpg"
+    "image": "https://i.imgur.com/PqdiQUw.jpg",
+    "tags": ["cosmos sdk", "tendermint bft"]
   },
   {
     "name": "Hyperledger",
     "description": "The Cosmos Hub is the first of thousands of interconnected blockchains that will eventually comprise the Cosmos Network . The primary token of the Cosmos Hub is the ATOM , but the Hub will support many tokens in the future",
     "website": "https://hyperledger.org/projects/hyperledger-burrow",
-    "image": "https://i.imgur.com/1ux8gh7.png"
+    "image": "https://i.imgur.com/1ux8gh7.png",
+    "tags": ["cosmos sdk", "tendermint bft"]
   },
   {
     "name": "MESG",
     "description": "The Cosmos Hub is the first of thousands of interconnected blockchains that will eventually comprise the Cosmos Network . The primary token of the Cosmos Hub is the ATOM , but the Hub will support many tokens in the future",
     "website": "https://mesg.com/",
-    "image": "https://i.imgur.com/Y0Lcz16.jpg"
+    "image": "https://i.imgur.com/Y0Lcz16.jpg",
+    "tags": ["cosmos sdk", "tendermint bft"]
   },
   {
     "name": "DecentRandom",
     "description": "The Cosmos Hub is the first of thousands of interconnected blockchains that will eventually comprise the Cosmos Network . The primary token of the Cosmos Hub is the ATOM , but the Hub will support many tokens in the future",
     "website": "https://decentrandom.com/",
-    "image": "https://i.imgur.com/aNIon9c.png"
+    "image": "https://i.imgur.com/aNIon9c.png",
+    "tags": ["cosmos sdk", "tendermint bft"]
   },
   {
     "name": "Regen Network",
     "description": "The Cosmos Hub is the first of thousands of interconnected blockchains that will eventually comprise the Cosmos Network . The primary token of the Cosmos Hub is the ATOM , but the Hub will support many tokens in the future",
     "website": "https://www.regen.network/",
-    "image": "https://i.imgur.com/3lgoUme.jpg"
+    "image": "https://i.imgur.com/3lgoUme.jpg",
+    "tags": ["cosmos sdk", "tendermint bft"]
   },
   {
     "name": "BigchainDB",
     "description": "The Cosmos Hub is the first of thousands of interconnected blockchains that will eventually comprise the Cosmos Network . The primary token of the Cosmos Hub is the ATOM , but the Hub will support many tokens in the future",
     "website": "https://www.bigchaindb.com/",
-    "image": "https://i.imgur.com/sfSwKym.jpg"
+    "image": "https://i.imgur.com/sfSwKym.jpg",
+    "tags": ["cosmos sdk", "tendermint bft"]
   },
   {
     "name": "Cyber Consensus Computer",
     "description": "The Cosmos Hub is the first of thousands of interconnected blockchains that will eventually comprise the Cosmos Network . The primary token of the Cosmos Hub is the ATOM , but the Hub will support many tokens in the future",
     "website": "https://cybercongress.ai/",
-    "image": "https://i.ibb.co/w7cXnhw/logo-1567516869-70529.png"
+    "image": "https://i.ibb.co/w7cXnhw/logo-1567516869-70529.png",
+    "tags": ["cosmos sdk", "tendermint bft"]
   },
   {
     "name": "Microtick",
     "description": "The Cosmos Hub is the first of thousands of interconnected blockchains that will eventually comprise the Cosmos Network . The primary token of the Cosmos Hub is the ATOM , but the Hub will support many tokens in the future",
     "website": "https://gitlab.com/microtick/mtkit",
-    "image": "https://i.imgur.com/uki9tbG.png"
+    "image": "https://i.imgur.com/uki9tbG.png",
+    "tags": ["cosmos sdk", "tendermint bft"]
   },
   {
     "name": "IOV",
     "description": "The Cosmos Hub is the first of thousands of interconnected blockchains that will eventually comprise the Cosmos Network . The primary token of the Cosmos Hub is the ATOM , but the Hub will support many tokens in the future",
     "website": "https://www.iov.one/",
-    "image": "https://i.imgur.com/mgspSIy.png"
+    "image": "https://i.imgur.com/mgspSIy.png",
+    "tags": ["cosmos sdk", "tendermint bft"]
   },
   {
     "name": "IRIS",
     "description": "The Cosmos Hub is the first of thousands of interconnected blockchains that will eventually comprise the Cosmos Network . The primary token of the Cosmos Hub is the ATOM , but the Hub will support many tokens in the future",
     "website": "https://www.irisnet.org/",
-    "image": "https://i.imgur.com/z1AaVyw.png?1"
+    "image": "https://i.imgur.com/z1AaVyw.png?1",
+    "tags": ["cosmos sdk", "tendermint bft"]
   },
   {
     "name": "DATA Chain",
     "description": "The Cosmos Hub is the first of thousands of interconnected blockchains that will eventually comprise the Cosmos Network . The primary token of the Cosmos Hub is the ATOM , but the Hub will support many tokens in the future",
     "website": "https://data.eco/",
-    "image": "https://i.imgur.com/tclTSgh.png?1"
+    "image": "https://i.imgur.com/tclTSgh.png?1",
+    "tags": ["cosmos sdk", "tendermint bft"]
   },
   {
     "name": "Akash",
         "description": "The Cosmos Hub is the first of thousands of interconnected blockchains that will eventually comprise the Cosmos Network . The primary token of the Cosmos Hub is the ATOM , but the Hub will support many tokens in the future",
     "website": "https://akash.network/",
-    "image": "https://i.imgur.com/0MOUS9Y.png"
+    "image": "https://i.imgur.com/0MOUS9Y.png",
+    "tags": ["cosmos sdk", "tendermint bft"]
   }
 ]

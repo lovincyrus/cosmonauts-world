@@ -5,6 +5,8 @@ import BackToTop from '../components/backtotop'
 
 import posts from '../data/posts'
 
+import '../styles/main.css'
+
 const postVariants = {
   initial: { scale: 0.96, y: 30, opacity: 0 },
   enter: { scale: 1, y: 0, opacity: 1, transition: { duration: 0.5, ease: [0.48, 0.15, 0.25, 0.96] } },
@@ -38,10 +40,13 @@ function Companies() {
                   <motion.div whileHover="hover" variants={{ hover: { scale: 0.96 } }}>
                     <div className="item">
                       <img src={item.image} alt={item.name} className="logo"/>
-                      <h3 className="font-medium py-5">{item.name}</h3>
-                      <p>{item.description.substr(0, 150).trim()} ...</p>
+                      <h3 className="font-medium py-3">{item.name}</h3>
+                      {item.tags.map(tag => (
+                        <p className="tags">{tag}</p>
+                      ))}
+                      {/* <p>{item.description.substr(0, 150).trim()} ...</p> */}
                     </div>
-                    </motion.div>
+                  </motion.div>
                 </a>
               </motion.div>
             ))}
@@ -63,10 +68,13 @@ function Companies() {
                   <motion.div whileHover="hover" variants={{ hover: { scale: 0.96 } }}>
                     <div className="item">
                       <img src={item.image} alt={item.name} className="logo"/>
-                      <h3 className="font-medium py-5">{item.name}</h3>
-                      <p>{item.description.substr(0, 150).trim()} ...</p>
+                      <h3 className="font-medium py-3">{item.name}</h3>
+                      {item.tags.map(tag => (
+                        <p className="tags">{tag}</p>
+                      ))}
+                      {/* <p>{item.description.substr(0, 150).trim()} ...</p> */}
                     </div>
-                    </motion.div>
+                  </motion.div>
                 </a>
               </motion.div>
             ))}
@@ -106,6 +114,26 @@ function Companies() {
         .logo {
           width: 72px;
           height: 72px;
+        }
+
+        h3 {
+          width: fit-content;
+        }
+
+        .tags {
+          background: rgba(0,0,0,0.2);
+          color: white;
+          font-size: 11px;
+          font-weight: bold;
+          text-transform: uppercase;
+          -webkit-letter-spacing: 1px;
+          -moz-letter-spacing: 1px;
+          -ms-letter-spacing: 1px;
+          letter-spacing: 1px;
+          padding: 6px 12px 6px 14px;
+          border-radius: 100px;
+          display: inline-block;
+          margin-right: 5px;
         }
 
         .btn-container {
