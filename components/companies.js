@@ -39,7 +39,7 @@ function Companies() {
                     <div className="item">
                       <img src={item.image} alt={item.name} className="logo"/>
                       <h3 className="font-medium py-5">{item.name}</h3>
-                      <p>{item.description.substr(0, 200).trim()} ...</p>
+                      <p>{item.description.substr(0, 150).trim()} ...</p>
                     </div>
                     </motion.div>
                 </a>
@@ -64,7 +64,7 @@ function Companies() {
                     <div className="item">
                       <img src={item.image} alt={item.name} className="logo"/>
                       <h3 className="font-medium py-5">{item.name}</h3>
-                      <p>{item.description.substr(0, 200).trim()} ...</p>
+                      <p>{item.description.substr(0, 150).trim()} ...</p>
                     </div>
                     </motion.div>
                 </a>
