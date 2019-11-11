@@ -36,19 +36,21 @@ function Companies() {
           <div className="grid">
             {truncatedPosts.map((item, index) => (
               <motion.div variants={postVariants} key={index}>
-                <a href={item.website} target="blank_" rel="noopener noreferrer" title={item.name}>
-                  <motion.div whileHover="hover" variants={{ hover: { scale: 0.96 } }}>
-                    <div className="item">
-                      <p className="network-status text-xs">{item.network}<span className="status-indicator"/></p>
-                      <img src={item.image} alt={item.name} className="logo"/>
-                      <h3 className="font-medium py-3">{item.name}</h3>
-                      {item.tags.map((tag, index) => (
-                        <p className="tags" key={index}>{tag}</p>
-                      ))}
-                      {/* <p>{item.description.substr(0, 150).trim()} ...</p> */}
-                    </div>
-                  </motion.div>
-                </a>
+                {/* <Link scroll={false} href="/community/[post]" as={`/community/${item.name}`}> */}
+                  <a href={item.website} target="blank_" rel="noopener noreferrer" title={item.name}>
+                    <motion.div whileHover="hover" variants={{ hover: { scale: 0.96 } }}>
+                      <div className="item">
+                        {item.network.includes("mainnet") ? (<p className="network-status text-xs">{item.network} 🚀</p>) : <p className="network-status text-xs">{item.network} 🏗</p>}
+                        <img src={item.image} alt={item.name} className="logo"/>
+                        <h3 className="font-medium py-3">{item.name}</h3>
+                        {item.tags.map((tag, index) => (
+                          <p className="tags" key={index}>{tag}</p>
+                        ))}
+                        {/* <p className="pt-3">{item.description.substr(0, 180).trim()} ...</p> */}
+                      </div>
+                    </motion.div>
+                  </a>
+                {/* </Link> */}
               </motion.div>
             ))}
           </div>
@@ -65,19 +67,21 @@ function Companies() {
           <div className="grid">
             {posts.map((item, index) => (
               <motion.div variants={postVariants} key={index}>
-                <a href={item.website} target="blank_" rel="noopener noreferrer" title={item.name}>
-                  <motion.div whileHover="hover" variants={{ hover: { scale: 0.96 } }}>
-                    <div className="item">
-                      <p className="network-status text-xs">{item.network}<span className="status-indicator"/></p>
-                      <img src={item.image} alt={item.name} className="logo"/>
-                      <h3 className="font-medium py-3">{item.name}</h3>
-                      {item.tags.map(tag => (
-                        <p className="tags">{tag}</p>
-                      ))}
-                      {/* <p>{item.description.substr(0, 150).trim()} ...</p> */}
-                    </div>
-                  </motion.div>
-                </a>
+                {/* <Link scroll={false} href="/community/[post]" as={`/community/${item.name}`}> */}
+                  <a href={item.website} target="blank_" rel="noopener noreferrer" title={item.name}>
+                    <motion.div whileHover="hover" variants={{ hover: { scale: 0.96 } }}>
+                      <div className="item">
+                        {item.network.includes("mainnet") ? (<p className="network-status text-xs">{item.network} 🚀</p>) : <p className="network-status text-xs">{item.network} 🏗</p>}
+                        <img src={item.image} alt={item.name} className="logo"/>
+                        <h3 className="font-medium py-3">{item.name}</h3>
+                        {item.tags.map((tag, index) => (
+                          <p className="tags" key={index}>{tag}</p>
+                        ))}
+                        {/* <p className="pt-3">{item.description.substr(0, 180).trim()} ...</p> */}
+                      </div>
+                    </motion.div>
+                  </a>
+                {/* </Link> */}
               </motion.div>
             ))}
           </div>
@@ -119,16 +123,6 @@ function Companies() {
           right: 10px;
           top: 10px;
           opacity: 0.85;
-        }
-
-        .status-indicator {
-          display: inline-block;
-          border-radius: 50%;
-          background-color: yellowgreen;
-          width: 8px;
-          height: 8px;
-          margin-left: 3px;
-          vertical-align: initial;
         }
 
         .logo {
