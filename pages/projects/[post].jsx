@@ -112,8 +112,11 @@ const Post = ({ post, keys }) => (
 );
 
 Post.getInitialProps = ({ query }) => {
+  // replace % with -
+  const cleanURL = (item) => item.toLowerCase().split(' ').join('-');
+
   // match param of post name
-  const post = posts.find((post) => post.name === query.post);
+  const post = posts.find((post) => cleanURL(post.name) === query.post);
 
   // get k,v of social links
   const keys = Object.keys(post.links);

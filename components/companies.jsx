@@ -28,6 +28,8 @@ function Companies() {
   const [numToPost] = useState(9);
   const truncatedPosts = posts.slice(0, numToPost);
 
+  const cleanURL = (item) => item.toLowerCase().split(' ').join('-');
+
   return (
     <>
       <motion.div
@@ -44,7 +46,7 @@ function Companies() {
                   <Link
                     scroll={false}
                     href="/projects/[post]"
-                    as={`/projects/${item.name}`}
+                    as={`/projects/${cleanURL(item.name)}`}
                   >
                     <a>
                       <motion.div
@@ -102,7 +104,7 @@ function Companies() {
                   <Link
                     scroll={false}
                     href="/projects/[post]"
-                    as={`/projects/${item.name}`}
+                    as={`/projects/${cleanURL(item.name)}`}
                   >
                     <a>
                       <motion.div
