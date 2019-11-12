@@ -1,5 +1,5 @@
 /* eslint-disable react/prop-types */
-import React, { useEffect } from 'react';
+import React from 'react';
 import Link from 'next/link';
 import Head from 'next/head';
 import { motion } from 'framer-motion';
@@ -51,14 +51,12 @@ const Post = ({ post, keys }) => (
 
       <div className="icons-container">
         {keys.map((item) => (
-          <a href={post.links[item]} className="icon-item">
+          <a href={post.links[item]} target="blank_" rel="noopener noreferrer" className="icon-item">
             <img
               width={35}
               height={35}
               src={`/static/icons/${item}.svg`}
-              target="blank_"
-              rel="noopener noreferrer"
-              alt="web"
+              alt={item}
             />
           </a>
         ))}

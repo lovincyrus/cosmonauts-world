@@ -34,11 +34,10 @@
     "image": "https://i.imgur.com/r0U4CJ0.png",
     "network": "mainnet",
     "links": {
-      "proof": "https://cosmos.network/goz",
-      "github": "https://github.com/cosmos",
-      "twitter": "https://twitter.com/cosmos",
-      "chat": "https://t.me/cosmosproject",
-      "web": "https://cosmos.network"
+      "proof": "https://medium.com/kira-core/introducing-kira-the-future-of-interchain-exchange-c5d8f4223607",
+      "github": "https://github.com/kira-ex",
+      "twitter": "https://twitter.com/kiraex",
+      "chat": "https://t.me/kirainterex"
     },
     "tags": ["cosmos sdk", "tendermint bft"]
   },
@@ -49,11 +48,9 @@
     "image": "https://avatars0.githubusercontent.com/u/24612534",
     "network": "mainnet",
     "links": {
-      "proof": "https://cosmos.network/goz",
-      "github": "https://github.com/cosmos",
-      "twitter": "https://twitter.com/cosmos",
-      "chat": "https://t.me/cosmosproject",
-      "web": "https://cosmos.network"
+      "proof": "https://blog.aragon.one/aragon-chain",
+      "github": "https://github.com/aragon",
+      "chat": "https://aragon.chat"
     },
     "tags": ["cosmos sdk", "ethermint"]
   },
