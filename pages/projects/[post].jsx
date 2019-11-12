@@ -38,7 +38,7 @@ const backVariants = {
 };
 
 const Post = ({ post, keys }) => (
-  <div className="py-40 p-5 mx-auto">
+  <div className="pt-32 p-5 mx-auto">
     <motion.div initial="exit" animate="enter" exit="exit">
       <Head>
         <title>{post.name}</title>
