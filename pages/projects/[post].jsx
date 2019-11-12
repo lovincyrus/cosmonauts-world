@@ -86,8 +86,9 @@ const Post = ({ post, keys }) => (
         }
 
         .icons-container {
-          display: flex;
-          -ms-flex-pack: center;
+          display: grid;
+          grid-auto-flow: column;
+          gap: 3.5rem;
           justify-content: center;
           padding: 40px;
         }
@@ -97,7 +98,6 @@ const Post = ({ post, keys }) => (
           display: flex;
           align-items: center;
           justify-content: center;
-          margin-left: 1rem;
         }
 
         .description {
