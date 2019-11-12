@@ -38,7 +38,7 @@ function Companies() {
         variants={{ exit: { transition: { staggerChildren: 0.1 } } }}
       >
         {truncated ? (
-          <div className="py-10 wrapper">
+          <div className="py-10 max-w-6xl">
             <div className="grid">
               {truncatedPosts.map((item, index) => (
                 <motion.div variants={postVariants} key={index}>
@@ -69,7 +69,7 @@ function Companies() {
                           <img
                             src={item.image}
                             alt={item.name}
-                            className="logo"
+                            className="w-16 h-16"
                           />
                           <h3 className="font-medium py-3">{item.name}</h3>
                           {item.tags.map((tag, index) => (
@@ -96,7 +96,7 @@ function Companies() {
             </div>
           </div>
         ) : (
-          <div className="py-10 wrapper">
+          <div className="py-10 max-w-6xl">
             <div className="grid">
               {posts.map((item, index) => (
                 <motion.div variants={postVariants} key={index}>
@@ -127,7 +127,7 @@ function Companies() {
                           <img
                             src={item.image}
                             alt={item.name}
-                            className="logo"
+                            className="w-16 h-16"
                           />
                           <h3 className="font-medium py-3">{item.name}</h3>
                           {item.tags.map((tag, index) => (
@@ -151,11 +151,6 @@ function Companies() {
 
         <style jsx>
           {`
-            .wrapper {
-              margin: 0 auto;
-              max-width: 76em;
-            }
-
             .grid {
               display: grid;
               grid-template-columns: repeat(3, 1fr);
@@ -181,11 +176,6 @@ function Companies() {
               opacity: 0.85;
             }
 
-            .logo {
-              width: 72px;
-              height: 72px;
-            }
-
             h3 {
               width: fit-content;
             }
@@ -196,9 +186,6 @@ function Companies() {
               font-size: 11px;
               font-weight: bold;
               text-transform: uppercase;
-              -webkit-letter-spacing: 1px;
-              -moz-letter-spacing: 1px;
-              -ms-letter-spacing: 1px;
               letter-spacing: 1px;
               padding: 6px 12px 6px 14px;
               border-radius: 100px;
