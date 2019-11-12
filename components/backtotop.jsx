@@ -1,6 +1,7 @@
-import React from 'react'
+/* eslint-disable react/button-has-type */
+import React from 'react';
 
-const scrollToTop = top => {
+const scrollToTop = (top) => {
   window.scrollTo({ top, behavior: 'smooth' });
 };
 
@@ -12,6 +13,6 @@ const BackToTop = () => (
       </div>
     </button>
   </>
-)
+);
 
-export default BackToTop
+export default BackToTop;

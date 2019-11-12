@@ -1,10 +1,17 @@
 [
   {
     "name": "Cosmos Hub",
-    "description": "The Cosmos Hub is the first of thousands of interconnected blockchains that will eventually comprise the Cosmos Network . The primary token of the Cosmos Hub is the ATOM , but the Hub will support many tokens in the future",
+    "description": "The Cosmos Hub is the first of thousands of interconnected blockchains that will eventually comprise the Cosmos Network . The primary token of the Cosmos Hub is the ATOM , but the Hub will support many tokens in the future.",
     "website": "https://cosmos.network/intro/hub",
     "image": "https://i.imgur.com/5AqpWnN.png",
     "network": "mainnet",
+    "links": {
+      "proof": "https://cosmos.network/goz",
+      "github": "https://github.com/cosmos",
+      "twitter": "https://twitter.com/cosmos",
+      "chat": "https://t.me/cosmosproject",
+      "web": "https://cosmos.network"
+    },
     "tags": ["cosmos sdk"]
   },
   {
@@ -13,6 +20,13 @@
     "website": "https://binance-chain.github.io/",
     "image": "https://i.imgur.com/wx9kC5q.png",
     "network": "mainnet",
+    "links": {
+      "proof": "https://cosmos.network/goz",
+      "github": "https://github.com/cosmos",
+      "twitter": "https://twitter.com/cosmos",
+      "chat": "https://t.me/cosmosproject",
+      "web": "https://cosmos.network"
+    },
     "tags": ["tendermint bft"]
   },
   {
@@ -21,6 +35,13 @@
     "website": "https://kiraex.com/",
     "image": "https://i.imgur.com/r0U4CJ0.png",
     "network": "mainnet",
+    "links": {
+      "proof": "https://cosmos.network/goz",
+      "github": "https://github.com/cosmos",
+      "twitter": "https://twitter.com/cosmos",
+      "chat": "https://t.me/cosmosproject",
+      "web": "https://cosmos.network"
+    },
     "tags": ["cosmos sdk", "tendermint bft"]
   },
   {
@@ -29,6 +50,13 @@
     "website": "https://aragon.org/",
     "image": "https://avatars0.githubusercontent.com/u/24612534",
     "network": "mainnet",
+    "links": {
+      "proof": "https://cosmos.network/goz",
+      "github": "https://github.com/cosmos",
+      "twitter": "https://twitter.com/cosmos",
+      "chat": "https://t.me/cosmosproject",
+      "web": "https://cosmos.network"
+    },
     "tags": ["cosmos sdk", "ethermint"]
   },
   {
@@ -37,6 +65,13 @@
     "website": "https://e-money.com/",
     "image": "https://i.imgur.com/XZbrFUw.png",
     "network": "mainnet",
+    "links": {
+      "proof": "https://cosmos.network/goz",
+      "github": "https://github.com/cosmos",
+      "twitter": "https://twitter.com/cosmos",
+      "chat": "https://t.me/cosmosproject",
+      "web": "https://cosmos.network"
+    },
     "tags": ["cosmos sdk", "tendermint bft"]
   },
   {
@@ -45,6 +80,13 @@
     "website": "https://sentinel.co/",
     "image": "https://i.imgur.com/ub7Lzj5.png",
     "network": "testnet",
+    "links": {
+      "proof": "https://cosmos.network/goz",
+      "github": "https://github.com/cosmos",
+      "twitter": "https://twitter.com/cosmos",
+      "chat": "https://t.me/cosmosproject",
+      "web": "https://cosmos.network"
+    },
     "tags": ["tendermint bft"]
   },
   {
@@ -53,6 +95,13 @@
     "website": "https://comdex.sg/",
     "image": "https://i.imgur.com/QUHqCKA.jpg",
     "network": "mainnet",
+    "links": {
+      "proof": "https://cosmos.network/goz",
+      "github": "https://github.com/cosmos",
+      "twitter": "https://twitter.com/cosmos",
+      "chat": "https://t.me/cosmosproject",
+      "web": "https://cosmos.network"
+    },
     "tags": ["cosmos sdk", "tendermint bft"]
   },
   {
@@ -61,6 +110,13 @@
     "website": "https://althea.net/",
     "image": "https://i.imgur.com/3uF0znH.png",
     "network": "testnet",
+    "links": {
+      "proof": "https://cosmos.network/goz",
+      "github": "https://github.com/cosmos",
+      "twitter": "https://twitter.com/cosmos",
+      "chat": "https://t.me/cosmosproject",
+      "web": "https://cosmos.network"
+    },
     "tags": ["tendermint bft"]
   },
   {
@@ -69,6 +125,13 @@
     "website": "https://datopia.io/",
     "image": "https://i.imgur.com/dPNumgL.png",
     "network": "mainnet",
+    "links": {
+      "proof": "https://cosmos.network/goz",
+      "github": "https://github.com/cosmos",
+      "twitter": "https://twitter.com/cosmos",
+      "chat": "https://t.me/cosmosproject",
+      "web": "https://cosmos.network"
+    },
     "tags": ["tendermint bft"]
   },
   {
@@ -77,6 +140,13 @@
     "website": "https://www.proximax.io/",
     "image": "https://i.imgur.com/PqdiQUw.jpg",
     "network": "mainnet",
+    "links": {
+      "proof": "https://cosmos.network/goz",
+      "github": "https://github.com/cosmos",
+      "twitter": "https://twitter.com/cosmos",
+      "chat": "https://t.me/cosmosproject",
+      "web": "https://cosmos.network"
+    },
     "tags": ["cosmos sdk", "tendermint bft"]
   },
   {
@@ -85,6 +155,13 @@
     "website": "https://hyperledger.org/projects/hyperledger-burrow",
     "image": "https://i.imgur.com/1ux8gh7.png",
     "network": "mainnet",
+    "links": {
+      "proof": "https://cosmos.network/goz",
+      "github": "https://github.com/cosmos",
+      "twitter": "https://twitter.com/cosmos",
+      "chat": "https://t.me/cosmosproject",
+      "web": "https://cosmos.network"
+    },
     "tags": ["cosmos sdk", "tendermint bft"]
   },
   {
@@ -93,6 +170,13 @@
     "website": "https://mesg.com/",
     "image": "https://i.imgur.com/Y0Lcz16.jpg",
     "network": "mainnet",
+    "links": {
+      "proof": "https://cosmos.network/goz",
+      "github": "https://github.com/cosmos",
+      "twitter": "https://twitter.com/cosmos",
+      "chat": "https://t.me/cosmosproject",
+      "web": "https://cosmos.network"
+    },
     "tags": ["cosmos sdk", "tendermint bft"]
   },
   {
@@ -101,6 +185,13 @@
     "website": "https://decentrandom.com/",
     "image": "https://i.imgur.com/aNIon9c.png",
     "network": "mainnet",
+    "links": {
+      "proof": "https://cosmos.network/goz",
+      "github": "https://github.com/cosmos",
+      "twitter": "https://twitter.com/cosmos",
+      "chat": "https://t.me/cosmosproject",
+      "web": "https://cosmos.network"
+    },
     "tags": ["cosmos sdk", "tendermint bft"]
   },
   {
@@ -109,6 +200,13 @@
     "website": "https://www.regen.network/",
     "image": "https://i.imgur.com/3lgoUme.jpg",
     "network": "mainnet",
+    "links": {
+      "proof": "https://cosmos.network/goz",
+      "github": "https://github.com/cosmos",
+      "twitter": "https://twitter.com/cosmos",
+      "chat": "https://t.me/cosmosproject",
+      "web": "https://cosmos.network"
+    },
     "tags": ["cosmos sdk", "tendermint bft"]
   },
   {
@@ -117,6 +215,13 @@
     "website": "https://www.bigchaindb.com/",
     "image": "https://i.imgur.com/sfSwKym.jpg",
     "network": "mainnet",
+    "links": {
+      "proof": "https://cosmos.network/goz",
+      "github": "https://github.com/cosmos",
+      "twitter": "https://twitter.com/cosmos",
+      "chat": "https://t.me/cosmosproject",
+      "web": "https://cosmos.network"
+    },
     "tags": ["cosmos sdk", "tendermint bft"]
   },
   {
@@ -125,6 +230,13 @@
     "website": "https://cybercongress.ai/",
     "image": "https://i.ibb.co/w7cXnhw/logo-1567516869-70529.png",
     "network": "mainnet",
+    "links": {
+      "proof": "https://cosmos.network/goz",
+      "github": "https://github.com/cosmos",
+      "twitter": "https://twitter.com/cosmos",
+      "chat": "https://t.me/cosmosproject",
+      "web": "https://cosmos.network"
+    },
     "tags": ["cosmos sdk", "tendermint bft"]
   },
   {
@@ -133,6 +245,13 @@
     "website": "https://gitlab.com/microtick/mtkit",
     "image": "https://i.imgur.com/uki9tbG.png",
     "network": "mainnet",
+    "links": {
+      "proof": "https://cosmos.network/goz",
+      "github": "https://github.com/cosmos",
+      "twitter": "https://twitter.com/cosmos",
+      "chat": "https://t.me/cosmosproject",
+      "web": "https://cosmos.network"
+    },
     "tags": ["cosmos sdk", "tendermint bft"]
   },
   {
@@ -141,6 +260,13 @@
     "website": "https://www.iov.one/",
     "image": "https://i.imgur.com/mgspSIy.png",
     "network": "mainnet",
+    "links": {
+      "proof": "https://cosmos.network/goz",
+      "github": "https://github.com/cosmos",
+      "twitter": "https://twitter.com/cosmos",
+      "chat": "https://t.me/cosmosproject",
+      "web": "https://cosmos.network"
+    },
     "tags": ["cosmos sdk", "tendermint bft"]
   },
   {
@@ -149,6 +275,13 @@
     "website": "https://www.irisnet.org/",
     "image": "https://i.imgur.com/z1AaVyw.png?1",
     "network": "mainnet",
+    "links": {
+      "proof": "https://cosmos.network/goz",
+      "github": "https://github.com/cosmos",
+      "twitter": "https://twitter.com/cosmos",
+      "chat": "https://t.me/cosmosproject",
+      "web": "https://cosmos.network"
+    },
     "tags": ["cosmos sdk", "tendermint bft"]
   },
   {
@@ -157,6 +290,13 @@
     "website": "https://data.eco/",
     "image": "https://i.imgur.com/tclTSgh.png?1",
     "network": "mainnet",
+    "links": {
+      "proof": "https://cosmos.network/goz",
+      "github": "https://github.com/cosmos",
+      "twitter": "https://twitter.com/cosmos",
+      "chat": "https://t.me/cosmosproject",
+      "web": "https://cosmos.network"
+    },
     "tags": ["cosmos sdk", "tendermint bft"]
   },
   {
@@ -165,6 +305,13 @@
     "website": "https://akash.network/",
     "image": "https://i.imgur.com/0MOUS9Y.png",
     "network": "mainnet",
+    "links": {
+      "proof": "https://cosmos.network/goz",
+      "github": "https://github.com/cosmos",
+      "twitter": "https://twitter.com/cosmos",
+      "chat": "https://t.me/cosmosproject",
+      "web": "https://cosmos.network"
+    },
     "tags": ["cosmos sdk", "tendermint bft"]
   }
 ]
