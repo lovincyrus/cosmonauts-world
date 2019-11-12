@@ -21,11 +21,9 @@
     "image": "https://i.imgur.com/wx9kC5q.png",
     "network": "mainnet",
     "links": {
-      "proof": "https://cosmos.network/goz",
-      "github": "https://github.com/cosmos",
-      "twitter": "https://twitter.com/cosmos",
-      "chat": "https://t.me/cosmosproject",
-      "web": "https://cosmos.network"
+      "proof": "https://binance-chain.github.io/acknowledgement.html#tendermint-and-cosmos",
+      "github": "https://github.com/binance-chain/",
+      "chat": "https://t.me/binanceexchange"
     },
     "tags": ["tendermint bft"]
   },

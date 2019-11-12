@@ -1,5 +1,5 @@
 /* eslint-disable react/prop-types */
-import React from 'react';
+import React, { useEffect } from 'react';
 import Link from 'next/link';
 import Head from 'next/head';
 import { motion } from 'framer-motion';
@@ -38,7 +38,7 @@ const backVariants = {
   },
 };
 
-const Post = ({ post }) => (
+const Post = ({ post, keys }) => (
   <div className="py-40 p-5 mx-auto">
     <Head>
       <title>{post.name}</title>
@@ -48,64 +48,28 @@ const Post = ({ post }) => (
       <p className="text-5xl font-bold text-gray-800 text-center">
         {post.name}
       </p>
+
       <div className="icons-container">
-        <a href={post.links.proof} className="icon-item">
-          <img
-            width={35}
-            height={35}
-            src="/static/icons/file.svg"
-            target="blank_"
-            rel="noopener noreferrer"
-            alt="proof"
-          />
-        </a>
-        <a href={post.links.github} className="icon-item">
-          <img
-            width={35}
-            height={35}
-            src="/static/icons/github.svg"
-            target="blank_"
-            rel="noopener noreferrer"
-            alt="github"
-          />
-        </a>
-        <a href={post.links.twitter} className="icon-item">
-          <img
-            width={35}
-            height={35}
-            src="/static/icons/twitter.svg"
-            target="blank_"
-            rel="noopener noreferrer"
-            alt="twitter"
-          />
-        </a>
-        <a href={post.links.chat} className="icon-item">
-          <img
-            width={35}
-            height={35}
-            src="/static/icons/message-circle.svg"
-            target="blank_"
-            rel="noopener noreferrer"
-            alt="chat"
-          />
-        </a>
-        <a href={post.links.web} className="icon-item">
-          <img
-            width={35}
-            height={35}
-            src="/static/icons/external-link.svg"
-            target="blank_"
-            rel="noopener noreferrer"
-            alt="web"
-          />
-        </a>
+        {keys.map((item) => (
+          <a href={post.links[item]} className="icon-item">
+            <img
+              width={35}
+              height={35}
+              src={`/static/icons/${item}.svg`}
+              target="blank_"
+              rel="noopener noreferrer"
+              alt="web"
+            />
+          </a>
+        ))}
       </div>
+
       <p className="text-center text-gray-800 description">{post.description}</p>
     </motion.div>
 
     <motion.div variants={backVariants}>
       <div className="btn-container">
-        <Link href="/">
+        <Link href="/" replace>
           <a>
             ← Back to list
           </a>
@@ -149,10 +113,15 @@ const Post = ({ post }) => (
 );
 
 Post.getInitialProps = ({ query }) => {
-  const post = posts.find((post) => post.name == query.post);
+  // match param of post name
+  const post = posts.find((post) => post.name === query.post);
+
+  // get k,v of social links
+  const keys = Object.keys(post.links);
 
   return {
     post,
+    keys,
   };
 };
 

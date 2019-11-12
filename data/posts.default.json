@@ -1,0 +1,15 @@
+{
+  "name": "",
+  "description": "",
+  "website": "",
+  "image": "",
+  "network": "mainnet or testnet",
+  "links": {
+    "proof": "",
+    "github": "",
+    "twitter": "",
+    "chat": "",
+    "web": ""
+  },
+  "tags": ["cosmos sdk", "tendermint bft"]
+}
