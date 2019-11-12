@@ -40,39 +40,41 @@ const backVariants = {
 
 const Post = ({ post, keys }) => (
   <div className="py-40 p-5 mx-auto">
-    <Head>
-      <title>{post.name}</title>
-    </Head>
+    <motion.div initial="exit" animate="enter" exit="exit">
+      <Head>
+        <title>{post.name}</title>
+      </Head>
 
-    <motion.div variants={textVariants}>
-      <p className="text-5xl font-bold text-gray-800 text-center">
-        {post.name}
-      </p>
+      <motion.div variants={textVariants}>
+        <p className="text-5xl font-bold text-gray-800 text-center">
+          {post.name}
+        </p>
 
-      <div className="icons-container">
-        {keys.map((item) => (
-          <a href={post.links[item]} target="blank_" rel="noopener noreferrer" className="icon-item">
-            <img
-              width={35}
-              height={35}
-              src={`/static/icons/${item}.svg`}
-              alt={item}
-            />
-          </a>
-        ))}
-      </div>
+        <div className="icons-container">
+          {keys.map((item, index) => (
+            <a href={post.links[item]} target="blank_" rel="noopener noreferrer" className="icon-item" key={index}>
+              <img
+                width={35}
+                height={35}
+                src={`/static/icons/${item}.svg`}
+                alt={item}
+              />
+            </a>
+          ))}
+        </div>
 
-      <p className="text-center text-gray-800 description">{post.description}</p>
-    </motion.div>
+        <p className="text-center text-gray-800 description">{post.description}</p>
+      </motion.div>
 
-    <motion.div variants={backVariants}>
-      <div className="btn-container">
-        <Link href="/" replace>
-          <a>
+      <motion.div variants={backVariants}>
+        <div className="btn-container">
+          <Link href="/" replace>
+            <a>
             ← Back to list
-          </a>
-        </Link>
-      </div>
+            </a>
+          </Link>
+        </div>
+      </motion.div>
     </motion.div>
 
     <style jsx>
