@@ -10,7 +10,7 @@ const Home = () => (
       <title>Cosmos & Tendermint Ecosystem</title>
     </Head>
 
-    <div className="py-10 p-5 mx-auto wrapper">
+    <div className="py-10 p-5 mx-auto max-w-6xl">
       <h1 className="subpixel-antialiased font-sans text-lg text-gray-800 text-left font-bold text-2xl">
         Cosmos &amp; Tendermint Ecosystem
       </h1>
@@ -34,19 +34,6 @@ const Home = () => (
 
       <Companies />
     </div>
-
-    <style jsx>
-      {`
-        * {
-          font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
-            Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
-        }
-
-        .wrapper {
-          max-width: 76em;
-        }
-      `}
-    </style>
   </>
 );
 

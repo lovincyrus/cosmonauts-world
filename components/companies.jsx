@@ -44,8 +44,8 @@ function Companies() {
                 <motion.div variants={postVariants} key={index}>
                   <Link
                     scroll={false}
-                    href="/community/[post]"
-                    as={`/community/${item.name}`}
+                    href="/projects/[post]"
+                    as={`/projects/${item.name}`}
                   >
                     <a>
                       <motion.div
@@ -102,8 +102,8 @@ function Companies() {
                 <motion.div variants={postVariants} key={index}>
                   <Link
                     scroll={false}
-                    href="/community/[post]"
-                    as={`/community/${item.name}`}
+                    href="/projects/[post]"
+                    as={`/projects/${item.name}`}
                   >
                     <a>
                       <motion.div

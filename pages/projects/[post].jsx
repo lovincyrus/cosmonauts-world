@@ -1,6 +1,7 @@
 /* eslint-disable react/prop-types */
 import React from 'react';
 import Link from 'next/link';
+import Head from 'next/head';
 import { motion } from 'framer-motion';
 import posts from '../../data/posts';
 
@@ -39,6 +40,10 @@ const backVariants = {
 
 const Post = ({ post }) => (
   <div className="py-40 p-5 mx-auto">
+    <Head>
+      <title>{post.name}</title>
+    </Head>
+
     <motion.div variants={textVariants}>
       <p className="text-5xl font-bold text-gray-800 text-center">
         {post.name}
@@ -110,10 +115,6 @@ const Post = ({ post }) => (
 
     <style jsx>
       {`
-        .wrapper {
-          max-width: 76em;
-        }
-
         .btn-container {
           margin-top: 32px;
           width: 100%;
