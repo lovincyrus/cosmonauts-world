@@ -80,8 +80,8 @@ function Companies() {
                                 width={15}
                                 height={15}
                                 src="/static/icons/check-circle.svg"
-                                alt="Verified!"
-                                title="Verified!"
+                                alt="Verified by cosmonauts! 👩‍🚀"
+                                title="Verified by cosmonauts! 👩‍🚀"
                                 className="is-verified"
                               />
                             </h3>
