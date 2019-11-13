@@ -3,10 +3,11 @@
   "description": "",
   "website": "",
   "image": "",
-  "network": "mainnet or testnet",
+  "network": "mainnet || testnet",
   "links": {
     "proof": "",
     "github": "",
+    "gitlab": "",
     "twitter": "",
     "chat": "",
     "web": ""
