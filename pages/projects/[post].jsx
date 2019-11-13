@@ -106,6 +106,12 @@ const Post = ({ post, keys }) => (
           margin: 0 auto;
           padding: 20px 0;
         }
+
+        @media screen and (max-width: 500px) {
+          .icons-container {
+            gap: 1.5rem;
+          }
+        }
       `}
     </style>
   </div>
