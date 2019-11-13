@@ -5,6 +5,7 @@
     "website": "https://cosmos.network/intro/hub",
     "image": "https://i.imgur.com/5AqpWnN.png",
     "network": "mainnet",
+    "verified": "true",
     "links": {
       "proof": "https://cosmos.network/goz",
       "github": "https://github.com/cosmos",
@@ -20,6 +21,7 @@
     "website": "https://binance-chain.github.io/",
     "image": "https://i.imgur.com/wx9kC5q.png",
     "network": "mainnet",
+    "verified": "true",
     "links": {
       "proof": "https://binance-chain.github.io/acknowledgement.html#tendermint-and-cosmos",
       "github": "https://github.com/binance-chain/",
@@ -33,6 +35,7 @@
     "website": "https://kiraex.com/",
     "image": "https://i.imgur.com/r0U4CJ0.png",
     "network": "mainnet",
+    "verified": "true",
     "links": {
       "proof": "https://medium.com/kira-core/introducing-kira-the-future-of-interchain-exchange-c5d8f4223607",
       "github": "https://github.com/kira-ex",
@@ -47,6 +50,7 @@
     "website": "https://aragon.org/",
     "image": "https://avatars0.githubusercontent.com/u/24612534",
     "network": "mainnet",
+    "verified": "true",
     "links": {
       "proof": "https://blog.aragon.one/aragon-chain",
       "github": "https://github.com/aragon",

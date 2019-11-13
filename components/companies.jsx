@@ -72,7 +72,25 @@ function Companies() {
                             alt={item.name}
                             className="w-16 h-16"
                           />
-                          <h3 className="font-medium py-3">{item.name}</h3>
+                          {item.verified === 'true' ? (
+                            <h3 className="font-medium py-3 title">
+                              {item.name}
+                              {' '}
+                              <img
+                                width={15}
+                                height={15}
+                                src="/static/icons/check-circle.svg"
+                                alt="Verified!"
+                                title="Verified!"
+                                className="ml-1"
+                              />
+                            </h3>
+                          ) : (
+                            <h3 className="font-medium py-3">
+                              {item.name}
+                              {' '}
+                            </h3>
+                          )}
                           {item.tags.map((tag, index) => (
                             <p className="tags" key={index}>
                               {tag}
@@ -177,7 +195,8 @@ function Companies() {
               opacity: 0.85;
             }
 
-            h3 {
+            .title {
+              display: flex;
               width: fit-content;
             }
 
