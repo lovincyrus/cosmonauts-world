@@ -278,7 +278,7 @@
   },
   {
     "name": "Akash",
-        "description": "Akash is the world’s first super cloud for serverless computing, empowering the architects and builders of the internet with greater access, freedom, and efficiency.",
+    "description": "Akash is the world’s first super cloud for serverless computing, empowering the architects and builders of the internet with greater access, freedom, and efficiency.",
     "website": "https://akash.network/",
     "image": "https://i.imgur.com/0MOUS9Y.png",
     "network": "mainnet",
@@ -288,5 +288,44 @@
       "chat": "https://t.me/AkashNW"
     },
     "tags": ["cosmos sdk", "tendermint bft"]
+  },
+  {
+    "name": "ARTIS",
+    "description": "The ARTIS Network is an easy-to-use public blockchain system that is built with sustainability in mind by doing away with energy-intensive mining. As an Ethereum sidechain, the ARTIS Network is using the performant Parity-node software which has WebAssembly enabled – allowing every smart contract to be developed with outstanding security using Rust, C or C++. Existing DApps can migrate or use several blockchains in parallel, whatever is preferred and more suitable.",
+    "website": "https://artis.eco/",
+    "image": "https://i.imgur.com/m8EYX6z.jpg",
+    "network": "mainnet",
+    "links": {
+      "proof": "https://github.com/ovrclk/akash/search?q=tendermint&unscoped_q=tendermint",
+      "github": "https://github.com/lab10-coop",
+      "chat": "https://t.me/lab10collective"
+    },
+    "tags": ["cosmos sdk"]
+  },
+  {
+    "name": "Loom Network",
+    "description": "The Production-ready, Multichain Interop Platform for Serious Dapp Developers. Loom Network provides developers the scalability and usability they need to build high-performance user-facing dapps today. With seamless integrations to Bitcoin, Ethereum, Binance Chain, and all major blockchains, deploying once to Loom lets you future-proof your dapp by reaching the largest number of users possible.",
+    "website": "https://loomx.io/",
+    "image": "https://avatars2.githubusercontent.com/u/32244595",
+    "network": "mainnet",
+    "links": {
+      "proof": "https://github.com/loomnetwork/loomchain",
+      "github": "https://github.com/loomnetwork",
+      "chat": "https://t.me/loomnetwork"
+    },
+    "tags": ["cosmos sdk"]
+  },
+  {
+    "name": "LikeCoin",
+    "description": "LikeCoin aims to reinvent the Like by realigning creativity and reward. We enable attribution and cross-application collaboration on creative contents. With a reinvented Like button and our unique LikeRank algorithm, we trace content footprint and reward content creators by Proof of Creativity mechanism.",
+    "website": "https://like.co/",
+    "image": "https://avatars0.githubusercontent.com/u/6298090?s=200&v=4",
+    "network": "mainnet",
+    "links": {
+      "proof": "https://github.com/likecoin/likechain",
+      "github": "https://github.com/likecoin",
+      "chat": "https://t.me/likecoin"
+    },
+    "tags": ["cosmos sdk"]
   }
 ]
