@@ -27,7 +27,7 @@
       "github": "https://github.com/binance-chain/",
       "chat": "https://t.me/binanceexchange"
     },
-    "tags": ["tendermint bft"]
+    "tags": ["cosmos sdk", "tendermint bft"]
   },
   {
     "name": "Kira Interchain Exchange",
