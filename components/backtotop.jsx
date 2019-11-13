@@ -12,6 +12,14 @@ const BackToTop = () => (
         <span>Back to Top &#x2191;</span>
       </div>
     </button>
+
+    <style jsx>
+      {`
+        button {
+          padding: 10px 20px;
+        }
+      `}
+    </style>
   </>
 );
 
