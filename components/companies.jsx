@@ -82,7 +82,7 @@ function Companies() {
                                 src="/static/icons/check-circle.svg"
                                 alt="Verified!"
                                 title="Verified!"
-                                className="ml-1"
+                                className="is-verified"
                               />
                             </h3>
                           ) : (
@@ -198,6 +198,11 @@ function Companies() {
             .title {
               display: flex;
               width: fit-content;
+            }
+
+            .is-verified {
+              margin-left: 5px;
+              cursor: help;
             }
 
             .tags {
