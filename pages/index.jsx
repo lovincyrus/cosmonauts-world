@@ -15,16 +15,6 @@ const Home = () => (
       <Header />
       <Companies />
     </div>
-
-    <style jsx>
-      {`
-        .bg-container {
-          background-color: aliceblue;
-          padding: 20px;
-          border-radius: 4px;
-        }
-      `}
-    </style>
   </>
 );
 

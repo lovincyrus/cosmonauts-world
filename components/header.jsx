@@ -35,7 +35,7 @@ const Header = () => (
     <style jsx>
       {`
         .bg-container {
-          background-color: aliceblue;
+          background-image: linear-gradient(180deg,hsla(0,0%,100%,0) 50%,#fff),linear-gradient(70deg,#eaf5ff 32%,#f6fff8);
           padding: 20px;
           border-radius: 4px;
         }
