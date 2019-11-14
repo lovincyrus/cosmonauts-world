@@ -12,7 +12,7 @@ const Home = () => (
 
     <div className="py-10 p-5 mx-auto max-w-6xl">
       <div className="bg-container">
-        <h1 className="subpixel-antialiased font-sans text-lg text-gray-800 text-left font-bold text-2xl">
+        <h1 className="subpixel-antialiased font-sans text-lg text-gray-800 text-left font-bold text-4xl">
           Cosmos &amp; Tendermint Ecosystem
         </h1>
         <p className="pt-1 subpixel-antialiased max-w-full text-gray-600 text-xl">
