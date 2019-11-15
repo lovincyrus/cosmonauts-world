@@ -18,14 +18,16 @@ npm run dev
 ```
 We really appreciate any contribution.
 
-If you know any awesome Cosmos / Tendermint projects, please add an issue or (even better) submit a PR to [this repository](https://github.com/lovincyrus/cosmonauts-world)
+If you know any awesome Cosmos / Tendermint projects, please add an issue or (even better) submit a PR to [this repository](https://github.com/lovincyrus/cosmonauts-world).
 
 ## Adding a project
 1. Review this [posts.json](/data/posts.json)
 2. Follow this format [posts.default.json](/data/posts.default.json)
 3. Upload your logo to [imgur](https://imgur.com/) with transparent background (.png / .jpg)
 4. *MUST* provide proof! (either in blog post, whitepaper, public announcement, codebase, etc)
-5. Finally, update `posts.json` and submit a PR 🚀
+5. Adding links are _optional_
+6. Insert revelant tags (cosmos sdk, tendermint bft, ethermint, etc)
+7. Finally, update `posts.json` and submit a PR 🚀
 
 ## Related resources
 - [Ecosystem - Cosmos Network](https://cosmos.network/ecosystem)
