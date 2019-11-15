@@ -2,10 +2,10 @@
   "name": "",
   "description": "",
   "website": "",
-  "image": "",
+  "image": "", // imgur
   "network": "mainnet || testnet",
-  "verified": "false",
-  "links": {
+  "verified": "false", // false by default
+  "links": { // optional links
     "proof": "",
     "github": "",
     "gitlab": "",
@@ -13,5 +13,5 @@
     "chat": "",
     "web": ""
   },
-  "tags": ["cosmos sdk", "tendermint bft", "ethermint"]
+  "tags": ["cosmos sdk", "tendermint bft", "ethermint"] // insert relevant tags
 }
