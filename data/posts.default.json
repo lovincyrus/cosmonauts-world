@@ -4,6 +4,7 @@
   "website": "",
   "image": "",
   "network": "mainnet || testnet",
+  "verified": "false",
   "links": {
     "proof": "",
     "github": "",
@@ -12,5 +13,5 @@
     "chat": "",
     "web": ""
   },
-  "tags": ["cosmos sdk", "tendermint bft"]
+  "tags": ["cosmos sdk", "tendermint bft", "ethermint"]
 }
