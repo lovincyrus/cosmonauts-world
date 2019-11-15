@@ -16,9 +16,9 @@ cd cosmonauts-world
 npm install
 npm run dev
 ```
-We really appreciate any contribution. 👩‍🚀👩🏻‍🚀👩🏼‍🚀👩🏽‍🚀👩🏾‍🚀👩🏿‍🚀👨‍🚀👨🏻‍🚀👨🏼‍🚀👨🏽‍🚀👨🏾‍🚀👨🏿‍🚀
+We really appreciate any contribution.
 
-If you know any awesome Cosmos / Tendermint projects, please add an issue with 
+If you know any awesome Cosmos / Tendermint projects, please add an issue or (even better) submit a PR to [this repository](https://github.com/lovincyrus/cosmonauts-world)
 
 ## Adding a project
 1. Review this [posts.json](/data/posts.json)
@@ -27,7 +27,7 @@ If you know any awesome Cosmos / Tendermint projects, please add an issue with
 4. *MUST* provide proof! (either in blog post, whitepaper, public announcement, codebase, etc)
 5. Finally, update `posts.json` and submit a PR 🚀
 
-## Related Resources
+## Related resources
 - [Ecosystem - Cosmos Network](https://cosmos.network/ecosystem)
 - [List of projects in Cosmos & Tendermint Ecosystem](https://forum.cosmos.network/t/list-of-projects-in-cosmos-tendermint-ecosystem/243)
 - [cosmos/awesome](https://github.com/cosmos/awesome)
