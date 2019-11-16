@@ -27,11 +27,9 @@ This repository will be the singular source of truth for the Cosmos & Tendermint
 
 ## Contribution
 
-To submit a feature, bug fix, typo, or enhancement to the site, you may proceed by reading the [contributing guidelines](CONTRIBUTING.md).
+To submit a feature, bug fix, typo, or enhancement to the site, you may add an issue or (even better) create a pull request to [this repository](https://github.com/lovincyrus/cosmonauts-world).
 
 **Note:** Please abide by the [Code of Conduct](CODE_OF_CONDUCT.md) in all interactions.
-
-If you know any awesome Cosmos / Tendermint projects, please add an issue or (even better) create a pull request to [this repository](https://github.com/lovincyrus/cosmonauts-world).
 
 ## Adding a project
 
