@@ -1,7 +1,6 @@
 {
   "name": "",
   "description": "",
-  "website": "",
   "image": "",
   "network": "mainnet || testnet",
   "verified": "false",
@@ -11,7 +10,7 @@
     "gitlab": "",
     "twitter": "",
     "chat": "",
-    "web": ""
+    "website": ""
   },
   "tags": ["cosmos sdk", "tendermint bft", "ethermint"]
 }
