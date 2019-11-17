@@ -38,7 +38,7 @@ To submit a feature, bug fix, typo, or enhancement to the site, you may add an i
 3. Upload your logo to [imgur](https://imgur.com/) with transparent background (.png / .jpg)
 4. _MUST_ provide proof! (either in blog post, whitepaper, public announcement, codebase, etc)
 5. Links are _optional_
-6. Insert revelant tags (cosmos sdk, tendermint bft, ethermint, etc)
+6. Insert relevant tags (cosmos sdk, tendermint bft, ethermint, etc)
 7. Finally, update `posts.json` and submit a pull request 🚀
 
 ## Related resources
