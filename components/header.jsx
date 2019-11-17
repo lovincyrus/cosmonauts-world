@@ -6,28 +6,42 @@ import '../styles/main.css';
 const Header = () => (
   <>
     <Head>
-      <title>Cosmos & Tendermint Ecosystem</title>
+      <title>Cosmonauts World</title>
     </Head>
 
     <div className="bg-container">
       <h1 className="subpixel-antialiased font-sans text-lg text-gray-800 text-left font-bold text-lg md:text-3xl lg:text-4xl">
-          Cosmos &amp; Tendermint Ecosystem
+        Cosmonauts World
       </h1>
       <p className="pt-1 subpixel-antialiased max-w-full text-gray-600 text-lg">
-          Note: List of active projects in the cosmos ecosystem are curated best
-          to the knowledge of the community. Everyone should maintain caution and
-          exercise due diligence when researching new projects beyond provided
-          informations.
+        Welcome! We're helping each other to learn more about the projects in
+        the Cosmos and Tendermint Ecosystem.
       </p>
       <p className="pt-2 text-gray-500">
-          Built by
+        Built by
         {' '}
         <a
           href="https://github.com/lovincyrus"
           target="blank_"
           rel="noopener noreferrer"
         >
-            @lovincyrus
+          @lovincyrus
+        </a>
+        <span>  &#183; </span>
+        <a
+          href="https://github.com/lovincyrus/cosmonauts-world"
+          target="blank_"
+          rel="noopener noreferrer"
+        >
+          GitHub
+        </a>
+        <span> &#183; </span>
+        <a
+          href="https://github.com/lovincyrus/cosmonauts-world#contribution"
+          target="blank_"
+          rel="noopener noreferrer"
+        >
+          Contribute
         </a>
       </p>
     </div>
@@ -35,7 +49,12 @@ const Header = () => (
     <style jsx>
       {`
         .bg-container {
-          background-image: linear-gradient(180deg,hsla(0,0%,100%,0) 50%,#fff),linear-gradient(70deg,#eaf5ff 32%,#f6fff8);
+          background-image: linear-gradient(
+              180deg,
+              hsla(0, 0%, 100%, 0) 50%,
+              #fff
+            ),
+            linear-gradient(70deg, #eaf5ff 32%, #f6fff8);
           padding: 20px;
           border-radius: 4px;
         }

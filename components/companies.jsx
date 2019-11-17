@@ -1,3 +1,4 @@
+/* eslint-disable react/button-has-type */
 import React, { useState } from 'react';
 import Link from 'next/link';
 import { motion } from 'framer-motion';
@@ -28,7 +29,10 @@ function Companies() {
   const [numToPost] = useState(9);
   const truncatedPosts = posts.slice(0, numToPost);
 
-  const cleanURL = (item) => item.toLowerCase().split(' ').join('-');
+  const cleanURL = (item) => item
+    .toLowerCase()
+    .split(' ')
+    .join('-');
 
   return (
     <>
@@ -58,13 +62,13 @@ function Companies() {
                             <p className="network-status text-base">
                               {item.network}
                               {' '}
-                              🚀
+🚀
                             </p>
                           ) : (
                             <p className="network-status text-base">
                               {item.network}
                               {' '}
-                              🏗
+🏗
                             </p>
                           )}
                           <img
@@ -134,13 +138,13 @@ function Companies() {
                             <p className="network-status text-base">
                               {item.network}
                               {' '}
-                              🚀
+🚀
                             </p>
                           ) : (
                             <p className="network-status text-base">
                               {item.network}
                               {' '}
-                              🏗
+🏗
                             </p>
                           )}
                           <img
