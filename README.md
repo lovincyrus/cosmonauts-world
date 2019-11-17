@@ -1,5 +1,7 @@
 # cosmonauts-world
 
+![demo](demo.png)
+
 Cosmos & Tendermint Ecosystem
 
 Built with `Next.js` + `Tailwind CSS` + `Framer Motion API` + `Feather icons`
@@ -51,3 +53,7 @@ To submit a feature, bug fix, typo, or enhancement to the site, you may add an i
 ## Feedback
 
 Please open issues at any time for general feedback, or you can reach me directly at cyrus@tendermint.com. We really appreciate any contribution.
+
+## Credits
+
+Bright Center Star Cluster by [NASA](https://unsplash.com/photos/OVO8nK-7Rfs)
