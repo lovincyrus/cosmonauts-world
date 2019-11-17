@@ -9,6 +9,18 @@ export default class CosmonautsWorld extends Document {
     return (
       <html lang="en">
         <Head>
+          <link rel="shortcut icon" href="/static/milky-way.png" />
+
+          <meta property="og:site_name" content="Cosmonauts World" />
+          <meta property="og:title" content="Cosmonauts World" />
+          <meta property="og:description" content="Welcome! We're helping each other to learn more about the projects in the Cosmos and Tendermint Ecosystem." />
+          <meta property="og:url" content="https://cosmonauts.world/" />
+
+          <meta name="twitter:card" content="summary" />
+          <meta name="twitter:site" content="@cosmonautsworld" />
+          <meta name="twitter:title" content="Cosmonauts World" />
+          <meta name="twitter:description" content="Welcome! We're helping each other to learn more about the projects in the Cosmos and Tendermint Ecosystem." />
+
           {/* Global Site Tag (gtag.js) - Google Analytics */}
           <script
             async
