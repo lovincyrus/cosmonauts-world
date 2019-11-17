@@ -1,4 +1,4 @@
-# cosmonauts.world
+# cosmonauts-world
 
 Cosmos & Tendermint Ecosystem
 
@@ -6,7 +6,7 @@ Built with `Next.js` + `Tailwind CSS` + `Framer Motion API` + `Feather icons`
 
 Live site: https://cosmonauts.world
 
-**MUY IMPORTANTE**: This is an experimental project by [@lovincyrus](https://github.com/lovincyrus), and it is not a Cosmos organization project.
+📣: This is an experimental project by [@lovincyrus](https://github.com/lovincyrus), and it is not a Cosmos organization project.
 
 ## Motivation
 
