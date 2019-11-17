@@ -228,7 +228,7 @@ function Companies() {
             }
 
             .tags {
-              background: rgba(0, 0, 0, 0.2);
+              background: rgb(13, 22, 35, 0.70);
               color: white;
               font-size: 11px;
               font-weight: bold;
