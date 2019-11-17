@@ -1,3 +1,4 @@
+/* eslint-disable react/prop-types */
 import React from 'react';
 import Link from 'next/link';
 import Head from 'next/head';
@@ -41,7 +42,11 @@ const Post = ({ post, keys }) => (
   <div className="pt-32 p-5 mx-auto">
     <motion.div initial="exit" animate="enter" exit="exit">
       <Head>
-        <title>{post.name}</title>
+        <title>
+          {post.name}
+          {' '}
+          &#183; Cosmonauts World
+        </title>
       </Head>
 
       <motion.div variants={textVariants}>
