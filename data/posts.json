@@ -13,323 +13,134 @@
       "chat": "https://t.me/cosmosproject",
       "web": "https://cosmos.network"
     },
-    "tags": ["cosmos sdk"]
+    "tags": ["cosmos sdk", "tendermint bft"]
   },
   {
-    "name": "Binance Chain",
-    "description": "Binance Chain is a blockchain software system developed by Binance and its community. Binance DEX refers to the decentralized exchange features developed on top of Binance Chain. The purpose of the new blockchain and DEX is to create an alternative marketplace for issuing and exchanging digital assets in a decentralized manner.",
-    "website": "https://binance-chain.github.io/",
-    "image": "https://i.imgur.com/wx9kC5q.png",
+    "name": "Cosmos Hub",
+    "description": "The Cosmos Hub is the first of thousands of interconnected blockchains that will eventually comprise the Cosmos Network . The primary token of the Cosmos Hub is the ATOM , but the Hub will support many tokens in the future.",
+    "website": "https://cosmos.network/intro/hub",
+    "image": "https://i.imgur.com/5AqpWnN.png",
     "network": "mainnet",
     "verified": "true",
     "links": {
-      "proof": "https://binance-chain.github.io/acknowledgement.html#tendermint-and-cosmos",
-      "github": "https://github.com/binance-chain/",
-      "chat": "https://t.me/binanceexchange"
+      "proof": "https://cosmos.network/goz",
+      "github": "https://github.com/cosmos",
+      "twitter": "https://twitter.com/cosmos",
+      "chat": "https://t.me/cosmosproject",
+      "web": "https://cosmos.network"
     },
     "tags": ["cosmos sdk", "tendermint bft"]
   },
   {
-    "name": "Kira Interchain Exchange",
-    "description": "Kira is a next generation hyperscale decentralized exchange (DEX) engineered for cross-chain transfers and frictionless trading. On the one hand, Kira aims to deliver all the liquidity, performance and trading sophistication of a centralised exchange but without the custody, downtime and fraud risk that plague our industry. On the other hand, Kira offers stronger security guarantees than state-of-the-art DEXs, but with a powerful governance model that builds trust and engagement whilst actively resisting corruption.",
-    "website": "https://kiraex.com/",
-    "image": "https://i.imgur.com/r0U4CJ0.png",
+    "name": "Cosmos Hub",
+    "description": "The Cosmos Hub is the first of thousands of interconnected blockchains that will eventually comprise the Cosmos Network . The primary token of the Cosmos Hub is the ATOM , but the Hub will support many tokens in the future.",
+    "website": "https://cosmos.network/intro/hub",
+    "image": "https://i.imgur.com/5AqpWnN.png",
     "network": "mainnet",
     "verified": "true",
     "links": {
-      "proof": "https://medium.com/kira-core/introducing-kira-the-future-of-interchain-exchange-c5d8f4223607",
-      "github": "https://github.com/kira-ex",
-      "twitter": "https://twitter.com/kiraex",
-      "chat": "https://t.me/kirainterex"
+      "proof": "https://cosmos.network/goz",
+      "github": "https://github.com/cosmos",
+      "twitter": "https://twitter.com/cosmos",
+      "chat": "https://t.me/cosmosproject",
+      "web": "https://cosmos.network"
     },
     "tags": ["cosmos sdk", "tendermint bft"]
   },
   {
-    "name": "Aragon",
-    "description": "Aragon empowers you to freely organize and collaborate without borders or intermediaries. Create global, bureaucracy-free organizations, companies, and communities.",
-    "website": "https://aragon.org/",
-    "image": "https://avatars0.githubusercontent.com/u/24612534",
+    "name": "Cosmos Hub",
+    "description": "The Cosmos Hub is the first of thousands of interconnected blockchains that will eventually comprise the Cosmos Network . The primary token of the Cosmos Hub is the ATOM , but the Hub will support many tokens in the future.",
+    "website": "https://cosmos.network/intro/hub",
+    "image": "https://i.imgur.com/5AqpWnN.png",
     "network": "mainnet",
     "verified": "true",
     "links": {
-      "proof": "https://blog.aragon.one/aragon-chain",
-      "github": "https://github.com/aragon",
-      "chat": "https://aragon.chat"
-    },
-    "tags": ["cosmos sdk", "ethermint"]
-  },
-  {
-    "name": "e-Money.com",
-    "description": "Today’s global transaction market is filled with high and non-transparent fees as well as lengthy processes. Engaging in a global money transfer is both expensive and unnecessarily slow. What if you could transfer money from one account to another anywhere in the world, with low cost transparent fees and in real-time, making the transaction instant and painless? e-Money empowers People and Businesses to make instant global transactions using the technology of tomorrow.",
-    "website": "https://e-money.com/",
-    "image": "https://i.imgur.com/XZbrFUw.png",
-    "network": "testnet",
-    "links": {
-      "proof": "https://e-money.com/documents/e-Money%20Whitepaper.pdf",
-      "github": "https://github.com/e-money",
-      "chat": "https://t.me/emoney_com"
+      "proof": "https://cosmos.network/goz",
+      "github": "https://github.com/cosmos",
+      "twitter": "https://twitter.com/cosmos",
+      "chat": "https://t.me/cosmosproject",
+      "web": "https://cosmos.network"
     },
     "tags": ["cosmos sdk", "tendermint bft"]
   },
   {
-    "name": "Sentinel",
-    "description": "Sentinel is a network layer for p2p or decentralized applications enabling users and organizations to create Public and Private networks that provide access to both free and incentivised, payment-type (currency/token/fiat) agnostic Services & distributed Resources. With paradigms of Web3 in mind we allow users to become both producers and consumers in the network while earning and spending whitelisted tokens such as Bitcoin, Ethereum, Photons, Atoms or any other, which enables everyone to participate in the system without being forced to use any particular coin.",
-    "website": "https://sentinel.co/",
-    "image": "https://i.imgur.com/ub7Lzj5.png",
-    "network": "testnet",
-    "links": {
-      "proof": "https://github.com/sentinel-official/sentinel/blob/master/README.md",
-      "github": "https://github.com/sentinel-official/sentinel",
-      "twitter": "http://twitter.com/sentinel_co",
-      "chat": "https://t.me/sentinel_co"
-    },
-    "tags": ["tendermint bft"]
-  },
-  {
-    "name": "FOAM",
-    "description": "FOAM’s dynamic proof of location protocol will enable a permissionless and privacy-preserving network of radio beacons that is independent from external centralized sources such as GPS and capable of providing secure location verification services.",
-    "website": "https://www.foam.space/",
-    "image": "https://i.imgur.com/agBDEeg.png",
+    "name": "Cosmos Hub",
+    "description": "The Cosmos Hub is the first of thousands of interconnected blockchains that will eventually comprise the Cosmos Network . The primary token of the Cosmos Hub is the ATOM , but the Hub will support many tokens in the future.",
+    "website": "https://cosmos.network/intro/hub",
+    "image": "https://i.imgur.com/5AqpWnN.png",
     "network": "mainnet",
+    "verified": "true",
     "links": {
-      "proof": "https://blog.foam.space/tendermint-foam-achieving-global-scalability-through-local-consensus-4c63c8bb51a8",
-      "github": "https://github.com/f-o-a-m/",
-      "chat": "https://t.me/foamspace"
+      "proof": "https://cosmos.network/goz",
+      "github": "https://github.com/cosmos",
+      "twitter": "https://twitter.com/cosmos",
+      "chat": "https://t.me/cosmosproject",
+      "web": "https://cosmos.network"
     },
     "tags": ["cosmos sdk", "tendermint bft"]
   },
   {
-    "name": "COMDEX",
-    "description": "Comdex is revolutionising the archaic and laggard commodity trade industry to make it more efficient and usher it into the next era of transformation. Comdex revolutionizes the $17 trillion a year commodity trading industry by using existing banking structures and advanced technology. With a plethora of solutions including a single platform to connect trade financiers, aid in trade settlement and propel trade discoveries, Comdex is already in the pilot phase with trades of millions of dollars.",
-    "website": "https://comdex.sg/",
-    "image": "https://i.imgur.com/QUHqCKA.jpg",
+    "name": "Cosmos Hub",
+    "description": "The Cosmos Hub is the first of thousands of interconnected blockchains that will eventually comprise the Cosmos Network . The primary token of the Cosmos Hub is the ATOM , but the Hub will support many tokens in the future.",
+    "website": "https://cosmos.network/intro/hub",
+    "image": "https://i.imgur.com/5AqpWnN.png",
     "network": "mainnet",
+    "verified": "true",
     "links": {
-      "proof": "https://www.youtube.com/watch?v=Tz4jfzPuqL0"
+      "proof": "https://cosmos.network/goz",
+      "github": "https://github.com/cosmos",
+      "twitter": "https://twitter.com/cosmos",
+      "chat": "https://t.me/cosmosproject",
+      "web": "https://cosmos.network"
     },
     "tags": ["cosmos sdk", "tendermint bft"]
   },
   {
-    "name": "Althea",
-    "description": "Althea is a system that lets routers pay each other for bandwidth. This allows people to set up decentralized ISPs in their communities. In an Althea network, instead of one ISP at the top collecting monthly payments, many different people can earn money by expanding and strengthening the network.",
-    "website": "https://althea.net/",
-    "image": "https://i.imgur.com/3uF0znH.png",
-    "network": "testnet",
-    "links": {
-      "proof": "https://blog.althea.net/launching-the-althea-blockchain/",
-      "github": "https://github.com/althea-net",
-      "chat": "https://riot.im/app/#/room/#althea:matrix.org"
-    },
-    "tags": ["tendermint bft"]
-  },
-  {
-    "name": "datopia",
-    "description": "On-chain governance, voting analytics, supply chain management — processes many suspect will yield to blockchains — consume and translate vast quantities of information in all but the simplest cases. Platforms encumbered by astronomical storage costs — or inexpressive data modelling primitives — are unlikely to provide us with sustainable, cost-effective or transparent solutions to data-hungry problems. Our inaugural post, Blockchains as Information Systems, covers these ideas in more detail.",
-    "website": "https://datopia.io/",
-    "image": "https://i.imgur.com/dPNumgL.png",
+    "name": "Cosmos Hub",
+    "description": "The Cosmos Hub is the first of thousands of interconnected blockchains that will eventually comprise the Cosmos Network . The primary token of the Cosmos Hub is the ATOM , but the Hub will support many tokens in the future.",
+    "website": "https://cosmos.network/intro/hub",
+    "image": "https://i.imgur.com/5AqpWnN.png",
     "network": "mainnet",
+    "verified": "true",
     "links": {
-      "proof": "https://blog.datopia.io/2019/04/04/building-your-first-clojure-blockchain/",
-      "github": "https://github.com/datopia",
-      "twitter": "https://twitter.com/datopians"
-    },
-    "tags": ["tendermint bft"]
-  },
-  {
-    "name": "ProximaX",
-    "description": "The ProximaX Sirius core infrastructure platform leverages on an amended and augmented blockchain and is integrated with peer-to-peer, distributed off-chain storage, streaming, and database layers. These are overlaid with APIs/SDKs in a wide range of languages for developers to rapidly develop and deploy their applications. By parallelising all of these protocols into manageable but distinct layers, ProximaX leverages the advantages of blockchain whilst solving its challenges via service layers found in traditional architectures, packaged into an all-in-one extensive framework.",
-    "website": "https://www.proximax.io/",
-    "image": "https://i.imgur.com/PqdiQUw.jpg",
-    "network": "mainnet",
-    "links": {
-      "proof": "https://medium.com/@proximaxio/proximax-sirius-an-integrated-and-distributed-ledger-technology-platform-5ced5f38097b",
-      "github": "https://github.com/proximax-storage",
-      "twitter": "https://twitter.com/ProximaXio",
-      "chat": "http://t.me/ProximaXio"
-    },
-    "tags": ["tendermint bft"]
-  },
-  {
-    "name": "Hyperledger",
-    "description": "Hyperledger Burrow is one of the Hyperledger projects hosted by The Linux Foundation. Hyperledger Burrow provides a modular blockchain client with a permissioned smart contract interpreter partially developed to the specification of the EVM.",
-    "website": "https://hyperledger.org/projects/hyperledger-burrow",
-    "image": "https://i.imgur.com/1ux8gh7.png",
-    "network": "mainnet",
-    "links": {
-      "proof": "https://github.com/hyperledger/burrow",
-      "github": "https://github.com/hyperledger/burrow",
-      "chat": "https://chat.hyperledger.org/"
+      "proof": "https://cosmos.network/goz",
+      "github": "https://github.com/cosmos",
+      "twitter": "https://twitter.com/cosmos",
+      "chat": "https://t.me/cosmosproject",
+      "web": "https://cosmos.network"
     },
     "tags": ["cosmos sdk", "tendermint bft"]
   },
   {
-    "name": "MESG",
-    "description": "An open event channel and CLI for building and running modular applications. Control the flow of data and level of security between your whole stack of connected systems.",
-    "website": "https://mesg.com/",
-    "image": "https://i.imgur.com/Y0Lcz16.jpg",
+    "name": "Cosmos Hub",
+    "description": "The Cosmos Hub is the first of thousands of interconnected blockchains that will eventually comprise the Cosmos Network . The primary token of the Cosmos Hub is the ATOM , but the Hub will support many tokens in the future.",
+    "website": "https://cosmos.network/intro/hub",
+    "image": "https://i.imgur.com/5AqpWnN.png",
     "network": "mainnet",
+    "verified": "true",
     "links": {
-      "proof": "https://medium.com/mesg/bi-weekly-news-29-08-19-3e7ce9d3533a",
-      "github": "https://github.com/mesg-foundation",
-      "twitter": "https://twitter.com/mesgfoundation"
+      "proof": "https://cosmos.network/goz",
+      "github": "https://github.com/cosmos",
+      "twitter": "https://twitter.com/cosmos",
+      "chat": "https://t.me/cosmosproject",
+      "web": "https://cosmos.network"
     },
     "tags": ["cosmos sdk", "tendermint bft"]
   },
   {
-    "name": "DecentRandom",
-    "description": "Higher security and quality randomization than any traditional service can be handled at a fraction of the cost of a network fee.",
-    "website": "https://decentrandom.com/",
-    "image": "https://i.imgur.com/aNIon9c.png",
+    "name": "Cosmos Hub",
+    "description": "The Cosmos Hub is the first of thousands of interconnected blockchains that will eventually comprise the Cosmos Network . The primary token of the Cosmos Hub is the ATOM , but the Hub will support many tokens in the future.",
+    "website": "https://cosmos.network/intro/hub",
+    "image": "https://i.imgur.com/5AqpWnN.png",
     "network": "mainnet",
+    "verified": "true",
     "links": {
-      "proof": "https://decentrandom.com/asset/whitepaper/whitepaper_beta_kr_v.0.2.1.pdf",
-      "github": "https://github.com/decentrandom",
-      "chat": "https://t.me/joinchat/EF5N2RHTiUOFs4db7vCviA"
+      "proof": "https://cosmos.network/goz",
+      "github": "https://github.com/cosmos",
+      "twitter": "https://twitter.com/cosmos",
+      "chat": "https://t.me/cosmosproject",
+      "web": "https://cosmos.network"
     },
     "tags": ["cosmos sdk", "tendermint bft"]
-  },
-  {
-    "name": "Regen Network",
-    "description": "Regen Network is built to support a wide variety of ecological improvement agreements. These include agreements about improving practices, agreements about ecological changes and a combination of both. Changing practices isn’t 100% sure to be effective, but can be tracked in the short term. To track actual ecological impact, we look at long term indicators. Regen Network allows users to track change that is meaningful to them, not restricting metrics, and allowing us to gain a more holistic understanding of ecosystem health.",
-    "website": "https://www.regen.network/",
-    "image": "https://i.imgur.com/3lgoUme.jpg",
-    "network": "mainnet",
-    "links": {
-      "proof": "https://medium.com/regen-network/how-to-choose-a-blockchain-55a343fd7ec4",
-      "gitlab": "https://gitlab.com/regen-network",
-      "chat": "https://t.me/regennetwork_public"
-    },
-    "tags": ["cosmos sdk", "tendermint bft"]
-  },
-  {
-    "name": "BigchainDB",
-    "description": "Traditional blockchains lack what most enterprises require. BigchainDB takes a different approach, one that starts with a big data distributed database and then adds blockchain characteristics. The result is high throughput and low latency, making data-centric and high volume use cases a breeze. BigchainDB combines the all-important advantages of queryability and performance of traditional databases with the distributed, secure and immutable nature of blockchain technology into one package.",
-    "website": "https://www.bigchaindb.com/",
-    "image": "https://i.imgur.com/sfSwKym.jpg",
-    "network": "mainnet",
-    "links": {
-      "proof": "https://blog.bigchaindb.com/bigchaindb-2-0-is-byzantine-fault-tolerant-5ffdac96bc44",
-      "github": "https://github.com/bigchaindb",
-      "twitter": "https://twitter.com/BigchainDB",
-      "chat": "https://gitter.im/bigchaindb/bigchaindb"
-    },
-    "tags": ["tendermint bft"]
-  },
-  {
-    "name": "Cyber Consensus Computer",
-    "description": "A consensus computer allows computing of provably relevant answers without opinionated blackbox intermediaries such as Google, Youtube, Amazon or Facebook. Stateless content-addressable peer-to-peer communication networks such as IPFS and stateful consensus computers such as Ethereum provide part of the solution, but there are at least three problems associated with implementation. Of course, the first problem is the subjective nature of relevance. The second problem is that it is hard to scale consensus computer for a huge knowledge graph. The third problem is that the quality of such a knowledge graph will suffer from different attack surfaces such as sybil, selfish behaviour of interacting agents. In this paper, we (1) define a protocol for provable consensus computing of relevance between IPFS objects based on Tendermint consensus of cyber•rank computed on GPU, (2) discuss implementation details and (3) design distribution and incentive scheme based on our experience. We believe the minimalistic architecture of the protocol is critical for the formation of a network of domain-specific knowledge consensus computers. As a result of our work some applications never existed before emerge. We expand the work including our vision on features we expect to work up to Genesis.",
-    "website": "https://cybercongress.ai/",
-    "image": "https://i.ibb.co/w7cXnhw/logo-1567516869-70529.png",
-    "network": "mainnet",
-    "links": {
-      "proof": "https://github.com/cybercongress/js-cosmos",
-      "github": "https://github.com/cybercongress",
-      "chat": "https://t.me/fuckgoogle",
-      "globe": "https://cyberd.ai/"
-    },
-    "tags": ["cosmos sdk", "tendermint bft"]
-  },
-  {
-    "name": "Microtick",
-    "description": "Microtick is a market-based system for crowdsourcing and incentivizing untrusted oracles to provide accurate streaming data to the Cosmos / Tendermint ecosystem.",
-    "website": "https://gitlab.com/microtick/mtkit",
-    "image": "https://i.imgur.com/uki9tbG.png",
-    "network": "mainnet",
-    "links": {
-      "proof": "https://gitlab.com/microtick/mtkit/blob/master/docs/Microtick%20Guide%201.0.pdf",
-      "gitlab": "https://gitlab.com/microtick"
-    },
-    "tags": ["cosmos sdk", "tendermint bft"]
-  },
-  {
-    "name": "IOV",
-    "description": "The IOV Name Service provides a human readable address instead of blockchain addresses to receive any kind of crypto-currencies. Built on Tendermint, IOV builds a fast, secure and decentralized name service. Any kind of crypto-addresses can be registered on the IOV Name Service.",
-    "website": "https://www.iov.one/",
-    "image": "https://i.imgur.com/mgspSIy.png",
-    "network": "mainnet",
-    "links": {
-      "proof": "https://docs.iov.one/docs/weave/welcome",
-      "github": "https://github.com/iov-one",
-      "chat": "https://t.me/internetofvalues"
-    },
-    "tags": ["cosmos sdk", "tendermint bft"]
-  },
-  {
-    "name": "IRIS",
-    "description": "Key Innovations: (1) Incorporation of a service-oriented infrastructure into Cosmos; (2) Integration of business services offered by heterogeneous systems,including public & consortium chains as well as legacy systems; (3) Interoperability of those services across an internet of blockchains.",
-    "website": "https://www.irisnet.org/",
-    "image": "https://i.imgur.com/z1AaVyw.png?1",
-    "network": "mainnet",
-    "links": {
-      "proof": "https://github.com/irisnet/irisnet/blob/master/WHITEPAPER.md",
-      "github": "https://github.com/irisnet/",
-      "chat": "https://t.me/irisnetwork"
-    },
-    "tags": ["cosmos sdk", "tendermint bft"]
-  },
-  {
-    "name": "DATA Chain",
-    "description": "DATA chain is a standalone public chain built from a fork of Ethermint (the Ethereum implementation on Tendermint consensus engine) and incorporates proof of attention (PoA) mining rules.",
-    "website": "https://data.eco/",
-    "image": "https://i.imgur.com/tclTSgh.png?1",
-    "network": "mainnet",
-    "links": {
-      "proof": "https://data.eco/#technology",
-      "github": "https://github.com/Blockchain-DATA",
-      "chat": "https://t.me/blockchainDATA"
-    },
-    "tags": ["tendermint bft"]
-  },
-  {
-    "name": "Akash",
-    "description": "Akash is the world’s first super cloud for serverless computing, empowering the architects and builders of the internet with greater access, freedom, and efficiency.",
-    "website": "https://akash.network/",
-    "image": "https://i.imgur.com/0MOUS9Y.png",
-    "network": "mainnet",
-    "links": {
-      "proof": "https://github.com/ovrclk/akash/search?q=tendermint&unscoped_q=tendermint",
-      "github": "https://github.com/ovrclk/akash/",
-      "chat": "https://t.me/AkashNW"
-    },
-    "tags": ["cosmos sdk", "tendermint bft"]
-  },
-  {
-    "name": "ARTIS",
-    "description": "The ARTIS Network is an easy-to-use public blockchain system that is built with sustainability in mind by doing away with energy-intensive mining. As an Ethereum sidechain, the ARTIS Network is using the performant Parity-node software which has WebAssembly enabled – allowing every smart contract to be developed with outstanding security using Rust, C or C++. Existing DApps can migrate or use several blockchains in parallel, whatever is preferred and more suitable.",
-    "website": "https://artis.eco/",
-    "image": "https://i.imgur.com/m8EYX6z.jpg",
-    "network": "mainnet",
-    "links": {
-      "proof": "https://github.com/ovrclk/akash/search?q=tendermint&unscoped_q=tendermint",
-      "github": "https://github.com/lab10-coop",
-      "chat": "https://t.me/lab10collective"
-    },
-    "tags": ["cosmos sdk"]
-  },
-  {
-    "name": "Loom Network",
-    "description": "The Production-ready, Multichain Interop Platform for Serious Dapp Developers. Loom Network provides developers the scalability and usability they need to build high-performance user-facing dapps today. With seamless integrations to Bitcoin, Ethereum, Binance Chain, and all major blockchains, deploying once to Loom lets you future-proof your dapp by reaching the largest number of users possible.",
-    "website": "https://loomx.io/",
-    "image": "https://avatars2.githubusercontent.com/u/32244595",
-    "network": "mainnet",
-    "links": {
-      "proof": "https://github.com/loomnetwork/loomchain",
-      "github": "https://github.com/loomnetwork",
-      "chat": "https://t.me/loomnetwork"
-    },
-    "tags": ["cosmos sdk"]
-  },
-  {
-    "name": "LikeCoin",
-    "description": "LikeCoin aims to reinvent the Like by realigning creativity and reward. We enable attribution and cross-application collaboration on creative contents. With a reinvented Like button and our unique LikeRank algorithm, we trace content footprint and reward content creators by Proof of Creativity mechanism.",
-    "website": "https://like.co/",
-    "image": "https://avatars0.githubusercontent.com/u/6298090?s=200&v=4",
-    "network": "mainnet",
-    "links": {
-      "proof": "https://github.com/likecoin/likechain",
-      "github": "https://github.com/likecoin",
-      "chat": "https://t.me/likecoin"
-    },
-    "tags": ["cosmos sdk"]
   }
 ]
