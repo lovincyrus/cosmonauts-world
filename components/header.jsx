@@ -10,11 +10,11 @@ const Header = () => (
     </Head>
 
     <div className="bg-container">
-      <h1 className="subpixel-antialiased font-sans text-lg text-gray-800 text-left font-bold text-lg md:text-3xl lg:text-4xl">
+      <h1 className="subpixel-antialiased font-sans text-gray-800 text-left font-bold text-xl md:text-3xl lg:text-4xl">
         Cosmonauts World
       </h1>
       <p className="pt-1 subpixel-antialiased max-w-full text-gray-600 text-lg">
-        Welcome! We're helping each other to learn more about the projects in
+        Welcome! We&apos;re helping each other to learn more about the projects in
         the Cosmos and Tendermint Ecosystem.
       </p>
       <p className="pt-2 text-gray-500">
