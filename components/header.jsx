@@ -5,19 +5,15 @@ import '../styles/main.css';
 
 const Header = () => (
   <>
-    <Head>
-      <title>Cosmonauts World</title>
-    </Head>
-
     <div className="bg-container">
-      <h1 className="subpixel-antialiased font-sans text-gray-800 text-left font-bold text-xl md:text-3xl lg:text-4xl">
+      <h1 className="subpixel-antialiased font-sans text-white text-left font-bold text-xl md:text-3xl lg:text-4xl">
         Cosmonauts World
       </h1>
-      <p className="pt-1 subpixel-antialiased max-w-full text-gray-600 text-lg">
+      <p className="pt-2 subpixel-antialiased max-w-full text-gray-300 text-lg">
         Welcome! We&apos;re helping each other to learn more about the projects in
         the Cosmos and Tendermint Ecosystem.
       </p>
-      <p className="pt-2 text-gray-500">
+      <p className="pt-2 text-gray-400">
         Built by
         {' '}
         <a
@@ -49,14 +45,17 @@ const Header = () => (
     <style jsx>
       {`
         .bg-container {
-          background-image: linear-gradient(
-              180deg,
-              hsla(0, 0%, 100%, 0) 50%,
-              #fff
-            ),
-            linear-gradient(70deg, #eaf5ff 32%, #f6fff8);
-          padding: 20px;
+          background-image: url(/static/nasa.jpg);
+          background-repeat: no-repeat;
+          background-position: top left;
+          padding: 40px;
           border-radius: 4px;
+        }
+
+        @media screen and (max-width: 500px) {
+          .bg-container {
+            padding: 30px;
+          }
         }
       `}
     </style>
