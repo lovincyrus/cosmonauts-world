@@ -12,8 +12,8 @@ Live site: https://cosmonauts.world
 
 This project aims to answer questions as such,
 
-1. How many projects are in the Cosmos and Tendermint Ecosystem? (https://github.com/lovincyrus/cosmonauts-world/blob/master/components/companies.jsx#L111)
-2. Which projects are using which technology? (https://github.com/lovincyrus/cosmonauts-world/issues/1)
+1. How many projects are in the Cosmos and Tendermint Ecosystem?
+2. Which projects are using which technology?
 
 This repository will be the singular source of truth for the Cosmos & Tendermint projects. Therefore, this repository should be considered as a living document which will be maintained by the community. This repository is not limited to the ecosystem listed on [Cosmos Network - Ecosystem](https://cosmos.network/ecosystem). So long as you're using Cosmos / Tendermint, you can add your project to the `JSON` [file](/data/posts.json). 🌌
 
