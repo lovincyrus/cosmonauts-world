@@ -2,7 +2,7 @@ pull_request_rules:
   - name: automatic merge project when conditions are met
     conditions:
       - status-success=now
-      - "#approved-reviews-by>=3"
+      # - "#approved-reviews-by>=3"
       - "#review-requested=0"
       - "#changes-requested-reviews-by=0"
       - "#commented-reviews-by=0"
