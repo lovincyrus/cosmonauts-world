@@ -4,7 +4,7 @@ import Link from 'next/link';
 import { motion } from 'framer-motion';
 import BackToTop from './backtotop';
 
-import posts from '../data/posts';
+import { mapping } from '../data/posts-manifest';
 
 import '../styles/main.css';
 
@@ -24,10 +24,10 @@ const postVariants = {
   },
 };
 
-function Companies() {
+function Projects() {
   const [truncated, setTrunc] = useState(true);
   const [numToPost] = useState(9);
-  const truncatedPosts = posts.slice(0, numToPost);
+  const truncatedPosts = mapping.slice(0, numToPost);
 
   const cleanURL = (item) => item
     .toLowerCase()
@@ -49,7 +49,7 @@ function Companies() {
                 <motion.div variants={postVariants} key={index}>
                   <Link
                     scroll={false}
-                    href="/projects/[post]"
+                    href="/projects/[item]"
                     as={`/projects/${cleanURL(item.name)}`}
                   >
                     <a>
@@ -112,7 +112,7 @@ function Companies() {
               <button onClick={() => setTrunc(false)}>
                 View all
                 {' '}
-                {posts.length}
+                {mapping.length}
                 {' '}
                 projects →
               </button>
@@ -121,11 +121,11 @@ function Companies() {
         ) : (
           <div className="py-10 max-w-6xl">
             <div className="grid">
-              {posts.map((item, index) => (
+              {mapping.map((item, index) => (
                 <motion.div variants={postVariants} key={index}>
                   <Link
                     scroll={false}
-                    href="/projects/[post]"
+                    href="/projects/[item]"
                     as={`/projects/${cleanURL(item.name)}`}
                   >
                     <a>
@@ -276,4 +276,4 @@ function Companies() {
   );
 }
 
-export default Companies;
+export default Projects;

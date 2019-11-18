@@ -17,7 +17,7 @@ This project aims to answer questions as such,
 1. How many projects are in the Cosmos and Tendermint Ecosystem?
 2. Which projects are using which technology?
 
-This repository will be the singular source of truth for the Cosmos & Tendermint projects. Therefore, this repository should be considered as a living document which will be maintained by the community. This repository is not limited to the ecosystem listed on [Cosmos Network - Ecosystem](https://cosmos.network/ecosystem). So long as you're using Cosmos / Tendermint, you can add your project to the `JSON` [file](/data/posts.json). 🌌
+This repository will be the singular source of truth for the Cosmos & Tendermint projects. Therefore, this repository should be considered as a living document which will be maintained by the community. This repository is not limited to the ecosystem listed on [Cosmos Network - Ecosystem](https://cosmos.network/ecosystem). So long as you're using Cosmos / Tendermint, you can add your project to the `JSON` [file](/data/posts-manifest.js). 🌌
 
 ## Run this locally
 
@@ -35,15 +35,15 @@ To submit a feature, bug fix, typo, or enhancement to the site, you may add an i
 
 ### Adding a project
 
-1. Review this [posts.json](/data/posts.json)
-2. Follow this format [posts.default.json](/data/posts.default.json)
+1. Review this [posts-manifest.js](/data/posts-manifest.js)
+2. Follow this format [posts-manifest.default.js](/data/posts-manifest.default.js)
 3. Name `your-project-logo.png` in kebab-case
 4. Copy your project logo with _transparent background_ (.png / .jpg) into `/static/logos/`
 5. Ensure that verified status must be `false` by default
 6. _MUST_ provide proof! (either in blog post, whitepaper, public announcement, codebase, etc)
 7. Insert social links (optional)
 8. Add relevant tags (cosmos sdk, tendermint core, tendermint bft, ethermint, etc)
-9. Finally, update `posts.json`, double check, and create a pull request 🚀
+9. Finally, update `posts-manifest.js`, double check, and create a pull request 🚀
 
 ### Suggesting a project
 

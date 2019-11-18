@@ -3,7 +3,8 @@ import React from 'react';
 import Link from 'next/link';
 import Head from 'next/head';
 import { motion } from 'framer-motion';
-import posts from '../../data/posts';
+
+import { mapping } from '../../data/posts-manifest';
 
 import '../../styles/main.css';
 
@@ -129,7 +130,7 @@ Post.getInitialProps = ({ query }) => {
   const cleanURL = (item) => item.toLowerCase().split(' ').join('-');
 
   // match param of post name
-  const post = posts.find((post) => cleanURL(post.name) === query.post);
+  const post = mapping.find((item) => cleanURL(item.name) === query.item);
 
   // get k,v of social links
   const keys = Object.keys(post.links);
