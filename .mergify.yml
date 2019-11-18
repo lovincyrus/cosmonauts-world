@@ -1,1 +1,17 @@
 pull_request_rules:
+  - name: automatic merge project when conditions are met
+    conditions:
+      - status-success=now
+      - "#approved-reviews-by>=3"
+      - "#review-requested=0"
+      - "#changes-requested-reviews-by=0"
+      - "#commented-reviews-by=0"
+      - base=master
+      - label=project
+      - label!=WIP
+      - files=posts-manifest.js
+      - "#files=1"
+    actions:
+      delete_head_branch: {}
+      merge:
+        method: merge
