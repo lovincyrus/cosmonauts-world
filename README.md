@@ -2,7 +2,7 @@
 
 ![demo](demo.png)
 
-Cosmos & Tendermint Ecosystem
+Projects in the Cosmos and Tendermint Ecosystem 🌌
 
 Built with `Next.js` + `Tailwind CSS` + `Framer Motion API` + `Feather icons`
 
