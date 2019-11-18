@@ -9,6 +9,14 @@ export default class CosmonautsWorld extends Document {
     return (
       <html lang="en">
         <Head>
+          <meta charSet="utf-8" />
+          <meta name="viewport" content="initial-scale=1.0, width=device-width" />
+          <meta name="title" content="Cosmonauts World" />
+          <meta
+            name="description"
+            content="Welcome! We're helping each other to learn more about the projects in the Cosmos and Tendermint Ecosystem."
+          />
+
           <link rel="shortcut icon" href="/static/milky-way.png" />
 
           <meta property="og:site_name" content="Cosmonauts World" />
