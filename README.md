@@ -33,15 +33,21 @@ To submit a feature, bug fix, typo, or enhancement to the site, you may add an i
 
 **Note:** Please abide by the [Code of Conduct](CODE_OF_CONDUCT.md) in all interactions.
 
-## Adding a project
+### Adding a project
 
 1. Review this [posts.json](/data/posts.json)
 2. Follow this format [posts.default.json](/data/posts.default.json)
-3. Upload your logo to [imgur](https://imgur.com/) with transparent background (.png / .jpg)
-4. _MUST_ provide proof! (either in blog post, whitepaper, public announcement, codebase, etc)
-5. Links are _optional_
-6. Insert relevant tags (cosmos sdk, tendermint bft, ethermint, etc)
-7. Finally, update `posts.json` and submit a pull request 🚀
+3. Name `your-project-logo.png` in kebab-case
+4. Copy your project logo with _transparent background_ (.png / .jpg) into `/static/logos/`
+5. Ensure that verified status must be `false` by default
+6. _MUST_ provide proof! (either in blog post, whitepaper, public announcement, codebase, etc)
+7. Insert social links (optional)
+8. Add relevant tags (cosmos sdk, tendermint core, tendermint bft, ethermint, etc)
+9. Finally, update `posts.json`, double check, and create a pull request 🚀
+
+### Suggesting a project
+
+Please create an issue with specified data as shown in [posts.default.json](/data/posts.default.json)
 
 ## Related resources
 
