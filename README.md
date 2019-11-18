@@ -47,7 +47,7 @@ To submit a feature, bug fix, typo, or enhancement to the site, you may add an i
 
 ### Suggesting a project
 
-Please create an issue with specified data as shown in [posts.default.json](/data/posts.default.json)
+Please use Project template when creating an issue. 🤝
 
 ## Related resources
 
