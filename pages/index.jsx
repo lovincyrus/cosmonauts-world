@@ -1,6 +1,6 @@
 import React from 'react';
 import Head from 'next/head';
-import Companies from '../components/companies';
+import Projects from '../components/projects';
 import Header from '../components/header';
 
 import '../styles/main.css';
@@ -13,7 +13,7 @@ const Home = () => (
 
     <div className="py-10 p-5 mx-auto max-w-6xl">
       <Header />
-      <Companies />
+      <Projects />
     </div>
   </>
 );
