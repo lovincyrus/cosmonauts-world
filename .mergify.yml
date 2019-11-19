@@ -6,9 +6,10 @@ pull_request_rules:
       - "#review-requested=0"
       - "#changes-requested-reviews-by=0"
       - "#commented-reviews-by=0"
-      - base=master
+      - base=staging
       - label=project
       - label!=WIP
+      - label!=ready%20for%20review
       - files=data/posts-manifest.js
       - "#files=1"
     actions:
