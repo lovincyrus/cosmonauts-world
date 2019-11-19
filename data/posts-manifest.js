@@ -2,7 +2,7 @@ const mapping = [
   {
     name: 'cyber~Congress',
     description: 'A distributed relevance and answering machine. An inter-planetary search engine & a state of the art consensus computer, built with the help of go-IPFS and cosmos-SDK',
-    image: 'https://cosmonauts.world/static/logos/cyber.png',
+    image: '/static/logos/cyber.png',
     network: 'testnet',
     verified: 'false',
     links: {
@@ -12,7 +12,7 @@ const mapping = [
       chat: 'https://t.me/fuckgoogle',
       website: 'https://cybercongress.ai/',
     },
-    tags: ['cosmos sdk', 'tendermint-bft'],
+    tags: ['cosmos sdk', 'tendermint bft'],
   },
   {
     name: 'Cosmos Hub',
