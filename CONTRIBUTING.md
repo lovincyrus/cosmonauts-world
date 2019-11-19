@@ -16,6 +16,7 @@
 11. Merge into `staging` branch
 
 (Maintainers)
+
 12. Add labels: `project` and `WIP` to the pull request
 13. When it's ready for review, remove `WIP` and add `ready for review` labels
 14. Once it's been reviewed by at least 3 users, remove `ready for review` label
