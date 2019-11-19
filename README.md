@@ -46,6 +46,9 @@ To submit a feature, bug fix, typo, or enhancement to the site, you may add an i
 7. Insert social links (optional)
 8. Add relevant tags (cosmos sdk, tendermint core, tendermint bft, ethermint, etc)
 9. Finally, update `posts-manifest.js`, double check, and create a pull request 🚀
+10. Add labels: `project`, and `WIP` to the pull request
+11. When it's ready for review, remove `WIP`
+12. Mergify will automatically merge it when [conditions](./.mergify.yml) are met
 
 ### Suggesting a project
 
