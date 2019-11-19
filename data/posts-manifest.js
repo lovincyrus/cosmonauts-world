@@ -12,7 +12,7 @@ const mapping = [
       chat: 'https://t.me/fuckgoogle',
       website: 'https://cybercongress.ai/',
     },
-    tags: ['cosmos sdk', 'search-engine', 'tendermint-bft', 'fuckgoogle', 'ipfs', 'knowledge-graph'],
+    tags: ['cosmos sdk', 'tendermint-bft'],
   },
   {
     name: 'Cosmos Hub',
