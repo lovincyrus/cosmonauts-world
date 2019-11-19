@@ -1,18 +1,18 @@
 const mapping = [
   {
-    name: 'A very random project',
-    description: 'Testing description',
-    image: 'https://cosmonauts.world/static/nasa.jpg',
+    name: 'cyber~Congress',
+    description: 'A distributed relevance and answering machine. An inter-planetary search engine & a state of the art consensus computer, built with the help of go-IPFS and cosmos-SDK',
+    image: 'https://cosmonauts.world/static/logos/cyber.png',
     network: 'testnet',
     verified: 'false',
     links: {
-      proof: 'https://www.lovincyrus.com/',
-      github: 'https://www.lovincyrus.com/',
-      twitter: 'https://www.lovincyrus.com/',
-      chat: 'https://www.lovincyrus.com/',
-      website: 'https://www.lovincyrus.com/',
+      proof: 'https://github.com/cybercongress/cyberd',
+      github: 'https://github.com/cybercongress',
+      twitter: 'https://twitter.com/cyber_devs',
+      chat: 'https://t.me/fuckgoogle',
+      website: 'https://cybercongress.ai/',
     },
-    tags: ['cosmos sdk'],
+    tags: ['cosmos sdk', 'search-engine', 'tendermint-bft', 'fuckgoogle', 'ipfs', 'knowledge-graph'],
   },
   {
     name: 'Cosmos Hub',
