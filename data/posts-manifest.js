@@ -2,7 +2,7 @@ const mapping = [
   {
     name: 'cyber~Congress',
     description: 'A distributed relevance and answering machine. An inter-planetary search engine & a state of the art consensus computer, built with the help of go-IPFS and cosmos-SDK',
-    image: '/static/logos/cyber.png',
+    image: '/static/logos/cybercongress.png',
     network: 'testnet',
     verified: 'false',
     links: {
