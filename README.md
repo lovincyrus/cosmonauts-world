@@ -47,8 +47,8 @@ To submit a feature, bug fix, typo, or enhancement to the site, you may add an i
 8. Add relevant tags (cosmos sdk, tendermint core, tendermint bft, ethermint, etc)
 9. Finally, update `posts-manifest.js`, double check, and create a pull request 🚀
 10. Add labels: `project` and `WIP` to the pull request
-11. When it's ready for review, remove `WIP` and add `ready-for-review` labels
-12. Once it's been reviewed by at least 3 users, remove `ready-for-review` label
+11. When it's ready for review, remove `WIP` and add `ready for review` labels
+12. Once it's been reviewed by at least 3 users, remove `ready for review` label
 13. Mergify will automatically merge it when [conditions](./.mergify.yml) are met
 
 ### Suggesting a project
