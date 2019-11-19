@@ -33,28 +33,9 @@ This repository will be the singular source of truth for the Cosmos & Tendermint
 
 To submit a feature, bug fix, typo, or enhancement to the site, you may add an issue or (even better) create a pull request to [this repository](https://github.com/lovincyrus/cosmonauts-world).
 
+If you'd like to learn more about how to add or suggest a project, please read [Contributing guideline](CONTRIBUTING.md)
+
 **Note:** Please abide by the [Code of Conduct](CODE_OF_CONDUCT.md) in all interactions.
-
-### Adding a project
-
-1. Review this [posts-manifest.js](/data/posts-manifest.js)
-2. Follow this format [posts-manifest.default.js](/data/posts-manifest.default.js)
-3. Checkout a branch that will be merged into `staging`
-4. Name `your-project-logo.png` in kebab-case
-5. Copy your project logo with _transparent background_ (.png / .jpg) into `/static/logos/`
-6. Ensure that verified status must be `false` by default
-7. _MUST_ provide proof! (either in blog post, whitepaper, public announcement, codebase, etc)
-8. Insert social links (optional)
-9. Add relevant tags (cosmos sdk, tendermint core, tendermint bft, ethermint, etc)
-10. Finally, update `posts-manifest.js`, double check, and create a pull request 🚀
-11. Add labels: `project` and `WIP` to the pull request
-12. When it's ready for review, remove `WIP` and add `ready for review` labels
-13. Once it's been reviewed by at least 3 users, remove `ready for review` label
-14. Mergify will automatically merge it when [conditions](./.mergify.yml) are met
-
-### Suggesting a project
-
-Please use Project template when creating an issue. 🤝
 
 ## Related resources
 
