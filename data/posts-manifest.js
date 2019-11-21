@@ -327,7 +327,7 @@ const mapping = [
     name: 'LikeCoin',
     description: 'LikeCoin aims to reinvent the Like by realigning creativity and reward. We enable attribution and cross-application collaboration on creative contents. With a reinvented Like button and our unique LikeRank algorithm, we trace content footprint and reward content creators by Proof of Creativity mechanism.',
     image: '/static/logos/likecoin.png',
-    network: '?',
+    network: 'mainnet',
     verified: 'false',
     links: {
       proof: 'https://github.com/likecoin/likechain',
