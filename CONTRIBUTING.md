@@ -1,5 +1,7 @@
 # Contributing
 
+Thanks for being here!
+
 ### Adding a project
 
 (Contributors)
@@ -25,3 +27,10 @@
 ### Suggesting a project
 
 Please use Project template when creating an issue. 🤝
+
+## Notes 
+
+`tendermint core`*: refers to the implementation, the engine. <br />
+`tendermint bft`: refers to the concept, possibly the spec but not specifically the reference implementation.
+
+[*] Tendermint Core is currently what's ecosystem compatible, meaning Tendermint Core chains can interoperate with other chains within Cosmos Network.
