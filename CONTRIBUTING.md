@@ -19,7 +19,7 @@
 
 12. Add labels: `project` and `WIP` to the pull request
 13. When it's ready for review, remove `WIP` and add `ready for review` labels
-14. Once it's been reviewed by at least 3 users, remove `ready for review` label
+14. Once it's been reviewed by at least 2 maintainers, remove `ready for review` label
 15. Mergify will automatically merge it when [conditions](./.mergify.yml) are met
 
 ### Suggesting a project
