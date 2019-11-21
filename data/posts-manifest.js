@@ -2,9 +2,9 @@ const mapping = [
   {
     name: 'Minter',
     description: 'Minter offers you the ability to issue, transfer, or exchange your own coin in seconds with instant liquidity. All our products are open-source—iOS, Android, Web, and Telegram wallets; an API and an SDK.',
-    image: 'https://www.minter.network/img/minter-logo-circle.svg',
+    image: '/static/logos/minter.png',
     network: 'mainnet',
-    verified: 'true',
+    verified: 'false',
     links: {
       proof: 'https://github.com/MinterTeam/minter-go-node',
       github: 'https://github.com/MinterTeam',
