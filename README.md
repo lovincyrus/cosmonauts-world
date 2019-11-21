@@ -2,8 +2,6 @@
 
 [![Mergify Status](https://img.shields.io/endpoint.svg?url=https://gh.mergify.io/badges/lovincyrus/cosmonauts-world)](https://mergify.io)
 
-![demo](demo.png)
-
 Projects in the Cosmos and Tendermint Ecosystem 🌌
 
 Built with `Next.js` + `Tailwind CSS` + `Framer Motion API` + `Feather icons`
