@@ -341,7 +341,7 @@ const mapping = [
     name: 'Kava',
     description: 'Kava is the first cross-blockchain DeFi platform that enables traders to leverage their assets and hedge using a multi-collateral CDP system and collateral-backed stablecoin (USDX).',
     image: '/static/logos/kava.png',
-    network: '?',
+    network: 'mainnet',
     verified: 'false',
     links: {
       proof: 'https://github.com/Kava-Labs/kava',
