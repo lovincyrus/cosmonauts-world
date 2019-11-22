@@ -353,7 +353,7 @@ const mapping = [
     name: 'Lino Network',
     description: 'A value-sharing content economy where content creators, viewers, and other contributors are fairly incentivized to maximize sustainable economic growth.',
     image: '/static/logos/lino-network.png',
-    network: '?',
+    network: 'testnet',
     verified: 'false',
     links: {
       proof: 'https://github.com/lino-network/cosmos-sdk',
