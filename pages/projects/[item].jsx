@@ -1,5 +1,7 @@
+/* eslint-disable jsx-a11y/anchor-is-valid */
 /* eslint-disable react/prop-types */
 import React from 'react';
+import dynamic from 'next/dynamic';
 import Link from 'next/link';
 import Head from 'next/head';
 import { motion } from 'framer-motion';
@@ -8,7 +10,10 @@ import { mapping } from '../../data/posts-manifest';
 
 import '../../styles/main.css';
 
-const currentUrl = window.location.href;
+const Clipboard = dynamic(() => import('react-clipboard.js'), {
+  ssr: false,
+});
+
 const easing = [0.175, 0.85, 0.42, 0.96];
 
 const textVariants = {
@@ -66,6 +71,7 @@ const Post = ({ post, keys }) => (
                 height={35}
                 src={`/static/icons/${item}.svg`}
                 alt={item}
+                title={item}
               />
             </a>
           ))}
@@ -76,21 +82,51 @@ const Post = ({ post, keys }) => (
 
       <motion.div variants={backVariants}>
         <div className="py-6 sm:py-12">
-          <h4 className="text-grey-500 text-center text-2xl sm:text-3xl md:text-4xl font-bold sm:tracking-tight">Share this project</h4>
+          <h4 className="text-gray-500 font-bold text-center text-xl sm:text-2xl md:text-3xl sm:tracking-tight">Share this project</h4>
           <div className="mt-6 flex items-center justify-center">
             <a
-              href={`https://twitter.com/share?url=${currentUrl}/&text=Check%20out%20${post.name}%20on%20Cosmonauts%20World!`}
+              href={`https://www.facebook.com/sharer/sharer.php?u=https://cosmonauts.world`}
               target="blank_"
               rel="noopener noreferrer"
               className="default-transition block mr-4"
             >
               <img
-                width={30}
-                height={30}
-                src="/static/icons/twitter.svg"
-                alt="twitter"
+                width={25}
+                height={25}
+                src="/static/icons/facebook.svg"
+                alt="facebook"
+                title="Share the project on Facebook."
+                aria-label="Share the project on Facebook."
               />
             </a>
+            <a
+              href={`https://twitter.com/share?url=https://cosmonauts.world/&text=Check%20out%20${post.name}%20on%20Cosmonauts%20World! 🚀`}
+              target="blank_"
+              rel="noopener noreferrer"
+              className="default-transition block mr-4"
+            >
+              <img
+                width={25}
+                height={25}
+                src="/static/icons/twitter.svg"
+                alt="twitter"
+                title="Share the project on Twitter."
+                aria-label="Share the project on Twitter."
+              />
+            </a>
+            <Clipboard
+              data-clipboard-text={window.location.href}
+              className="default-transition block mr-4"
+            >
+              <img
+                width={25}
+                height={25}
+                src="/static/icons/clipboard.svg"
+                alt="clipboard"
+                title="Copy the project’s URL to your clipboard."
+                aria-label="Copy the project’s URL to your clipboard."
+              />
+            </Clipboard>
           </div>
         </div>
 
