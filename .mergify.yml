@@ -18,6 +18,7 @@ pull_request_rules:
     conditions:
       - author=imgbot[bot]
       - status-success=now
+      - base=staging
     actions:
       delete_head_branch: {}
       merge:
