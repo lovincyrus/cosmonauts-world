@@ -1,5 +1,7 @@
+/* eslint-disable jsx-a11y/anchor-is-valid */
 /* eslint-disable react/prop-types */
 import React from 'react';
+import dynamic from 'next/dynamic';
 import Link from 'next/link';
 import Head from 'next/head';
 import { motion } from 'framer-motion';
@@ -7,6 +9,12 @@ import { motion } from 'framer-motion';
 import { mapping } from '../../data/posts-manifest';
 
 import '../../styles/main.css';
+
+const Clipboard = dynamic(() => import('react-clipboard.js'), {
+  ssr: false,
+});
+
+const cleanUrl = (item) => item.toLowerCase().split(' ').join('-');
 
 const easing = [0.175, 0.85, 0.42, 0.96];
 
@@ -51,7 +59,7 @@ const Post = ({ post, keys }) => (
       </Head>
 
       <motion.div variants={textVariants}>
-        <p className="text-5xl font-bold text-gray-800 text-center">
+        <p className="font-bold text-gray-800 text-center text-4xl sm:text-4xl md:text-5xl lg:text-6xl">
           {post.name}
         </p>
 
@@ -65,12 +73,64 @@ const Post = ({ post, keys }) => (
                 height={35}
                 src={`/static/icons/${item}.svg`}
                 alt={item}
+                title={item}
               />
             </a>
           ))}
         </div>
 
         <p className="text-center text-gray-800 description">{post.description}</p>
+      </motion.div>
+
+      <motion.div variants={textVariants}>
+        <div className="py-6 sm:py-12">
+          <h4 className="text-gray-500 font-bold text-center text-xl sm:text-2xl md:text-3xl sm:tracking-tight">Share this project</h4>
+          <div className="mt-6 flex items-center justify-center">
+            <a
+              href={`https://www.facebook.com/sharer/sharer.php?u=https://cosmonauts.world/projects/${cleanUrl(post.name)}`}
+              target="blank_"
+              rel="noopener noreferrer"
+              className="block mr-4"
+            >
+              <img
+                width={25}
+                height={25}
+                src="/static/icons/facebook.svg"
+                alt="facebook"
+                title="Share the project on Facebook."
+                aria-label="Share the project on Facebook."
+              />
+            </a>
+            <a
+              href={`https://twitter.com/share?url=https://cosmonauts.world/projects/${cleanUrl(post.name)}&text=Check%20out%20${post.name}%20on%20Cosmonauts%20World! 🚀`}
+              target="blank_"
+              rel="noopener noreferrer"
+              className="block mr-4"
+            >
+              <img
+                width={25}
+                height={25}
+                src="/static/icons/twitter.svg"
+                alt="twitter"
+                title="Share the project on Twitter."
+                aria-label="Share the project on Twitter."
+              />
+            </a>
+            <Clipboard
+              data-clipboard-text={`https://cosmonauts.world/projects/${cleanUrl(post.name)}`}
+              className="block mr-4"
+            >
+              <img
+                width={25}
+                height={25}
+                src="/static/icons/clipboard.svg"
+                alt="clipboard"
+                title="Copy the project’s URL to your clipboard."
+                aria-label="Copy the project’s URL to your clipboard."
+              />
+            </Clipboard>
+          </div>
+        </div>
       </motion.div>
 
       <motion.div variants={backVariants}>
@@ -126,11 +186,8 @@ const Post = ({ post, keys }) => (
 );
 
 Post.getInitialProps = ({ query }) => {
-  // replace % with -
-  const cleanURL = (item) => item.toLowerCase().split(' ').join('-');
-
   // match param of post name
-  const post = mapping.find((item) => cleanURL(item.name) === query.item);
+  const post = mapping.find((item) => cleanUrl(item.name) === query.item);
 
   // get k,v of social links
   const keys = Object.keys(post.links);

@@ -29,7 +29,7 @@ function Projects() {
   const [numToPost] = useState(9);
   const truncatedPosts = mapping.slice(0, numToPost);
 
-  const cleanURL = (item) => item
+  const cleanUrl = (item) => item
     .toLowerCase()
     .split(' ')
     .join('-');
@@ -50,7 +50,7 @@ function Projects() {
                   <Link
                     scroll={false}
                     href="/projects/[item]"
-                    as={`/projects/${cleanURL(item.name)}`}
+                    as={`/projects/${cleanUrl(item.name)}`}
                   >
                     <a>
                       <motion.div
@@ -126,7 +126,7 @@ function Projects() {
                   <Link
                     scroll={false}
                     href="/projects/[item]"
-                    as={`/projects/${cleanURL(item.name)}`}
+                    as={`/projects/${cleanUrl(item.name)}`}
                   >
                     <a>
                       <motion.div
