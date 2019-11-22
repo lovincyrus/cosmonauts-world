@@ -8,6 +8,7 @@ import { mapping } from '../../data/posts-manifest';
 
 import '../../styles/main.css';
 
+const currentUrl = window.location.href;
 const easing = [0.175, 0.85, 0.42, 0.96];
 
 const textVariants = {
@@ -74,6 +75,25 @@ const Post = ({ post, keys }) => (
       </motion.div>
 
       <motion.div variants={backVariants}>
+        <div className="py-6 sm:py-12">
+          <h4 className="text-grey-500 text-center text-2xl sm:text-3xl md:text-4xl font-bold sm:tracking-tight">Share this project</h4>
+          <div className="mt-6 flex items-center justify-center">
+            <a
+              href={`https://twitter.com/share?url=${currentUrl}/&text=Check%20out%20${post.name}%20on%20Cosmonauts%20World!`}
+              target="blank_"
+              rel="noopener noreferrer"
+              className="default-transition block mr-4"
+            >
+              <img
+                width={30}
+                height={30}
+                src="/static/icons/twitter.svg"
+                alt="twitter"
+              />
+            </a>
+          </div>
+        </div>
+
         <div className="btn-container">
           <Link href="/" replace>
             <a>
