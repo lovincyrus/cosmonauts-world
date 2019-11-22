@@ -89,7 +89,7 @@ const mapping = [
     name: 'e-Money',
     description: 'Today’s global transaction market is filled with high and non-transparent fees as well as lengthy processes. Engaging in a global money transfer is both expensive and unnecessarily slow. What if you could transfer money from one account to another anywhere in the world, with low cost transparent fees and in real-time, making the transaction instant and painless? e-Money empowers People and Businesses to make instant global transactions using the technology of tomorrow.',
     image: '/static/logos/e-money.png',
-    network: '?',
+    network: 'testnet',
     verified: 'false',
     links: {
       proof: 'https://e-money.com/documents/e-Money%20Whitepaper.pdf',
