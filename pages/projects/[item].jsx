@@ -14,6 +14,8 @@ const Clipboard = dynamic(() => import('react-clipboard.js'), {
   ssr: false,
 });
 
+const cleanUrl = (item) => item.toLowerCase().split(' ').join('-');
+
 const easing = [0.175, 0.85, 0.42, 0.96];
 
 const textVariants = {
@@ -57,7 +59,7 @@ const Post = ({ post, keys }) => (
       </Head>
 
       <motion.div variants={textVariants}>
-        <p className="text-5xl font-bold text-gray-800 text-center">
+        <p className="font-bold text-gray-800 text-center text-4xl sm:text-4xl md:text-5xl lg:text-6xl">
           {post.name}
         </p>
 
@@ -80,15 +82,15 @@ const Post = ({ post, keys }) => (
         <p className="text-center text-gray-800 description">{post.description}</p>
       </motion.div>
 
-      <motion.div variants={backVariants}>
+      <motion.div variants={textVariants}>
         <div className="py-6 sm:py-12">
           <h4 className="text-gray-500 font-bold text-center text-xl sm:text-2xl md:text-3xl sm:tracking-tight">Share this project</h4>
           <div className="mt-6 flex items-center justify-center">
             <a
-              href={`https://www.facebook.com/sharer/sharer.php?u=https://cosmonauts.world`}
+              href={`https://www.facebook.com/sharer/sharer.php?u=https://cosmonauts.world/projects/${cleanUrl(post.name)}`}
               target="blank_"
               rel="noopener noreferrer"
-              className="default-transition block mr-4"
+              className="block mr-4"
             >
               <img
                 width={25}
@@ -100,10 +102,10 @@ const Post = ({ post, keys }) => (
               />
             </a>
             <a
-              href={`https://twitter.com/share?url=https://cosmonauts.world/&text=Check%20out%20${post.name}%20on%20Cosmonauts%20World! 🚀`}
+              href={`https://twitter.com/share?url=https://cosmonauts.world/projects/${cleanUrl(post.name)}&text=Check%20out%20${post.name}%20on%20Cosmonauts%20World! 🚀`}
               target="blank_"
               rel="noopener noreferrer"
-              className="default-transition block mr-4"
+              className="block mr-4"
             >
               <img
                 width={25}
@@ -115,8 +117,8 @@ const Post = ({ post, keys }) => (
               />
             </a>
             <Clipboard
-              data-clipboard-text={window.location.href}
-              className="default-transition block mr-4"
+              data-clipboard-text={`https://cosmonauts.world/projects/${cleanUrl(post.name)}`}
+              className="block mr-4"
             >
               <img
                 width={25}
@@ -129,7 +131,9 @@ const Post = ({ post, keys }) => (
             </Clipboard>
           </div>
         </div>
+      </motion.div>
 
+      <motion.div variants={backVariants}>
         <div className="btn-container">
           <Link href="/" replace>
             <a>
@@ -182,11 +186,8 @@ const Post = ({ post, keys }) => (
 );
 
 Post.getInitialProps = ({ query }) => {
-  // replace % with -
-  const cleanURL = (item) => item.toLowerCase().split(' ').join('-');
-
   // match param of post name
-  const post = mapping.find((item) => cleanURL(item.name) === query.item);
+  const post = mapping.find((item) => cleanUrl(item.name) === query.item);
 
   // get k,v of social links
   const keys = Object.keys(post.links);
