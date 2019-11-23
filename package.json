@@ -1,7 +1,9 @@
 {
-  "name": "next-js-tailwind",
+  "name": "cosmonauts-world",
+  "description": "Projects in the Cosmos and Tendermint Ecosystem",
   "version": "0.1.0",
-  "private": true,
+  "homepage": "https://cosmonauts.world",
+  "license": "MIT",
   "scripts": {
     "dev": "next dev",
     "build": "next build",
@@ -12,6 +14,7 @@
     "framer-motion": "^1.6.15",
     "next": "9.0.5",
     "react": "16.9.0",
+    "react-clipboard.js": "^2.0.16",
     "react-dom": "16.9.0"
   },
   "devDependencies": {
