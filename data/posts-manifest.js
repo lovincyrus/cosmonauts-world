@@ -1,3 +1,5 @@
+const categories = ['all', 'cosmos sdk', 'tendermint core', 'tendermint bft', 'ethermint'];
+
 const mapping = [
   {
     name: 'cyber~Congress',
@@ -32,5 +34,6 @@ const mapping = [
 ];
 
 module.exports = {
+  categories,
   mapping,
 };
