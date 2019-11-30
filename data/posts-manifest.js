@@ -1,4 +1,4 @@
-const categories = ['all', 'cosmos sdk', 'tendermint core', 'tendermint bft', 'ethermint'];
+const categories = ['all', 'cosmos sdk', 'tendermint core', 'tendermint bft'];
 
 const mapping = [
   {
@@ -30,6 +30,10 @@ const mapping = [
       website: 'https://minter.network',
     },
     tags: ['tendermint bft'],
+  },
+  {
+    name: 'Testing',
+    tags: ['tendermint core'],
   },
 ];
 

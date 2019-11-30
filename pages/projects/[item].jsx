@@ -47,7 +47,7 @@ const backVariants = {
   },
 };
 
-const Post = ({ post, keys }) => (
+const Post = ({ post, socialLinks }) => (
   <div className="pt-32 p-5 mx-auto">
     <motion.div initial="exit" animate="enter" exit="exit">
       <Head>
@@ -66,7 +66,7 @@ const Post = ({ post, keys }) => (
         {post.verified === 'true' ? (<p className="pt-5 text-center">Verified by cosmonauts! 👩‍🚀</p>) : ('')}
 
         <div className="icons-container">
-          {keys.map((item, index) => (
+          {socialLinks.map((item, index) => (
             <a href={post.links[item]} target="blank_" rel="noopener noreferrer" className="icon-item" key={index}>
               <img
                 width={35}
@@ -175,7 +175,7 @@ const Post = ({ post, keys }) => (
           padding: 20px 0;
         }
 
-        @media screen and (max-width: 500px) {
+        @media screen and (max-width: 480px) {
           .icons-container {
             gap: 1.5rem;
           }
@@ -185,16 +185,16 @@ const Post = ({ post, keys }) => (
   </div>
 );
 
-Post.getInitialProps = ({ query }) => {
+Post.getInitialProps = async ({ query }) => {
   // match param of post name
   const post = mapping.find((item) => cleanUrl(item.name) === query.item);
 
   // get k,v of social links
-  const keys = Object.keys(post.links);
+  const socialLinks = Object.keys(post.links);
 
   return {
     post,
-    keys,
+    socialLinks,
   };
 };
 

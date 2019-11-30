@@ -1,7 +1,5 @@
 import React from 'react';
 
-import '../styles/main.css';
-
 const Header = () => (
   <>
     <div className="bg-container">
@@ -51,7 +49,7 @@ const Header = () => (
           border-radius: 4px;
         }
 
-        @media screen and (max-width: 500px) {
+        @media screen and (max-width: 480px) {
           .bg-container {
             padding: 30px;
           }
