@@ -1317,7 +1317,7 @@ const mapping = [
   {
     name: 'BEPSwap',
     description: 'Swap and stake BNB and BEP2 assets. BEPSwap is Binance Chain’s first decentralized finance application allowing BEP2 token holders to swap their assets, or stake them to provide liquidity to the market. Powered by THORChain technology.',
-    image: '/static/logos/peerity.png',
+    image: '/static/logos/bepswap.png',
     network: '?',
     verified: 'false',
     links: {
@@ -1329,7 +1329,7 @@ const mapping = [
   {
     name: 'DeTicket',
     description: 'verified via @Berliner1234 on TG',
-    image: '/static/logos/peerity.png',
+    image: '/static/logos/placeholder.png',
     network: '?',
     verified: 'false',
     links: {
@@ -1340,7 +1340,7 @@ const mapping = [
   {
     name: 'EVERETT',
     description: '?',
-    image: '/static/logos/peerity.png',
+    image: '/static/logos/mesg.png',
     network: '?',
     verified: 'false',
     links: {
