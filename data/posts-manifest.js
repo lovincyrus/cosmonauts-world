@@ -827,20 +827,6 @@ const mapping = [
     tags: ['?'],
   },
   {
-    name: 'Kava',
-    description: 'Kava is creating blockchain interoperability by creating Interledger (ILP) “connectors” or bridges that transfer value between different blockchains as a service. Kava is also creating a specialized tendermint-based blockchain designed to enhance the ILP user experience by enabling faster payment channel creation and settlement.',
-    image: '/static/logos/kava-labs.png',
-    network: '?',
-    verified: 'false',
-    links: {
-      proof: 'https://github.com/Kava-Labs/kava',
-      github: 'https://github.com/Kava-Labs/',
-      chat: 'https://t.me/joinchat/FkPmgRKdMAyLdWMItxYt0w',
-      website: 'https://kava.io/',
-    },
-    tags: ['?'],
-  },
-  {
     name: 'UniCoins',
     description: 'UniCoins is a Dapp used as a red pocket in China based on Cosmos and IRISnet. It enables users to send cryptocurrency directly to others using a function of red pocket, create and share a lucky draw event, and make an intelligent bulk transfer',
     image: '/static/logos/unicoins.png',
