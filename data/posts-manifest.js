@@ -198,7 +198,7 @@ const mapping = [
   {
     name: 'MESG',
     description: 'An open event channel and CLI for building and running modular applications. Control the flow of data and level of security between your whole stack of connected systems.',
-    image: '/static/logos/mesg.jpg',
+    image: '/static/logos/mesg.png',
     network: '?',
     verified: 'false',
     links: {
@@ -1340,7 +1340,7 @@ const mapping = [
   {
     name: 'EVERETT',
     description: '?',
-    image: '/static/logos/mesg.png',
+    image: '/static/logos/everett.png',
     network: '?',
     verified: 'false',
     links: {
