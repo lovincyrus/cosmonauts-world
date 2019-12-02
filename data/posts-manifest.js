@@ -32,7 +32,7 @@ const mapping = [
     tags: ['tendermint bft'],
   },
   {
-    name: 'Gaia',
+    name: 'Cosmos Hub',
     description: 'The Cosmos Hub is the first of thousands of interconnected blockchains that will eventually comprise the Cosmos Network . The primary token of the Cosmos Hub is the ATOM , but the Hub will support many tokens in the future.',
     image: '/static/logos/gaia.png',
     network: 'mainnet',
