@@ -232,9 +232,9 @@ const UI = ({ state, state: { projectCategories }, setCategory }) => (
     <div>
       <ProjectItems state={state} />
     </div>
-    {/* <div className="btn-container">
+    <div className="btn-container">
       <BackToTop />
-    </div> */}
+    </div>
     <style jsx>
       {`
         .btn-container {
