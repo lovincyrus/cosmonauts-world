@@ -2,7 +2,7 @@ const categories = ['all', 'cosmos sdk', 'tendermint core', 'tendermint bft', '?
 
 const mapping = [
   {
-    name: 'cyber~Congress',
+    name: 'Cyber',
     description: 'A distributed relevance and answering machine. An inter-planetary search engine & a state of the art consensus computer, built with the help of go-IPFS and cosmos-SDK',
     image: '/static/logos/cybercongress.png',
     network: 'testnet',
