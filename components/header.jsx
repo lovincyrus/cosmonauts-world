@@ -1,7 +1,4 @@
 import React from 'react';
-import Head from 'next/head';
-
-import '../styles/main.css';
 
 const Header = () => (
   <>
@@ -52,7 +49,7 @@ const Header = () => (
           border-radius: 4px;
         }
 
-        @media screen and (max-width: 500px) {
+        @media screen and (max-width: 480px) {
           .bg-container {
             padding: 30px;
           }
