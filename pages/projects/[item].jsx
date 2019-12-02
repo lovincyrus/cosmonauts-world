@@ -48,7 +48,7 @@ const backVariants = {
 };
 
 const Post = ({ post, socialLinks }) => (
-  <div className="pt-32 p-5 mx-auto">
+  <div className="pt-20 p-5 mx-auto sm:pt-24 md:pt-32">
     <motion.div initial="exit" animate="enter" exit="exit">
       <Head>
         <title>
