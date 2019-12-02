@@ -31,36 +31,6 @@ const mapping = [
     },
     tags: ['tendermint bft'],
   },
-  {
-    name: 'Core',
-    description: 'Minter offers you the ability to issue, transfer, or exchange your own coin in seconds with instant liquidity. All our products are open-source—iOS, Android, Web, and Telegram wallets; an API and an SDK.',
-    image: '/static/logos/minter.png',
-    network: 'mainnet',
-    verified: 'false',
-    links: {
-      proof: 'https://github.com/MinterTeam/minter-go-node',
-      github: 'https://github.com/MinterTeam',
-      twitter: 'https://twitter.com/MinterTeam',
-      chat: 'https://t.me/MinterNetworkGroup',
-      website: 'https://minter.network',
-    },
-    tags: ['tendermint core'],
-  },
-  {
-    name: 'BFT',
-    description: 'Minter offers you the ability to issue, transfer, or exchange your own coin in seconds with instant liquidity. All our products are open-source—iOS, Android, Web, and Telegram wallets; an API and an SDK.',
-    image: '/static/logos/minter.png',
-    network: 'mainnet',
-    verified: 'false',
-    links: {
-      proof: 'https://github.com/MinterTeam/minter-go-node',
-      github: 'https://github.com/MinterTeam',
-      twitter: 'https://twitter.com/MinterTeam',
-      chat: 'https://t.me/MinterNetworkGroup',
-      website: 'https://minter.network',
-    },
-    tags: ['tendermint bft'],
-  },
 ];
 
 module.exports = {
