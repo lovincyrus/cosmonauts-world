@@ -13,7 +13,7 @@ jobs:
             https://cosmonauts-world.lovincyrus.now.sh
             https://www.cosmonauts.world
             https://cosmonauts-world.now.sh
-      - name: Save results - .lighthouseci artifacts
+      - name: Save results (.lighthouseci artifacts)
         uses: actions/upload-artifact@v1
         with:
           name: lighthouse-results
