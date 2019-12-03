@@ -9,9 +9,11 @@ jobs:
         uses: treosh/lighthouse-ci-action@v2
         with:
           urls: |
-            https://treo.sh/
-            https://treo.sh/demo
-      - name: Save results
+            https://cosmonauts.world
+            https://cosmonauts-world.lovincyrus.now.sh
+            https://www.cosmonauts.world
+            https://cosmonauts-world.now.sh
+      - name: Save results - .lighthouseci artifacts
         uses: actions/upload-artifact@v1
         with:
           name: lighthouse-results
