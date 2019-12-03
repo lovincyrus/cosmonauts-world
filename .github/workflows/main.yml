@@ -1,0 +1,20 @@
+name: Lighthouse
+on: push
+jobs:
+  lighthouse:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v1
+      - name: Audit URLs using Lighthouse
+        uses: treosh/lighthouse-ci-action@v2
+        with:
+          urls: |
+            https://cosmonauts.world
+            https://cosmonauts-world.lovincyrus.now.sh
+            https://www.cosmonauts.world
+            https://cosmonauts-world.now.sh
+      - name: Save results (.lighthouseci artifacts)
+        uses: actions/upload-artifact@v1
+        with:
+          name: lighthouse-results
+          path: '.lighthouseci' # This will save the Lighthouse results as .json files
