@@ -2,7 +2,7 @@ const categories = ['all', 'cosmos sdk', 'tendermint core', 'tendermint bft', '?
 
 const mapping = [
   {
-    name: 'cyber~Congress',
+    name: 'Cyber',
     description: 'A distributed relevance and answering machine. An inter-planetary search engine & a state of the art consensus computer, built with the help of go-IPFS and cosmos-SDK',
     image: '/static/logos/cybercongress.png',
     network: 'testnet',
@@ -271,7 +271,7 @@ const mapping = [
     name: 'IOV',
     description: 'The IOV Name Service provides a human readable address instead of blockchain addresses to receive any kind of crypto-currencies. Built on Tendermint, IOV builds a fast, secure and decentralized name service. Any kind of crypto-addresses can be registered on the IOV Name Service.',
     image: '/static/logos/iov.png',
-    network: '?',
+    network: 'mainnet',
     verified: 'false',
     links: {
       proof: 'https://docs.iov.one/docs/weave/welcome',
@@ -1010,7 +1010,7 @@ const mapping = [
       chat: 'https://t.me/BitSongOfficial',
       website: 'https://bitsong.io/',
     },
-    tags: ['?'],
+    tags: ['cosmos sdk'],
   },
   {
     name: 'Ockam',
@@ -1042,7 +1042,7 @@ const mapping = [
   {
     name: 'Proof-of-Stake Bitcoin Sidechains',
     description: 'We present a design for a Bitcoin sidechain based on the Tendermint consensus protocol, enabling the development of decentralized networks which coordinate to manage reserves of Bitcoin, allowing for custom application code and smart contracts which use Bitcoin as the native currency. We also avoid the long-range attack problem of proof-of-stake networks by periodically timestamping the sidechain on the Bitcoin blockchain, gaining the security of Bitcoin’s proof-of-work in addition to the instant finality of BFT consensus protocols.',
-    image: '/static/logos/placeholder.png',
+    image: '/static/logos/default.png',
     network: '?',
     verified: 'false',
     links: {
@@ -1237,7 +1237,7 @@ const mapping = [
   {
     name: 'HIBLOCKS',
     description: 'Tichex is a DPoS blockchain based on Tendermint and Cosmos SDK. The first pegged zone in EUR, that is the EUR/Crypto bridge of Cosmos and at the same time it is the technological evolution of an already existing European Financial Institution, namely Em@ney plc.',
-    image: '/static/logos/placeholder.png',
+    image: '/static/logos/default.png',
     network: '?',
     verified: 'false',
     links: {
@@ -1317,7 +1317,7 @@ const mapping = [
   {
     name: 'DeTicket',
     description: 'verified via @Berliner1234 on TG',
-    image: '/static/logos/placeholder.png',
+    image: '/static/logos/default.png',
     network: '?',
     verified: 'false',
     links: {
