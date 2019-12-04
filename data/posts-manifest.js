@@ -1010,7 +1010,7 @@ const mapping = [
       chat: 'https://t.me/BitSongOfficial',
       website: 'https://bitsong.io/',
     },
-    tags: ['?'],
+    tags: ['cosmos sdk'],
   },
   {
     name: 'Ockam',
