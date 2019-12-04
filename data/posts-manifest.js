@@ -271,7 +271,7 @@ const mapping = [
     name: 'IOV',
     description: 'The IOV Name Service provides a human readable address instead of blockchain addresses to receive any kind of crypto-currencies. Built on Tendermint, IOV builds a fast, secure and decentralized name service. Any kind of crypto-addresses can be registered on the IOV Name Service.',
     image: '/static/logos/iov.png',
-    network: '?',
+    network: 'mainnet',
     verified: 'false',
     links: {
       proof: 'https://docs.iov.one/docs/weave/welcome',
