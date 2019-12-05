@@ -1335,10 +1335,24 @@ const mapping = [
       proof: 'https://medium.com/everett-protocol/introducing-everett-1ae9b7e73164',
       github: 'https://github.com/mesg-foundation',
       twitter: 'https://twitter.com/mesgfoundation',
-      chat: '?',
       website: 'https://www.everett.zone/',
     },
     tags: ['?'],
+  },
+  {
+    name: 'Terra',
+    description: '?',
+    image: '/static/logos/terra.jpg',
+    network: 'mainnet',
+    verified: 'false',
+    links: {
+      proof: 'https://github.com/terra-project/core',
+      github: 'https://github.com/terra-project',
+      twitter: 'https://twitter.com/terra_money',
+      chat: 'https://discord.gg/bYfyhUT',
+      website: 'https://terra.money',
+    },
+    tags: ['cosmos sdk', 'tendermint core'],
   },
 ];
 
