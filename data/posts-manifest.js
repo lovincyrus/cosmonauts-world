@@ -1,4 +1,4 @@
-const categories = ['all', 'cosmos sdk', 'tendermint core', 'tendermint bft', '?'];
+const categories = ['all', 'cosmos sdk', 'tendermint core', 'tendermint bft', 'ethermint', '?'];
 
 const mapping = [
   {
@@ -1335,8 +1335,66 @@ const mapping = [
       proof: 'https://medium.com/everett-protocol/introducing-everett-1ae9b7e73164',
       github: 'https://github.com/mesg-foundation',
       twitter: 'https://twitter.com/mesgfoundation',
-      chat: '?',
       website: 'https://www.everett.zone/',
+    },
+    tags: ['?'],
+  },
+  {
+    name: 'Terra',
+    description: '?',
+    image: '/static/logos/terra.jpg',
+    network: 'mainnet',
+    verified: 'false',
+    links: {
+      proof: 'https://github.com/terra-project/core',
+      github: 'https://github.com/terra-project',
+      twitter: 'https://twitter.com/terra_money',
+      chat: 'https://discord.gg/bYfyhUT',
+      website: 'https://terra.money',
+    },
+    tags: ['cosmos sdk', 'tendermint core'],
+  },
+  {
+    name: 'DATA',
+    description: 'DATA is a blockchain based digital data authentication protocol powered by AI & P2P mobile storage infrastructure.',
+    image: '/static/logos/data.jpg',
+    network: 'mainnet',
+    verified: 'false',
+    links: {
+      proof: 'https://data.eco/#technology',
+      github: 'https://github.com/BlockchainDATA',
+      twitter: 'https://twitter.com/Blockchain_Data',
+      chat: 'http://t.me/blockchainDATA',
+      website: 'https://data.eco/',
+    },
+    tags: ['?'],
+  },
+  {
+    name: 'LeapDAO',
+    description: '?',
+    image: '/static/logos/leapdao.png',
+    network: 'testnet',
+    verified: 'false',
+    links: {
+      proof: 'https://leapdao.org/blog/Plasma-Testnet-Launched/',
+      github: 'https://github.com/leapdao',
+      twitter: 'https://twitter.com/leapdao',
+      website: 'https://leapdao.org',
+    },
+    tags: ['?'],
+  },
+  {
+    name: 'Idena',
+    description: 'Proof-of-Person blockchain. It allows for proof of humanity and uniqueness for its participants by running AI-hard Turing test globally at the same time.',
+    image: '/static/logos/idena.png',
+    network: '?',
+    verified: 'false',
+    links: {
+      proof: 'https://leapdao.org/blog/Plasma-Testnet-Launched/',
+      github: 'https://github.com/idena-network',
+      twitter: 'https://twitter.com/IdenaNetwork',
+      chat: 'https://t.me/IdenaAnnouncements',
+      website: 'https://idena.io/',
     },
     tags: ['?'],
   },
