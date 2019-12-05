@@ -1,4 +1,4 @@
-const categories = ['all', 'cosmos sdk', 'tendermint core', 'tendermint bft', '?'];
+const categories = ['all', 'cosmos sdk', 'tendermint core', 'tendermint bft', 'ethermint', '?'];
 
 const mapping = [
   {

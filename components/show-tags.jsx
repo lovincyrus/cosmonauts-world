@@ -14,7 +14,7 @@ const showTags = (projectCategories, setCategory, displayCategory) => projectCat
   >
     {category}
 
-    <style jsx>
+    <style jsx scoped>
       {`
         button:focus {
           outline: 0;

@@ -6,7 +6,7 @@ import BackToTop from './backtotop';
 
 const DisplayProjects = ({ state, state: { projectCategories, displayCategory }, setCategory }) => (
   <div>
-    <div className="sm:inline-block sm:block md:flex items-center justify-center mt-8 pb-8">
+    <div className="sm:inline-block sm:block md:flex items-center justify-center mt-8 pb-8 scrolling-wrapper">
       {showTags(projectCategories, setCategory, displayCategory)}
     </div>
 
@@ -20,6 +20,12 @@ const DisplayProjects = ({ state, state: { projectCategories, displayCategory },
 
     <style jsx>
       {`
+        .scrolling-wrapper {
+          overflow-x: scroll;
+          overflow-y: hidden;
+          white-space: nowrap;
+        }
+
         .btn-container {
           margin-top: 2rem;
           width: 100%;
