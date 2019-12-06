@@ -30,6 +30,7 @@ const showTags = (projectCategories, setCategory, displayCategory) => projectCat
         .selected {
           color: #0070f3;
           background: rgba(58,139,187,0.15);
+          transition: all .3s ease-in-out;
         }
       `}
     </style>
