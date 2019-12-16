@@ -11,13 +11,38 @@ button:focus {
   outline: 0;
 }
 
+/*
+ *
+ * LIGHT MODE
+ *
+*/
+
 body.light-mode {
   background-color: #fff;
   color: #333;
   transition: background-color 0.3s ease;
 }
 
+body.light-mode h3 {
+  @apply text-black;
+}
+
+/*
+ *
+ * DARK MODE
+ *
+*/
+
 body.dark-mode {
   background-color: #10171d;
   color: #dfdfdf;
+  transition: background-color 0.3s ease;
+}
+
+body.dark-mode .item {
+  background-color: #2f363d;
+}
+
+body.dark-mode h3 {
+  color: white;
 }

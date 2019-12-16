@@ -8,7 +8,7 @@ import { motion } from 'framer-motion';
 
 import { mapping } from '../../data/posts-manifest';
 
-import '../../styles/main.css';
+import '../../styles/main.scss';
 
 const Clipboard = dynamic(() => import('react-clipboard.js'), {
   ssr: false,
