@@ -5,6 +5,7 @@ import dynamic from 'next/dynamic';
 import Link from 'next/link';
 import Head from 'next/head';
 import { motion } from 'framer-motion';
+import DarkModeToggle from '../../components/dark-mode-toggle';
 
 import { mapping } from '../../data/posts-manifest';
 
@@ -49,6 +50,7 @@ const backVariants = {
 
 const Post = ({ post, socialLinks }) => (
   <div className="pt-20 p-5 mx-auto sm:pt-24 md:pt-32">
+    <DarkModeToggle />
     <motion.div initial="exit" animate="enter" exit="exit">
       <Head>
         <title>
