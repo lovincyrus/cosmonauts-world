@@ -8,7 +8,7 @@ const DarkModeToggle = () => {
 
   return (
     <>
-      <button onClick={darkMode.toggle}>
+      <button className="toggle-btn" onClick={darkMode.toggle}>
         {darkMode.value
           ? (
             <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" className="feather feather-sun">
@@ -25,6 +25,15 @@ const DarkModeToggle = () => {
           )
           : <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" className="feather feather-moon"><path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z" /></svg>}
       </button>
+      <style jsx scoped>
+        {`
+        .toggle-btn {
+          position: absolute;
+          right: 0;
+          padding: 15px;
+        }
+      `}
+      </style>
     </>
   );
 };

@@ -16,10 +16,6 @@ const showTags = (projectCategories, setCategory, displayCategory) => projectCat
 
     <style jsx scoped>
       {`
-        button:focus {
-          outline: 0;
-        }
-
         .tags {
           border-radius: 0.3rem;
           padding: 0.5rem;

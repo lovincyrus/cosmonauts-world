@@ -7,6 +7,10 @@
     Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
 }
 
+button:focus {
+  outline: 0;
+}
+
 body.light-mode {
   background-color: #fff;
   color: #333;
