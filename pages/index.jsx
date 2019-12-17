@@ -12,15 +12,13 @@ import '../styles/main.css';
 function Home() {
   return (
     <>
-      <DarkModeToggle />
-
       <Head>
         <title>Cosmonauts World</title>
       </Head>
 
       <div className="py-10 p-5 mx-auto max-w-6xl">
+        <DarkModeToggle />
         <Header />
-
         <List projects={mapping} projectCategories={categories} />
       </div>
     </>

@@ -27,6 +27,10 @@ body.light-mode h3 {
   @apply text-black;
 }
 
+body.light-mode .icon-color {
+  filter: invert(50%) opacity(90%);
+}
+
 /*
  *
  * DARK MODE
@@ -45,4 +49,8 @@ body.dark-mode .item {
 
 body.dark-mode h3 {
   color: white;
+}
+
+body.dark-mode .icon-color {
+  filter: invert(50%);
 }
