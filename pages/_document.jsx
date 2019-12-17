@@ -49,6 +49,8 @@ export default class CosmonautsWorld extends Document {
           />
         </Head>
         <body>
+          {/* https://github.com/donavon/use-dark-mode#that-flash */}
+          <script src="/static/noflash.js" />
           <Main />
           <NextScript />
         </body>

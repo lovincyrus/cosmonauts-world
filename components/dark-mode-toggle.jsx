@@ -5,6 +5,14 @@ import useDarkMode from 'use-dark-mode';
 
 const DarkModeToggle = () => {
   const darkMode = useDarkMode(false);
+  const [mounted, setMounted] = React.useState(false);
+
+  React.useEffect(() => {
+    setMounted(true);
+  }, []);
+
+  // prevents ssr flash for mismatched dark mode
+  if (!mounted) return null;
 
   return (
     <>
