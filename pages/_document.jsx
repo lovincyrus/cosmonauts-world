@@ -14,7 +14,7 @@ export default class CosmonautsWorld extends Document {
           <meta name="title" content="Cosmonauts World" />
           <meta
             name="description"
-            content="Welcome! We're helping each other to learn more about the projects in the Cosmos and Tendermint Ecosystem."
+            content="Welcome! We're helping each other to learn more about the projects in the Cosmos and Tendermint ecosystem."
           />
 
           <link rel="shortcut icon" href="/static/milky-way.png" />
@@ -22,14 +22,14 @@ export default class CosmonautsWorld extends Document {
           <meta property="og:site_name" content="Cosmonauts World" />
           <meta name="og:image" content="https://cosmonauts.world/static/nasa.jpg" />
           <meta property="og:title" content="Cosmonauts World" />
-          <meta property="og:description" content="Welcome! We're helping each other to learn more about the projects in the Cosmos and Tendermint Ecosystem." />
+          <meta property="og:description" content="Welcome! We're helping each other to learn more about the projects in the Cosmos and Tendermint ecosystem." />
           <meta property="og:url" content="https://cosmonauts.world/" />
 
           <meta name="twitter:card" content="summary" />
           <meta name="twitter:image" content="https://cosmonauts.world/static/nasa.jpg" />
           <meta name="twitter:site" content="@cosmonautsworld" />
           <meta name="twitter:title" content="Cosmonauts World" />
-          <meta name="twitter:description" content="Welcome! We're helping each other to learn more about the projects in the Cosmos and Tendermint Ecosystem." />
+          <meta name="twitter:description" content="Welcome! We're helping each other to learn more about the projects in the Cosmos and Tendermint ecosystem." />
 
           {/* Global Site Tag (gtag.js) - Google Analytics */}
           <script
