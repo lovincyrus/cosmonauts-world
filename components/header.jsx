@@ -1,14 +1,16 @@
 import React from 'react';
+import DarkModeToggle from './dark-mode-toggle';
 
 const Header = () => (
   <>
     <div className="bg-container">
+      <DarkModeToggle />
       <h1 className="subpixel-antialiased font-sans text-white text-left font-bold text-xl md:text-3xl lg:text-4xl">
         Cosmonauts World
       </h1>
       <p className="pt-2 subpixel-antialiased max-w-full text-gray-300 text-lg">
         Welcome! We&apos;re helping each other to learn more about the projects in
-        the Cosmos and Tendermint Ecosystem.
+        the Cosmos and Tendermint ecosystem.
       </p>
       <p className="pt-2 text-gray-400">
         Built by
@@ -30,11 +32,11 @@ const Header = () => (
         </a>
         <span> &#183; </span>
         <a
-          href="https://github.com/lovincyrus/cosmonauts-world#contribution"
+          href="https://twitter.com/CosmonautsWorld"
           target="blank_"
           rel="noopener noreferrer"
         >
-          Contribute
+          Twitter
         </a>
       </p>
     </div>
@@ -42,11 +44,11 @@ const Header = () => (
     <style jsx>
       {`
         .bg-container {
-          background-image: url(/static/nasa.jpg);
-          background-repeat: no-repeat;
-          background-position: top left;
+          background-color: #485461;
+          background-image: linear-gradient(315deg, #485461 0%, #2f363d 75%);
           padding: 40px;
           border-radius: 4px;
+          position: relative;
         }
 
         @media screen and (max-width: 480px) {

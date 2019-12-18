@@ -1,6 +1,6 @@
 {
   "name": "cosmonauts-world",
-  "description": "Projects in the Cosmos and Tendermint Ecosystem",
+  "description": "Projects in the Cosmos and Tendermint ecosystem",
   "version": "0.1.0",
   "homepage": "https://cosmonauts.world",
   "license": "MIT",
@@ -15,7 +15,8 @@
     "next": "9.0.5",
     "react": "16.9.0",
     "react-clipboard.js": "^2.0.16",
-    "react-dom": "16.9.0"
+    "react-dom": "16.9.0",
+    "use-dark-mode": "^2.3.1"
   },
   "devDependencies": {
     "autoprefixer": "^9.6.1",

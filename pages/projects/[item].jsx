@@ -5,6 +5,7 @@ import dynamic from 'next/dynamic';
 import Link from 'next/link';
 import Head from 'next/head';
 import { motion } from 'framer-motion';
+import DarkModeToggle from '../../components/dark-mode-toggle';
 
 import { mapping } from '../../data/posts-manifest';
 
@@ -49,6 +50,7 @@ const backVariants = {
 
 const Post = ({ post, socialLinks }) => (
   <div className="pt-20 p-5 mx-auto sm:pt-24 md:pt-32">
+    <DarkModeToggle />
     <motion.div initial="exit" animate="enter" exit="exit">
       <Head>
         <title>
@@ -59,7 +61,7 @@ const Post = ({ post, socialLinks }) => (
       </Head>
 
       <motion.div variants={textVariants}>
-        <p className="font-bold text-gray-800 text-center text-4xl sm:text-4xl md:text-5xl lg:text-6xl">
+        <p className="font-bold text-center text-4xl sm:text-4xl md:text-5xl lg:text-6xl">
           {post.name}
         </p>
 
@@ -74,12 +76,13 @@ const Post = ({ post, socialLinks }) => (
                 src={`/static/icons/${item}.svg`}
                 alt={item}
                 title={item}
+                className="icon-color"
               />
             </a>
           ))}
         </div>
 
-        <p className="text-center text-gray-800 description">{post.description}</p>
+        <p className="text-center description">{post.description}</p>
       </motion.div>
 
       <motion.div variants={textVariants}>
@@ -99,6 +102,7 @@ const Post = ({ post, socialLinks }) => (
                 alt="facebook"
                 title="Share the project on Facebook."
                 aria-label="Share the project on Facebook."
+                className="icon-color"
               />
             </a>
             <a
@@ -114,6 +118,7 @@ const Post = ({ post, socialLinks }) => (
                 alt="twitter"
                 title="Share the project on Twitter."
                 aria-label="Share the project on Twitter."
+                className="icon-color"
               />
             </a>
             <Clipboard
@@ -127,6 +132,7 @@ const Post = ({ post, socialLinks }) => (
                 alt="clipboard"
                 title="Copy the project’s URL to your clipboard."
                 aria-label="Copy the project’s URL to your clipboard."
+                className="icon-color"
               />
             </Clipboard>
           </div>
