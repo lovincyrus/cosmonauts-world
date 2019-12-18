@@ -32,11 +32,11 @@ const Header = () => (
         </a>
         <span> &#183; </span>
         <a
-          href="https://github.com/lovincyrus/cosmonauts-world#contribution"
+          href="https://twitter.com/CosmonautsWorld"
           target="blank_"
           rel="noopener noreferrer"
         >
-          Contribute
+          Twitter
         </a>
       </p>
     </div>
