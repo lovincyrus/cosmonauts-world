@@ -4,7 +4,7 @@ export default [
     name: '',
     description: '',
     image: '',
-    network: 'mainnet || testnet',
+    network: 'mainnet || testnet || development',
     verified: 'false',
     links: {
       proof: '',
@@ -14,6 +14,6 @@ export default [
       chat: '',
       website: '',
     },
-    tags: ['cosmos sdk', 'tendermint core', 'tendermint bft', 'ethermint'],
+    tags: ['cosmos sdk', 'tendermint core', 'tendermint bft', 'ethermint', 'lotion js', 'weave'],
   },
 ];
