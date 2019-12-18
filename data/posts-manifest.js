@@ -1398,6 +1398,21 @@ const mapping = [
     },
     tags: ['?'],
   },
+  {
+    name: 'Dawn',
+    description: 'Dawn is a global, self-governed and open-sourced Blockchain built for gamers. — “Cosmos Zone” Gaming Protocol',
+    image: '/static/logos/dawn.png',
+    network: '?',
+    verified: 'false',
+    links: {
+      proof: 'https://dawn.org/what-is-dawn.html',
+      github: 'https://github.com/Dawn-Protocol',
+      twitter: 'https://twitter.com/DawnProtocol',
+      chat: 'https://t.me/dawnprotocol',
+      website: 'https://dawn.org/',
+    },
+    tags: ['cosmos sdk', 'tendermint core'],
+  },
 ];
 
 module.exports = {

@@ -2,7 +2,7 @@
 
 [![Mergify Status](https://img.shields.io/endpoint.svg?url=https://gh.mergify.io/badges/lovincyrus/cosmonauts-world)](https://mergify.io)
 
-Projects in the Cosmos and Tendermint Ecosystem 🌌
+Projects in the Cosmos and Tendermint ecosystem 🌌
 
 Built with `Next.js` + `Tailwind CSS` + `Framer Motion API` + `Feather icons`
 
@@ -14,7 +14,7 @@ Live site: https://cosmonauts.world
 
 This project aims to answer questions as such,
 
-1. How many projects are in the Cosmos and Tendermint Ecosystem?
+1. How many projects are in the Cosmos and Tendermint ecosystem?
 2. Which projects are using which technology?
 
 This repository will be the singular source of truth for the Cosmos & Tendermint projects. Therefore, this repository should be considered as a living document which will be maintained by the community. This repository is not limited to the ecosystem listed on [Cosmos Network - Ecosystem](https://cosmos.network/ecosystem). So long as you're using Cosmos / Tendermint, you can add your project to the `JSON` [file](/data/posts-manifest.js). 🌌
