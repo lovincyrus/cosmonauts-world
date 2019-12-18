@@ -538,11 +538,10 @@ const mapping = [
     network: '?',
     verified: 'false',
     links: {
-      proof: 'https://blockchainatberkeley.blog/fourthstate-is-implementing-plasma-6fe99019edb2',
+      proof: 'https://medium.com/blockchain-at-berkeley/fourthstate-is-implementing-plasma-6fe99019edb2',
       github: 'https://github.com/fourthstate',
-      website: 'http://fourthstate.network/',
     },
-    tags: ['?'],
+    tags: ['cosmos sdk', 'tendermint core'],
   },
   {
     name: 'Moracle Network',
@@ -634,7 +633,7 @@ const mapping = [
     network: '?',
     verified: 'false',
     links: {
-      proof: 'http://www.cybermiles.io//wp-content/uploads/2018/03/Technical-Whitepaper_en-US.pdf',
+      proof: 'https://www.cybermiles.io/en-us/cmt/whitepaper/',
       github: 'https://github.com/cybermiles',
       chat: 'https://t.me/cybermilestoken',
       website: 'https://www.cybermiles.io/',
@@ -707,20 +706,6 @@ const mapping = [
       website: 'http://ixo.foundation/',
     },
     tags: ['cosmos sdk', 'tendermint bft'],
-  },
-  {
-    name: '50 Coin',
-    description: '?',
-    image: '/static/logos/50coin.png',
-    network: '?',
-    verified: 'false',
-    links: {
-      proof: 'https://goo.gl/uc9f3G',
-      github: 'https://github.com/50COIN',
-      chat: 'https://t.me/Official50',
-      website: 'https://50coin.io/',
-    },
-    tags: ['?'],
   },
   {
     name: 'CodeChain',
@@ -1021,7 +1006,7 @@ const mapping = [
     network: '?',
     verified: 'false',
     links: {
-      proof: 'https://twitter.com/zmanian/status/1072243894757150720',
+      proof: 'https://medium.com/ockam/ockam-is-tuned-for-iot-c2f04cae019a',
       github: 'https://github.com/ockam-network/ockam',
       website: 'https://www.ockam.io/',
     },
