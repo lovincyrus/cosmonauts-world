@@ -1,0 +1,531 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset
+      xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+      xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+      xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9
+            http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
+
+
+<url>
+  <loc>https://cosmonauts.world/</loc>
+  <lastmod>2019-12-18T18:06:16+00:00</lastmod>
+  <priority>1.00</priority>
+</url>
+<url>
+  <loc>https://cosmonauts.world/projects/cyber</loc>
+  <lastmod>2019-12-18T18:06:16+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://cosmonauts.world/projects/minter</loc>
+  <lastmod>2019-12-18T18:06:16+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://cosmonauts.world/projects/cosmos-hub</loc>
+  <lastmod>2019-12-18T18:06:16+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://cosmonauts.world/projects/binance-chain</loc>
+  <lastmod>2019-12-18T18:06:16+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://cosmonauts.world/projects/kira-interchain-exchange</loc>
+  <lastmod>2019-12-18T18:06:16+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://cosmonauts.world/projects/aragon</loc>
+  <lastmod>2019-12-18T18:06:16+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://cosmonauts.world/projects/e-money</loc>
+  <lastmod>2019-12-18T18:06:16+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://cosmonauts.world/projects/sentinel</loc>
+  <lastmod>2019-12-18T18:06:16+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://cosmonauts.world/projects/foam</loc>
+  <lastmod>2019-12-18T18:06:16+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://cosmonauts.world/projects/comdex</loc>
+  <lastmod>2019-12-18T18:06:16+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://cosmonauts.world/projects/althea</loc>
+  <lastmod>2019-12-18T18:06:16+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://cosmonauts.world/projects/datopia</loc>
+  <lastmod>2019-12-18T18:06:16+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://cosmonauts.world/projects/proximax</loc>
+  <lastmod>2019-12-18T18:06:16+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://cosmonauts.world/projects/hyperledger-burrow</loc>
+  <lastmod>2019-12-18T18:06:16+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://cosmonauts.world/projects/mesg</loc>
+  <lastmod>2019-12-18T18:06:16+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://cosmonauts.world/projects/decentrandom</loc>
+  <lastmod>2019-12-18T18:06:16+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://cosmonauts.world/projects/regen-network</loc>
+  <lastmod>2019-12-18T18:06:16+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://cosmonauts.world/projects/bigchaindb</loc>
+  <lastmod>2019-12-18T18:06:16+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://cosmonauts.world/projects/microtick</loc>
+  <lastmod>2019-12-18T18:06:16+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://cosmonauts.world/projects/iov</loc>
+  <lastmod>2019-12-18T18:06:16+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://cosmonauts.world/projects/iris-network</loc>
+  <lastmod>2019-12-18T18:06:16+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://cosmonauts.world/projects/akash-network</loc>
+  <lastmod>2019-12-18T18:06:16+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://cosmonauts.world/projects/loom-network</loc>
+  <lastmod>2019-12-18T18:06:16+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://cosmonauts.world/projects/likecoin</loc>
+  <lastmod>2019-12-18T18:06:16+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://cosmonauts.world/projects/kava</loc>
+  <lastmod>2019-12-18T18:06:16+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://cosmonauts.world/projects/lino-network</loc>
+  <lastmod>2019-12-18T18:06:16+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://cosmonauts.world/projects/konstellation</loc>
+  <lastmod>2019-12-18T18:06:16+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://cosmonauts.world/projects/mediblock</loc>
+  <lastmod>2019-12-18T18:06:16+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://cosmonauts.world/projects/peerity</loc>
+  <lastmod>2019-12-18T18:06:16+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://cosmonauts.world/projects/thetatoken</loc>
+  <lastmod>2019-12-18T18:06:16+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://cosmonauts.world/projects/forbole</loc>
+  <lastmod>2019-12-18T18:06:16+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://cosmonauts.world/projects/fxch</loc>
+  <lastmod>2019-12-18T18:06:16+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://cosmonauts.world/projects/peaq</loc>
+  <lastmod>2019-12-18T18:06:16+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://cosmonauts.world/projects/oneledger</loc>
+  <lastmod>2019-12-18T18:06:16+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://cosmonauts.world/projects/stratumn---indigocore</loc>
+  <lastmod>2019-12-18T18:06:16+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://cosmonauts.world/projects/enledger</loc>
+  <lastmod>2019-12-18T18:06:16+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://cosmonauts.world/projects/altcoin-exchange</loc>
+  <lastmod>2019-12-18T18:06:16+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://cosmonauts.world/projects/uphack</loc>
+  <lastmod>2019-12-18T18:06:16+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://cosmonauts.world/projects/fourthstate</loc>
+  <lastmod>2019-12-18T18:06:16+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://cosmonauts.world/projects/moracle-network</loc>
+  <lastmod>2019-12-18T18:06:16+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://cosmonauts.world/projects/parsec-labs</loc>
+  <lastmod>2019-12-18T18:06:16+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://cosmonauts.world/projects/ercoin</loc>
+  <lastmod>2019-12-18T18:06:16+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://cosmonauts.world/projects/smartpesa</loc>
+  <lastmod>2019-12-18T18:06:16+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://cosmonauts.world/projects/sharering</loc>
+  <lastmod>2019-12-18T18:06:16+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://cosmonauts.world/projects/omisego</loc>
+  <lastmod>2019-12-18T18:06:16+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://cosmonauts.world/projects/cybermiles</loc>
+  <lastmod>2019-12-18T18:06:16+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://cosmonauts.world/projects/fluence</loc>
+  <lastmod>2019-12-18T18:06:16+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://cosmonauts.world/projects/boid</loc>
+  <lastmod>2019-12-18T18:06:16+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://cosmonauts.world/projects/vega-protocol</loc>
+  <lastmod>2019-12-18T18:06:16+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://cosmonauts.world/projects/expload</loc>
+  <lastmod>2019-12-18T18:06:16+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://cosmonauts.world/projects/ixo</loc>
+  <lastmod>2019-12-18T18:06:16+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://cosmonauts.world/projects/codechain</loc>
+  <lastmod>2019-12-18T18:06:16+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://cosmonauts.world/projects/tatau</loc>
+  <lastmod>2019-12-18T18:06:16+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://cosmonauts.world/projects/national-digital-id</loc>
+  <lastmod>2019-12-18T18:06:16+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://cosmonauts.world/projects/papyrus</loc>
+  <lastmod>2019-12-18T18:06:16+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://cosmonauts.world/projects/pallium</loc>
+  <lastmod>2019-12-18T18:06:16+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://cosmonauts.world/projects/oracle-international-corporation</loc>
+  <lastmod>2019-12-18T18:06:16+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://cosmonauts.world/projects/hashgard</loc>
+  <lastmod>2019-12-18T18:06:16+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://cosmonauts.world/projects/cosmic-bridge</loc>
+  <lastmod>2019-12-18T18:06:16+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://cosmonauts.world/projects/unicoins</loc>
+  <lastmod>2019-12-18T18:06:16+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://cosmonauts.world/projects/kuende</loc>
+  <lastmod>2019-12-18T18:06:16+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://cosmonauts.world/projects/wisdom-of-crowd</loc>
+  <lastmod>2019-12-18T18:06:16+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://cosmonauts.world/projects/trustory</loc>
+  <lastmod>2019-12-18T18:06:16+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://cosmonauts.world/projects/agreements-network</loc>
+  <lastmod>2019-12-18T18:06:16+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://cosmonauts.world/projects/datapace</loc>
+  <lastmod>2019-12-18T18:06:16+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://cosmonauts.world/projects/playlist</loc>
+  <lastmod>2019-12-18T18:06:16+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://cosmonauts.world/projects/clearing</loc>
+  <lastmod>2019-12-18T18:06:16+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://cosmonauts.world/projects/memecom</loc>
+  <lastmod>2019-12-18T18:06:16+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://cosmonauts.world/projects/paradigm</loc>
+  <lastmod>2019-12-18T18:06:16+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://cosmonauts.world/projects/decentral-card-network</loc>
+  <lastmod>2019-12-18T18:06:16+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://cosmonauts.world/projects/thorchain</loc>
+  <lastmod>2019-12-18T18:06:16+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://cosmonauts.world/projects/xmn-blockchain-services</loc>
+  <lastmod>2019-12-18T18:06:16+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://cosmonauts.world/projects/bitsong</loc>
+  <lastmod>2019-12-18T18:06:16+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://cosmonauts.world/projects/ockam</loc>
+  <lastmod>2019-12-18T18:06:16+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://cosmonauts.world/projects/mold</loc>
+  <lastmod>2019-12-18T18:06:16+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://cosmonauts.world/projects/proof-of-stake-bitcoin-sidechains</loc>
+  <lastmod>2019-12-18T18:06:16+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://cosmonauts.world/projects/bytom</loc>
+  <lastmod>2019-12-18T18:06:16+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://cosmonauts.world/projects/qos-chain</loc>
+  <lastmod>2019-12-18T18:06:16+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://cosmonauts.world/projects/comercio.network</loc>
+  <lastmod>2019-12-18T18:06:16+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://cosmonauts.world/projects/crypto.com</loc>
+  <lastmod>2019-12-18T18:06:16+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://cosmonauts.world/projects/chainpoint</loc>
+  <lastmod>2019-12-18T18:06:16+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://cosmonauts.world/projects/strong-force</loc>
+  <lastmod>2019-12-18T18:06:16+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://cosmonauts.world/projects/wetonomy</loc>
+  <lastmod>2019-12-18T18:06:16+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://cosmonauts.world/projects/agoric</loc>
+  <lastmod>2019-12-18T18:06:16+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://cosmonauts.world/projects/cita-by-cryptape</loc>
+  <lastmod>2019-12-18T18:06:16+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://cosmonauts.world/projects/light-streams</loc>
+  <lastmod>2019-12-18T18:06:16+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://cosmonauts.world/projects/spend</loc>
+  <lastmod>2019-12-18T18:06:16+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://cosmonauts.world/projects/dgaming</loc>
+  <lastmod>2019-12-18T18:06:16+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://cosmonauts.world/projects/color-platform</loc>
+  <lastmod>2019-12-18T18:06:16+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://cosmonauts.world/projects/amo</loc>
+  <lastmod>2019-12-18T18:06:16+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://cosmonauts.world/projects/hiblocks</loc>
+  <lastmod>2019-12-18T18:06:16+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://cosmonauts.world/projects/tichex</loc>
+  <lastmod>2019-12-18T18:06:16+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://cosmonauts.world/projects/kadena</loc>
+  <lastmod>2019-12-18T18:06:16+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://cosmonauts.world/projects/lcnem</loc>
+  <lastmod>2019-12-18T18:06:16+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://cosmonauts.world/projects/nym</loc>
+  <lastmod>2019-12-18T18:06:16+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://cosmonauts.world/projects/bepswap</loc>
+  <lastmod>2019-12-18T18:06:16+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://cosmonauts.world/projects/deticket</loc>
+  <lastmod>2019-12-18T18:06:16+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://cosmonauts.world/projects/everett</loc>
+  <lastmod>2019-12-18T18:06:16+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://cosmonauts.world/projects/terra</loc>
+  <lastmod>2019-12-18T18:06:16+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://cosmonauts.world/projects/data</loc>
+  <lastmod>2019-12-18T18:06:16+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://cosmonauts.world/projects/leapdao</loc>
+  <lastmod>2019-12-18T18:06:16+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://cosmonauts.world/projects/idena</loc>
+  <lastmod>2019-12-18T18:06:16+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://cosmonauts.world/projects/dawn</loc>
+  <lastmod>2019-12-18T18:06:16+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+
+
+</urlset>
