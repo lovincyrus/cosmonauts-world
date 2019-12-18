@@ -44,8 +44,6 @@ const DarkModeToggle = () => {
           top: 0;
           right: 0;
           padding: 15px;
-          color: #fff;
-          opacity: 0.85;
         }
       `}
       </style>
