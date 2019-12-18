@@ -18,16 +18,16 @@ button:focus {
 */
 
 body.light-mode {
-  background-color: #fff;
+  background-color: #ffffff;
   color: #333;
   transition: background-color 0.3s ease;
 }
 
 body.light-mode h3 {
-  @apply text-black;
+  color: #2f363d;
 }
 
-body.light-mode .icon-color {
+body.light-mode .icon-color, .toggle-btn {
   filter: invert(50%) opacity(90%);
 }
 
@@ -48,9 +48,9 @@ body.dark-mode .item {
 }
 
 body.dark-mode h3 {
-  color: white;
+  color: #ffffff;
 }
 
-body.dark-mode .icon-color {
-  filter: invert(50%);
+body.dark-mode .icon-color, .toggle-btn {
+  filter: invert(50%) opacity(90%);
 }
