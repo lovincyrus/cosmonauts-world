@@ -44,9 +44,8 @@ const Header = () => (
     <style jsx>
       {`
         .bg-container {
-          background-image: url(/static/nasa.jpg);
-          background-repeat: no-repeat;
-          background-position: top left;
+          background-color: #485461;
+          background-image: linear-gradient(315deg, #485461 0%, #2f363d 75%);
           padding: 40px;
           border-radius: 4px;
           position: relative;
