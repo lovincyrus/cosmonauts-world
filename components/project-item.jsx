@@ -1,3 +1,4 @@
+/* eslint-disable react/no-array-index-key */
 /* eslint-disable react/prop-types */
 import React from 'react';
 import Link from 'next/link';
@@ -96,12 +97,6 @@ const ProjectItem = ({
     </div>
     <style jsx>
       {`
-        .grid {
-          display: grid;
-          grid-template-columns: repeat(3, 1fr);
-          gap: 1.5rem;
-        }
-
         .item {
           justify-content: center;
           align-items: center;
@@ -112,6 +107,7 @@ const ProjectItem = ({
           background: rgb(255, 255, 255);
           border-radius: 4px;
           position: relative;
+          height: 13.5rem;
         }
 
         .network-status {
@@ -160,6 +156,18 @@ const ProjectItem = ({
           background: rgb(236, 237, 238);
           padding: 12px;
           border-radius: 4px;
+        }
+
+        @media screen and (max-width: 600px) {
+          .item {
+            height: 15.5rem;
+          }
+        }
+
+        @media screen and (max-width: 500px) {
+          .item {
+            height: 13.5rem;
+          }
         }
         `}
     </style>
