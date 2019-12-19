@@ -85,9 +85,9 @@ const ProjectItem = ({
                   </h3>
                 )}
                 {tags.map((tag, index) => (
-                  <p className="tags" key={index}>
+                  <span className="tags" key={index}>
                     {tag}
-                  </p>
+                  </span>
                 ))}
               </div>
             </motion.div>
@@ -136,7 +136,8 @@ const ProjectItem = ({
           letter-spacing: 1px;
           padding: 6px 12px 6px 14px;
           border-radius: 100px;
-          display: inline-block;
+          display: inline-flex;
+          margin-top: 5px;
           margin-right: 5px;
           overflow: auto;
         }
