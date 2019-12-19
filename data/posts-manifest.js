@@ -1,4 +1,4 @@
-const categories = ['all', 'cosmos sdk', 'tendermint core', 'tendermint bft', 'ethermint', '?'];
+const categories = ['all', 'cosmos sdk', 'tendermint core', 'tendermint bft', 'ethermint', 'weave', '?'];
 
 const mapping = [
   {
@@ -40,7 +40,7 @@ const mapping = [
     links: {
       github: 'https://github.com/cosmos/gaia',
     },
-    tags: ['cosmos sdk'],
+    tags: ['cosmos sdk', 'tendermint core'],
   },
   {
     name: 'Binance Chain',
@@ -54,13 +54,13 @@ const mapping = [
       chat: 'https://t.me/binanceexchange',
       website: 'https://binance-chain.github.io/',
     },
-    tags: ['cosmos sdk'],
+    tags: ['cosmos sdk', 'tendermint core'],
   },
   {
     name: 'Kira Interchain Exchange',
     description: 'Kira is a next generation hyperscale decentralized exchange (DEX) engineered for cross-chain transfers and frictionless trading. On the one hand, Kira aims to deliver all the liquidity, performance and trading sophistication of a centralised exchange but without the custody, downtime and fraud risk that plague our industry. On the other hand, Kira offers stronger security guarantees than state-of-the-art DEXs, but with a powerful governance model that builds trust and engagement whilst actively resisting corruption.',
     image: '/static/logos/kiraex.png',
-    network: '?',
+    network: 'development',
     verified: 'false',
     links: {
       proof: 'https://medium.com/kira-core/introducing-kira-the-future-of-interchain-exchange-c5d8f4223607',
@@ -69,21 +69,22 @@ const mapping = [
       chat: 'https://t.me/kirainterex',
       website: 'https://kiraex.com/',
     },
-    tags: ['cosmos sdk'],
+    tags: ['cosmos sdk', 'tendermint core'],
   },
   {
     name: 'Aragon',
     description: 'Aragon empowers you to freely organize and collaborate without borders or intermediaries. Create global, bureaucracy-free organizations, companies, and communities.',
     image: '/static/logos/aragon-chain.png',
-    network: '?',
+    network: 'development',
     verified: 'false',
     links: {
       proof: 'https://blog.aragon.one/aragon-chain',
       github: 'https://github.com/aragon',
+      twitter: 'https://twitter.com/aragonproject',
       chat: 'https://aragon.chat',
       website: 'https://aragon.org/',
     },
-    tags: ['cosmos sdk', 'ethermint'],
+    tags: ['ethermint', 'cosmos sdk', 'tendermint core'],
   },
   {
     name: 'e-Money',
@@ -94,10 +95,11 @@ const mapping = [
     links: {
       proof: 'https://e-money.com/documents/e-Money%20Whitepaper.pdf',
       github: 'https://github.com/e-money',
+      twitter: 'https://twitter.com/kiraex',
       chat: 'https://t.me/emoney_com',
       website: 'https://e-money.com/',
     },
-    tags: ['cosmos sdk', 'tendermint bft'],
+    tags: ['cosmos sdk', 'tendermint core'],
   },
   {
     name: 'Sentinel',
@@ -135,7 +137,7 @@ const mapping = [
     network: '?',
     verified: 'false',
     links: {
-      proof: 'https://www.youtube.com/watch?v=Tz4jfzPuqL0',
+      proof: 'https://comdex.sg/',
       website: 'https://comdex.sg/',
     },
     tags: ['cosmos sdk'],
@@ -144,11 +146,12 @@ const mapping = [
     name: 'Althea',
     description: 'Althea is a system that lets routers pay each other for bandwidth. This allows people to set up decentralized ISPs in their communities. In an Althea network, instead of one ISP at the top collecting monthly payments, many different people can earn money by expanding and strengthening the network.',
     image: '/static/logos/althea.png',
-    network: '?',
+    network: 'testnet',
     verified: 'false',
     links: {
       proof: 'https://blog.althea.net/launching-the-althea-blockchain/',
       github: 'https://github.com/althea-net',
+      twitter: 'https://twitter.com/AltheaNetwork',
       chat: 'https://riot.im/app/#/room/#althea:matrix.org',
       website: 'https://althea.net/',
     },
@@ -184,7 +187,7 @@ const mapping = [
     tags: ['tendermint bft'],
   },
   {
-    name: 'HyperLedger Burrow',
+    name: 'HyperLedger Burrow (Monax)',
     description: 'Hyperledger Burrow is one of the Hyperledger projects hosted by The Linux Foundation. Hyperledger Burrow provides a modular blockchain client with a permissioned smart contract interpreter partially developed to the specification of the EVM.',
     image: '/static/logos/hyperledger-burrow.png',
     network: '?',
@@ -195,7 +198,7 @@ const mapping = [
       chat: 'https://chat.hyperledger.org/',
       website: 'https://hyperledger.org/projects/hyperledger-burrow',
     },
-    tags: ['tendermint bft'],
+    tags: ['tendermint core'],
   },
   {
     name: 'MESG',
@@ -229,11 +232,12 @@ const mapping = [
     name: 'Regen Network',
     description: 'Regen Network is built to support a wide variety of ecological improvement agreements. These include agreements about improving practices, agreements about ecological changes and a combination of both. Changing practices isn’t 100% sure to be effective, but can be tracked in the short term. To track actual ecological impact, we look at long term indicators. Regen Network allows users to track change that is meaningful to them, not restricting metrics, and allowing us to gain a more holistic understanding of ecosystem health.',
     image: '/static/logos/regen-network.jpg',
-    network: '?',
+    network: 'testnet',
     verified: 'false',
     links: {
       proof: 'https://medium.com/regen-network/how-to-choose-a-blockchain-55a343fd7ec4',
       gitlab: 'https://gitlab.com/regen-network',
+      twitter: 'https://twitter.com/regen_network',
       chat: 'https://t.me/regennetwork_public',
       website: 'https://www.regen.network/',
     },
@@ -252,7 +256,7 @@ const mapping = [
       chat: 'https://gitter.im/bigchaindb/bigchaindb',
       website: 'https://www.bigchaindb.com/',
     },
-    tags: ['tendermint bft'],
+    tags: ['tendermint core'],
   },
   {
     name: 'Microtick',
@@ -265,7 +269,7 @@ const mapping = [
       gitlab: 'https://gitlab.com/microtick',
       website: 'https://gitlab.com/microtick/mtkit',
     },
-    tags: ['cosmos sdk', 'tendermint bft'],
+    tags: ['cosmos sdk', 'tendermint core'],
   },
   {
     name: 'IOV',
@@ -279,7 +283,7 @@ const mapping = [
       chat: 'https://t.me/internetofvalues',
       website: 'https://www.iov.one/',
     },
-    tags: ['cosmos sdk', 'tendermint bft'],
+    tags: ['weave', 'tendermint core'],
   },
   {
     name: 'IRIS Network',
@@ -293,7 +297,7 @@ const mapping = [
       chat: 'https://t.me/irisnetwork',
       website: 'https://www.irisnet.org/',
     },
-    tags: ['cosmos sdk'],
+    tags: ['cosmos sdk', 'tendermint core'],
   },
   {
     name: 'Akash Network',
@@ -307,13 +311,13 @@ const mapping = [
       chat: 'https://akash.network/chat',
       website: 'https://akash.network/',
     },
-    tags: ['tendermint core'],
+    tags: ['cosmos sdk', 'tendermint core'],
   },
   {
     name: 'Loom Network',
     description: 'Loom is a Layer 2 scaling solution for Ethereum that includes a network of DPoS sidechains for highly-scalable games and user-facing DApps.',
     image: '/static/logos/loom-network.png',
-    network: '?',
+    network: 'mainnet',
     verified: 'false',
     links: {
       proof: 'https://github.com/loomnetwork/loomchain',
@@ -321,7 +325,7 @@ const mapping = [
       chat: 'https://t.me/loomnetwork',
       website: 'https://loomx.io/',
     },
-    tags: ['cosmos sdk'],
+    tags: ['tendermint core'],
   },
   {
     name: 'LikeCoin',
@@ -335,7 +339,7 @@ const mapping = [
       chat: 'https://t.me/likecoin',
       website: 'https://like.co/',
     },
-    tags: ['cosmos sdk'],
+    tags: ['cosmos sdk', 'tendermint core'],
   },
   {
     name: 'Kava',
@@ -349,7 +353,7 @@ const mapping = [
       chat: 'https://t.me/joinchat/FkPmgRKdMAyLdWMItxYt0w',
       website: 'https://kava.io/',
     },
-    tags: ['cosmos sdk'],
+    tags: ['cosmos sdk', 'tendermint core'],
   },
   {
     name: 'Lino Network',
@@ -363,7 +367,7 @@ const mapping = [
       chat: 'https://t.me/joinchat/HE1lF0cPRPDt61Gnh8KH3A',
       website: 'https://lino.network/',
     },
-    tags: ['cosmos sdk'],
+    tags: ['cosmos sdk', 'tendermint core'],
   },
   {
     name: 'KONSTELLATION',
@@ -424,7 +428,7 @@ const mapping = [
     name: 'Forbole',
     description: '?',
     image: '/static/logos/forbole.png',
-    network: '?',
+    network: 'development',
     verified: 'false',
     links: {
       proof: 'https://medium.com/forbole/why-we-choose-cosmos-over-ethereum-3b39a17a6b58',
@@ -432,7 +436,7 @@ const mapping = [
       chat: 'https://t.me/forbole',
       website: 'https://www.forbole.com/',
     },
-    tags: ['?'],
+    tags: ['cosmos sdk', 'tendermint core'],
   },
   {
     name: 'FXCH',
@@ -446,7 +450,7 @@ const mapping = [
       chat: 'https://slack.fxclr.com:3000/',
       website: 'https://fxclr.com',
     },
-    tags: ['?'],
+    tags: ['tendermint core'],
   },
   {
     name: 'peaq',
@@ -535,7 +539,7 @@ const mapping = [
     name: 'FourthState',
     description: '?',
     image: '/static/logos/fourthstate.png',
-    network: '?',
+    network: 'development',
     verified: 'false',
     links: {
       proof: 'https://medium.com/blockchain-at-berkeley/fourthstate-is-implementing-plasma-6fe99019edb2',
@@ -613,24 +617,10 @@ const mapping = [
     tags: ['?'],
   },
   {
-    name: 'OmiseGo',
-    description: '?',
-    image: '/static/logos/omise.png',
-    network: '?',
-    verified: 'false',
-    links: {
-      proof: 'https://blog.omisego.network/approach-to-delivering-scalability-56d034619ef0',
-      github: 'https://github.com/omise',
-      chat: 'https://chat.omisego.network/',
-      website: 'https://omisego.network/',
-    },
-    tags: ['?'],
-  },
-  {
     name: 'CyberMiles',
     description: '?',
     image: '/static/logos/cybermiles.png',
-    network: '?',
+    network: 'mainnet',
     verified: 'false',
     links: {
       proof: 'https://www.cybermiles.io/en-us/cmt/whitepaper/',
@@ -638,7 +628,7 @@ const mapping = [
       chat: 'https://t.me/cybermilestoken',
       website: 'https://www.cybermiles.io/',
     },
-    tags: ['?'],
+    tags: ['tendermint core'],
   },
   {
     name: 'Fluence',
@@ -652,7 +642,7 @@ const mapping = [
       chat: 'https://t.me/joinchat/AAEssEJVYu-7YvRc0XNZaQ',
       website: 'https://fluence.one/',
     },
-    tags: ['?'],
+    tags: ['tendermint core'],
   },
   {
     name: 'BOID',
@@ -705,7 +695,7 @@ const mapping = [
       chat: 'https://t.me/ixonetwork',
       website: 'http://ixo.foundation/',
     },
-    tags: ['cosmos sdk', 'tendermint bft'],
+    tags: ['cosmos sdk', 'tendermint core'],
   },
   {
     name: 'CodeChain',
@@ -718,7 +708,7 @@ const mapping = [
       github: 'https://github.com/CodeChain-io',
       website: 'https://codechain.io/',
     },
-    tags: ['?'],
+    tags: ['tendermint bft'],
   },
   {
     name: 'Tatau',
@@ -859,14 +849,14 @@ const mapping = [
     name: 'TruStory',
     description: '?',
     image: '/static/logos/trustory.png',
-    network: '?',
+    network: 'development',
     verified: 'false',
     links: {
       proof: 'https://blog.cosmos.network/building-a-decentralized-app-with-cosmos-sdk-3c535cdc6a6a',
       github: 'https://github.com/TruStory/',
       website: 'https://www.trustory.io/',
     },
-    tags: ['cosmos sdk'],
+    tags: ['cosmos sdk', 'tendermint core'],
   },
   {
     name: 'Agreements Network',
@@ -904,7 +894,7 @@ const mapping = [
       proof: 'https://medium.com/tendermint/tokenizing-the-music-industry-with-play-protocol-ea929de52210',
       website: 'https://www.playlist.com/',
     },
-    tags: ['?'],
+    tags: ['cosmos sdk', 'tendermint core'],
   },
   {
     name: 'Clearing',
@@ -970,7 +960,7 @@ const mapping = [
       chat: 'https://t.me/thorchain_org',
       website: 'https://thorchain.org/',
     },
-    tags: ['?'],
+    tags: ['cosmos sdk', 'tendermint core'],
   },
   {
     name: 'XMN Blockchain Services',
@@ -1068,16 +1058,17 @@ const mapping = [
   },
   {
     name: 'comercio.network',
-    description: 'verified via (@RiccardoMontagnin on Telegram)',
+    description: 'An open source project to provide companies the ability to exchange documents and guarantee paternity, integrity, and non-repudiation.',
     image: '/static/logos/commercio-network.png',
     network: '?',
     verified: 'false',
     links: {
+      proof: 'https://github.com/commercionetwork/commercionetwork',
       github: 'https://github.com/commercionetwork',
       chat: '?',
       website: 'https://commercio.network/',
     },
-    tags: ['?'],
+    tags: ['cosmos sdk', 'tendermint core'],
   },
   {
     name: 'crypto.com',
@@ -1168,7 +1159,7 @@ const mapping = [
       chat: 'https://t.me/lightstreams',
       website: 'https://www.lightstreams.network/',
     },
-    tags: ['?'],
+    tags: ['tendermint core'],
   },
   {
     name: 'Spend',
@@ -1324,7 +1315,7 @@ const mapping = [
       twitter: 'https://twitter.com/mesgfoundation',
       website: 'https://www.everett.zone/',
     },
-    tags: ['?'],
+    tags: ['cosmos sdk', 'tendermint core'],
   },
   {
     name: 'Terra',

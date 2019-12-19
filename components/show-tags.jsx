@@ -1,4 +1,3 @@
-/* eslint-disable react/button-has-type */
 import React from 'react';
 
 const cleanUrl = (item) => item
@@ -8,9 +7,10 @@ const cleanUrl = (item) => item
 
 const showTags = (projectCategories, setCategory, displayCategory) => projectCategories.map((category) => (
   <button
-    key={category}
+    type="button"
     className={`block mr-2 tags ${cleanUrl(category)} ${category === displayCategory ? 'selected' : ''}`}
     onClick={() => setCategory(category)}
+    key={category}
   >
     {category}
 
