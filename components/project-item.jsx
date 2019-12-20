@@ -85,7 +85,7 @@ const ProjectItem = ({
                   </h3>
                 )}
                 {tags.map((tag, index) => (
-                  <span className="tags" key={index}>
+                  <span className="display-tags" key={index}>
                     {tag}
                   </span>
                 ))}
@@ -127,7 +127,7 @@ const ProjectItem = ({
           cursor: help;
         }
 
-        .tags {
+        .display-tags {
           background: rgb(13, 22, 35, 0.70);
           color: white;
           font-size: 11px;
@@ -135,11 +135,10 @@ const ProjectItem = ({
           text-transform: uppercase;
           letter-spacing: 1px;
           padding: 6px 12px 6px 14px;
-          border-radius: 100px;
+          border-radius: 6px;
           display: inline-flex;
           margin-top: 5px;
           margin-right: 5px;
-          overflow: auto;
         }
 
         .btn-container {

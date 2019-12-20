@@ -31,6 +31,11 @@ body.light-mode .icon-color, .toggle-btn {
   filter: invert(50%) opacity(90%);
 }
 
+body.light-mode .display-tags {
+  background: rgb(13, 22, 35, 0.70);
+  color: rgb(255, 255, 255);
+}
+
 /*
  *
  * DARK MODE
@@ -53,4 +58,9 @@ body.dark-mode h3 {
 
 body.dark-mode .icon-color, .toggle-btn {
   filter: invert(50%) opacity(90%);
+}
+
+body.dark-mode .display-tags {
+  background: rgba(255, 255, 255, 0.1);
+  color: rgb(255, 255, 255);
 }
