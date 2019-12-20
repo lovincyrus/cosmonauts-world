@@ -5,6 +5,7 @@ import dynamic from 'next/dynamic';
 import Link from 'next/link';
 import Head from 'next/head';
 import { motion } from 'framer-motion';
+import Tooltip from '@material-ui/core/Tooltip';
 import DarkModeToggle from '../../components/dark-mode-toggle';
 
 import { mapping } from '../../data/posts-manifest';
@@ -89,22 +90,23 @@ const Post = ({ post, socialLinks }) => (
         <div className="py-6 sm:py-12">
           <h4 className="text-gray-500 font-bold text-center text-xl sm:text-2xl md:text-3xl sm:tracking-tight">Share this project</h4>
           <div className="mt-6 flex items-center justify-center">
-            <a
-              href={`https://www.facebook.com/sharer/sharer.php?u=https://cosmonauts.world/projects/${cleanUrl(post.name)}`}
-              target="blank_"
-              rel="noopener noreferrer"
-              className="block mr-4"
-            >
-              <img
-                width={25}
-                height={25}
-                src="/static/icons/facebook.svg"
-                alt="facebook"
-                title="Share the project on Facebook."
-                aria-label="Share the project on Facebook."
-                className="icon-color"
-              />
-            </a>
+            <Tooltip title="Share this project! 🎉" aria-label="Share this project! 🎉" arrow>
+              <a
+                href={`https://www.facebook.com/sharer/sharer.php?u=https://cosmonauts.world/projects/${cleanUrl(post.name)}`}
+                target="blank_"
+                rel="noopener noreferrer"
+                className="block mr-4"
+              >
+                <img
+                  width={25}
+                  height={25}
+                  src="/static/icons/facebook.svg"
+                  alt="facebook"
+                  className="icon-color"
+                />
+              </a>
+            </Tooltip>
+            <Tooltip title="Tweet this project! 🎉" aria-label="Tweet this project! 🎉" arrow>
             <a
               href={`https://twitter.com/share?url=https://cosmonauts.world/projects/${cleanUrl(post.name)}&text=Check%20out%20${post.name}%20on%20Cosmonauts%20World! 🚀`}
               target="blank_"
@@ -116,24 +118,23 @@ const Post = ({ post, socialLinks }) => (
                 height={25}
                 src="/static/icons/twitter.svg"
                 alt="twitter"
-                title="Share the project on Twitter."
-                aria-label="Share the project on Twitter."
                 className="icon-color"
               />
             </a>
+            </Tooltip>
             <Clipboard
               data-clipboard-text={`https://cosmonauts.world/projects/${cleanUrl(post.name)}`}
               className="block mr-4"
             >
-              <img
-                width={25}
-                height={25}
-                src="/static/icons/clipboard.svg"
-                alt="clipboard"
-                title="Copy the project’s URL to your clipboard."
-                aria-label="Copy the project’s URL to your clipboard."
-                className="icon-color"
-              />
+              <Tooltip title="Copy this project's URL! 🎉" aria-label="Copy this project's URL! 🎉" arrow>
+                <img
+                  width={25}
+                  height={25}
+                  src="/static/icons/clipboard.svg"
+                  alt="clipboard"
+                  className="icon-color"
+                />
+              </Tooltip>
             </Clipboard>
           </div>
         </div>
