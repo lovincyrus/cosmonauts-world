@@ -120,7 +120,7 @@ const mapping = [
     name: 'FOAM',
     description: 'FOAM’s dynamic proof of location protocol will enable a permissionless and privacy-preserving network of radio beacons that is independent from external centralized sources such as GPS and capable of providing secure location verification services.',
     image: '/static/logos/foam.png',
-    network: '?',
+    network: 'mainnet',
     verified: 'false',
     links: {
       proof: 'https://blog.foam.space/tendermint-foam-achieving-global-scalability-through-local-consensus-4c63c8bb51a8',
@@ -134,7 +134,7 @@ const mapping = [
     name: 'COMDEX',
     description: 'Comdex is revolutionising the archaic and laggard commodity trade industry to make it more efficient and usher it into the next era of transformation. Comdex revolutionizes the $17 trillion a year commodity trading industry by using existing banking structures and advanced technology. With a plethora of solutions including a single platform to connect trade financiers, aid in trade settlement and propel trade discoveries, Comdex is already in the pilot phase with trades of millions of dollars.',
     image: '/static/logos/comdex.jpg',
-    network: '?',
+    network: 'testnet',
     verified: 'false',
     links: {
       proof: 'https://comdex.sg/',
@@ -218,7 +218,7 @@ const mapping = [
     name: 'DecentRandom',
     description: 'Higher security and quality randomization than any traditional service can be handled at a fraction of the cost of a network fee.',
     image: '/static/logos/decentrandom.png',
-    network: '?',
+    network: 'testnet',
     verified: 'false',
     links: {
       proof: 'https://decentrandom.com/asset/whitepaper/whitepaper_beta_kr_v.0.2.1.pdf',
@@ -226,7 +226,7 @@ const mapping = [
       chat: 'https://t.me/joinchat/EF5N2RHTiUOFs4db7vCviA',
       website: 'https://decentrandom.com/',
     },
-    tags: ['cosmos sdk'],
+    tags: ['cosmos sdk', 'tendermint core'],
   },
   {
     name: 'Regen Network',
@@ -373,7 +373,7 @@ const mapping = [
     name: 'KONSTELLATION',
     description: 'Our mission is to remove opacity and inefficiencies from the global alternative investment industry via blockchain solutions. The Konstellation Network will continue to attract leading global financial firms and industry leaders as node operators, service providers, and users.',
     image: '/static/logos/konstellation.png',
-    network: '?',
+    network: 'development',
     verified: 'false',
     links: {
       proof: 'https://medium.com/@KONSTELLATION/konstellation-network-will-be-developed-on-cosmos-4d8c01ff0871',
@@ -387,7 +387,7 @@ const mapping = [
     name: 'MEDIBLOCK',
     description: 'MediBloc has been building a patient-centric medical data ecosystem, utilizing blockchain technology and its ability to add security and reliability to data.',
     image: '/static/logos/mediblock.png',
-    network: '?',
+    network: 'mainnet',
     verified: 'false',
     links: {
       proof: 'https://bert.substack.com/p/an-ehr-project-launches-their-own',
@@ -395,7 +395,7 @@ const mapping = [
       chat: 'https://t.me/medibloc',
       website: 'https://medibloc.org/',
     },
-    tags: ['?'],
+    tags: ['cosmos sdk', 'tendermint core'],
   },
   {
     name: 'Peerity',
@@ -425,7 +425,7 @@ const mapping = [
     tags: ['?'],
   },
   {
-    name: 'Forbole',
+    name: 'Desmos',
     description: '?',
     image: '/static/logos/forbole.png',
     network: 'development',
@@ -701,7 +701,7 @@ const mapping = [
     name: 'CodeChain',
     description: 'Programmable open source blockchain technology optimal for developing and customizing multi-asset management systems.',
     image: '/static/logos/codechain.png',
-    network: '?',
+    network: 'mainnet',
     verified: 'false',
     links: {
       proof: 'https://codechain.readthedocs.io/en/latest/basic-usage.html?highlight=tendermint',
@@ -952,7 +952,7 @@ const mapping = [
     name: 'THORChain',
     description: '?',
     image: '/static/logos/thorchain.png',
-    network: '?',
+    network: 'mainnet',
     verified: 'false',
     links: {
       proof: 'https://github.com/thorchain/thorchain-wasm-bridge',
@@ -1074,7 +1074,7 @@ const mapping = [
     name: 'crypto.com',
     description: 'We intend that Crypto.com Chain will be a high performing native blockchain solution, which will make the transaction flows between crypto users and merchants accepting crypto seamless, cost-efficient and secure.',
     image: '/static/logos/crypto-com.png',
-    network: '?',
+    network: 'mainnet',
     verified: 'false',
     links: {
       proof: 'https://blog.crypto.com/crypto-com-chain-dev-update-1/',
@@ -1082,7 +1082,7 @@ const mapping = [
       chat: 'https://t.me/CryptoComOfficial',
       website: 'https://www.crypto.com/en/chain',
     },
-    tags: ['?'],
+    tags: ['tendermint bft'],
   },
   {
     name: 'Chainpoint',
@@ -1125,7 +1125,7 @@ const mapping = [
     name: 'Agoric',
     description: 'Agoric is developing a secure distributed ocap platform for smart contracts and market-oriented programming. Our platform supports the development of smart contracts and market institutions across many different scales, from large public blockchains to small two-party contracts.',
     image: '/static/logos/agoric.png',
-    network: '?',
+    network: 'testnet',
     verified: 'false',
     links: {
       proof: 'https://blog.cosmos.network/orbital-communications-april-community-update-f07552af5255',
@@ -1190,14 +1190,14 @@ const mapping = [
     name: 'Color Platform',
     description: '?',
     image: '/static/logos/color-platform.png',
-    network: '?',
+    network: 'testnet',
     verified: 'false',
     links: {
       proof: 'https://color-platform.org/~colors/_assets/down/Color_Prism.pdf',
       chat: 'https://open.kakao.com/o/gN5YMamb',
       website: 'https://color-platform.org/kr/',
     },
-    tags: ['?'],
+    tags: ['cosmos-sdk', 'tendermint core'],
   },
   {
     name: 'AMO',
@@ -1305,9 +1305,9 @@ const mapping = [
   },
   {
     name: 'EVERETT',
-    description: '?',
+    description: 'A staking derivative middle-layer protocol to solve the problem of competing interest rates between staking and DeFi liquidity.',
     image: '/static/logos/everett.png',
-    network: '?',
+    network: 'development',
     verified: 'false',
     links: {
       proof: 'https://medium.com/everett-protocol/introducing-everett-1ae9b7e73164',
