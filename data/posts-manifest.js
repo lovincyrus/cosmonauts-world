@@ -1391,6 +1391,21 @@ const mapping = [
     },
     tags: ['cosmos sdk', 'tendermint core'],
   },
+  {
+    name: 'Supernova',
+    description: 'Supernova is a Cosmos Zone that allows any project to build an engaged community from day one. On Supernova, any project can perform a decentralized lockdrop. Anyone interested in the project can participate in the lockdrop using Supernova tokens.',
+    image: '/static/logos/supernova.jpg',
+    network: 'development',
+    verified: 'false',
+    links: {
+      proof: 'https://supernova.community',
+      github: 'https://github.com/hicommonwealth/supernova-lockdrop',
+      twitter: 'https://twitter.com/Supernova_chain',
+      chat: 'https://t.me/supernovachain',
+      website: 'https://supernova.community',
+    },
+    tags: ['cosmos sdk'],
+  },
 ];
 
 module.exports = {
