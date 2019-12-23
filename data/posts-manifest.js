@@ -95,7 +95,7 @@ const mapping = [
     links: {
       proof: 'https://e-money.com/documents/e-Money%20Whitepaper.pdf',
       github: 'https://github.com/e-money',
-      twitter: 'https://twitter.com/kiraex',
+      twitter: 'https://twitter.com/emoney_com',
       chat: 'https://t.me/emoney_com',
       website: 'https://e-money.com/',
     },
