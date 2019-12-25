@@ -979,7 +979,7 @@ const mapping = [
     name: 'BitSong',
     description: '?',
     image: '/static/logos/bitsong.jpeg',
-    network: '?',
+    network: 'testnet',
     verified: 'false',
     links: {
       proof: 'https://medium.com/@BitSongOfficial/important-bitsongs-public-sale-notice-e70e448bd90c',
