@@ -811,11 +811,10 @@ const mapping = [
     verified: 'false',
     links: {
       proof: 'https://t.me/cosmosproject/176383',
-      github: '?',
       chat: 'https://t.me/UniCoinsUs',
       website: 'http://unicoins.us/beta/',
     },
-    tags: ['?'],
+    tags: ['cosmos sdk'],
   },
   {
     name: 'Kuende',
@@ -829,7 +828,7 @@ const mapping = [
       chat: 'http://t.me/kuende',
       website: 'https://kuende.com/',
     },
-    tags: ['?'],
+    tags: ['cosmos sdk', 'tendermint core'],
   },
   {
     name: 'Wisdom of Crowd',
@@ -977,9 +976,9 @@ const mapping = [
   },
   {
     name: 'BitSong',
-    description: '?',
+    description: 'BitSong’s mission is to enable a simple global blockchain infrastructure that empowers the music industry.',
     image: '/static/logos/bitsong.jpeg',
-    network: '?',
+    network: 'testnet',
     verified: 'false',
     links: {
       proof: 'https://medium.com/@BitSongOfficial/important-bitsongs-public-sale-notice-e70e448bd90c',
@@ -1128,11 +1127,11 @@ const mapping = [
     network: 'testnet',
     verified: 'false',
     links: {
-      proof: 'https://blog.cosmos.network/orbital-communications-april-community-update-f07552af5255',
+      proof: 'https://agoric.com/agoric-launches-testnet',
       github: 'https://github.com/agoric',
       website: 'https://agoric.com/about/',
     },
-    tags: ['?'],
+    tags: ['cosmos sdk'],
   },
   {
     name: 'CITA by Cryptape',
@@ -1214,7 +1213,7 @@ const mapping = [
   },
   {
     name: 'HIBLOCKS',
-    description: 'Tichex is a DPoS blockchain based on Tendermint and Cosmos SDK. The first pegged zone in EUR, that is the EUR/Crypto bridge of Cosmos and at the same time it is the technological evolution of an already existing European Financial Institution, namely Em@ney plc.',
+    description: 'hiblocks is a blockchain-based social media platform. Anyone can become a content curator or creator and get rewarded.',
     image: '/static/logos/default.png',
     network: '?',
     verified: 'false',
@@ -1223,7 +1222,7 @@ const mapping = [
       chat: 'https://t.me/hiblocks_eng',
       website: 'http://www.hiblocks.io/main.do',
     },
-    tags: ['?'],
+    tags: ['tendermint core'],
   },
   {
     name: 'TICHEX',
@@ -1237,7 +1236,7 @@ const mapping = [
       chat: 'https://t.me/TichexOfficial',
       website: 'https://tichex.com/',
     },
-    tags: ['?'],
+    tags: ['cosmos sdk'],
   },
   {
     name: 'Kadena',
@@ -1403,6 +1402,35 @@ const mapping = [
       twitter: 'https://twitter.com/Supernova_chain',
       chat: 'https://t.me/supernovachain',
       website: 'https://supernova.community',
+    },
+    tags: ['cosmos sdk'],
+  },
+  {
+    name: 'Oasis Labs',
+    description: 'Privacy-first cloud computing on blockchain.',
+    image: '/static/logos/oasis-labs.png',
+    network: '?',
+    verified: 'false',
+    links: {
+      proof: 'https://github.com/oasislabs/oasis-core/search?utf8=%E2%9C%93&q=tendermint&type=',
+      github: 'https://github.com/oasislabs',
+      twitter: 'https://www.twitter.com/OasisLabs',
+      chat: 'https://join.slack.com/t/oasiscommunity/shared_invite/enQtNjQ5MTA3NTgyOTkzLWIxNTg1ZWZmOTIwNmQ2MTg1YmU0MzgyMzk3OWM2ZWQ4NTQ0ZDJkNTBmMTdlM2JhODllYjg5YmJkODc2NzgwNTg',
+      website: 'https://www.oasislabs.com',
+    },
+    tags: ['cosmos sdk'],
+  },
+  {
+    name: 'Unification',
+    description: 'Unification creates rapidly deployable blockchain tools with built-in cost & speed predictability that bring security & efficiency to your business operations.',
+    image: '/static/logos/unification.png',
+    network: 'mainnet',
+    verified: 'false',
+    links: {
+      proof: 'https://medium.com/unificationfoundation/und-november-19-devnews-mainnet-is-coming-21f2d9327cb5',
+      github: 'https://github.com/unification-com/mainchain',
+      twitter: 'https://twitter.com/UnificationUND',
+      website: 'https://unification.com/',
     },
     tags: ['cosmos sdk'],
   },
