@@ -1237,7 +1237,7 @@ const mapping = [
       chat: 'https://t.me/TichexOfficial',
       website: 'https://tichex.com/',
     },
-    tags: ['?'],
+    tags: ['cosmos sdk'],
   },
   {
     name: 'Kadena',
