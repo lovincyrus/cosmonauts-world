@@ -1214,7 +1214,7 @@ const mapping = [
   },
   {
     name: 'HIBLOCKS',
-    description: 'Tichex is a DPoS blockchain based on Tendermint and Cosmos SDK. The first pegged zone in EUR, that is the EUR/Crypto bridge of Cosmos and at the same time it is the technological evolution of an already existing European Financial Institution, namely Em@ney plc.',
+    description: 'hiblocks is a blockchain-based social media platform. Anyone can become a content curator or creator and get rewarded.',
     image: '/static/logos/default.png',
     network: '?',
     verified: 'false',
@@ -1223,7 +1223,7 @@ const mapping = [
       chat: 'https://t.me/hiblocks_eng',
       website: 'http://www.hiblocks.io/main.do',
     },
-    tags: ['?'],
+    tags: ['tendermint core'],
   },
   {
     name: 'TICHEX',
