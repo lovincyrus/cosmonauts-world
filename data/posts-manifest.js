@@ -1128,11 +1128,11 @@ const mapping = [
     network: 'testnet',
     verified: 'false',
     links: {
-      proof: 'https://blog.cosmos.network/orbital-communications-april-community-update-f07552af5255',
+      proof: 'https://agoric.com/agoric-launches-testnet',
       github: 'https://github.com/agoric',
       website: 'https://agoric.com/about/',
     },
-    tags: ['?'],
+    tags: ['cosmos sdk'],
   },
   {
     name: 'CITA by Cryptape',
