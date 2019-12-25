@@ -1420,6 +1420,20 @@ const mapping = [
     },
     tags: ['cosmos sdk'],
   },
+  {
+    name: 'Unification',
+    description: 'Unification creates rapidly deployable blockchain tools with built-in cost & speed predictability that bring security & efficiency to your business operations.',
+    image: '/static/logos/unification.png',
+    network: 'mainnet',
+    verified: 'false',
+    links: {
+      proof: 'https://medium.com/unificationfoundation/und-november-19-devnews-mainnet-is-coming-21f2d9327cb5',
+      github: 'https://github.com/unification-com/mainchain',
+      twitter: 'https://twitter.com/UnificationUND',
+      website: 'https://unification.com/',
+    },
+    tags: ['cosmos sdk'],
+  },
 ];
 
 module.exports = {
