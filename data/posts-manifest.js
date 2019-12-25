@@ -829,7 +829,7 @@ const mapping = [
       chat: 'http://t.me/kuende',
       website: 'https://kuende.com/',
     },
-    tags: ['?'],
+    tags: ['cosmos sdk', 'tendermint core'],
   },
   {
     name: 'Wisdom of Crowd',
@@ -977,7 +977,7 @@ const mapping = [
   },
   {
     name: 'BitSong',
-    description: '?',
+    description: 'BitSong’s mission is to enable a simple global blockchain infrastructure that empowers the music industry.',
     image: '/static/logos/bitsong.jpeg',
     network: 'testnet',
     verified: 'false',
