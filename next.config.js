@@ -2,19 +2,6 @@ const env = require('./config/env');
 const publicConfig = require('./config/public.runtime');
 const serverConfig = require('./config/server.runtime');
 
-// module.exports = withCSS({});
-
-// module.exports = withCSS({
-//   env: {
-//     special: 'value',
-//   },
-//   publicRuntimeConfig: {
-//     localeSubpaths: typeof process.env.LOCALE_SUBPATHS === 'string'
-//       ? process.env.LOCALE_SUBPATHS
-//       : 'none',
-//   },
-// });
-
 const nextConfig = {
   webpack: (config, options) => {
     // Fixes npm packages that depend on `fs` module

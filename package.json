@@ -7,7 +7,9 @@
   "scripts": {
     "dev": "NODE_ENV=development node server.js",
     "build": "next build",
-    "start": "node server.js"
+    "export": "next export",
+    "start": "next start",
+    "prod": "NODE_ENV=production && npm run build && npm run export"
   },
   "dependencies": {
     "@material-ui/core": "^4.8.0",
