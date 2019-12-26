@@ -26,7 +26,6 @@ const Home = ({ t }) => (
     </div>
 
     <div className="py-10 p-5 mx-auto max-w-6xl">
-      <p title={t('title')} />
       <Header greeting={t('greeting')} />
       <List projects={mapping} projectCategories={categories} />
     </div>
