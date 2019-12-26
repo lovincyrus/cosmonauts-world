@@ -779,17 +779,17 @@ const mapping = [
   },
   {
     name: 'Hashgard',
-    description: '?',
+    description: 'Hashgard is a world leading high functionality digital finance public chain.',
     image: '/static/logos/hashgard.png',
-    network: '?',
+    network: 'mainnet',
     verified: 'false',
     links: {
       proof: 'https://medium.com/@hashgard/hashgard-establishes-strategic-partnership-with-irisnet-in-depth-analysis-d00cc8fa5db5',
       github: 'https://github.com/hashgard',
       chat: 'https://t.me/hashgardeng',
-      website: 'https://www.hashgard.io/#/',
+      website: 'https://www.hashgard.io/',
     },
-    tags: ['?'],
+    tags: ['cosmos sdk'],
   },
   {
     name: 'Cosmic Bridge',
