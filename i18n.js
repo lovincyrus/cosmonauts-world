@@ -1,9 +1,8 @@
 const NextI18Next = require('next-i18next').default;
-const { localeSubpaths } = require('next/config').default();
-// const { localeSubpaths } = require('next/config').default().publicRuntimeConfig;
+// const { localeSubpaths } = require('next/config').default();
+const { localeSubpaths } = require('next/config').default().publicRuntimeConfig;
 
 const localeSubpathVariations = {
-  none: {},
   foreign: {
     cn: 'cn',
     kr: 'kr',

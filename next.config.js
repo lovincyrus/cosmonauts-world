@@ -6,6 +6,11 @@ module.exports = withCSS({
   env: {
     special: 'value',
   },
+  publicRuntimeConfig: {
+    localeSubpaths: typeof process.env.LOCALE_SUBPATHS === 'string'
+      ? process.env.LOCALE_SUBPATHS
+      : 'none',
+  },
 });
 
 // module.exports = withCSS({
