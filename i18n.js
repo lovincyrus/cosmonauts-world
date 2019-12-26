@@ -20,7 +20,7 @@ module.exports = new NextI18Next({
   defaultLanguage: 'en',
   otherLanguages: ['kr', 'cn', 'ru'],
   // localeSubpaths: localeSubpathVariations[localeSubpaths],
-  localePath: typeof window === 'undefined' ? 'public/locales' : 'locales',
+  localePath: typeof window === 'undefined' ? 'static/locales' : 'locales',
   browserLanguageDetection: true,
   serverLanguageDetection: false,
   debug: false,
