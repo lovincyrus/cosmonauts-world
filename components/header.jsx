@@ -1,7 +1,7 @@
 import React from 'react';
 import DarkModeToggle from './dark-mode-toggle';
 
-const Header = () => (
+const Header = ({ greeting }) => (
   <>
     <div className="bg-container">
       <DarkModeToggle />
@@ -9,8 +9,7 @@ const Header = () => (
         Cosmonauts World
       </h1>
       <p className="pt-2 subpixel-antialiased max-w-full text-gray-300 text-lg">
-        Welcome! We&apos;re helping each other to learn more about the projects in
-        the Cosmos and Tendermint ecosystem.
+        {greeting}
       </p>
       <p className="pt-2 text-gray-400">
         Built by

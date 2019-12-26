@@ -7,12 +7,14 @@
   "scripts": {
     "dev": "next dev",
     "build": "next build",
-    "start": "next start"
+    "start": "NODE_ENV=production node server.js"
   },
   "dependencies": {
     "@material-ui/core": "^4.8.0",
     "@zeit/next-css": "^1.0.1",
+    "express": "^4.17.1",
     "framer-motion": "^1.6.15",
+    "i18next": "^19.0.2",
     "next": "^9.1.6",
     "next-i18next": "^3.0.0",
     "react": "16.9.0",
