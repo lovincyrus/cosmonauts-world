@@ -1,4 +1,3 @@
-const withCSS = require('@zeit/next-css');
 const env = require('./config/env');
 const publicConfig = require('./config/public.runtime');
 const serverConfig = require('./config/server.runtime');
@@ -34,6 +33,6 @@ module.exports = () => {
   nextConfig.publicRuntimeConfig = publicConfig;
   nextConfig.serverRuntimeConfig = serverConfig;
 
-  // const withCSS = require('@zeit/next-css');
+  const withCSS = require('@zeit/next-css');
   return withCSS(nextConfig);
 };

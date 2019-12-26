@@ -5,7 +5,7 @@
   "homepage": "https://cosmonauts.world",
   "license": "MIT",
   "scripts": {
-    "dev": "next dev",
+    "dev": "NODE_ENV=development node server.js",
     "build": "next build",
     "start": "node server.js"
   },
