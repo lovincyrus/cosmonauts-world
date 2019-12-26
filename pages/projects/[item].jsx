@@ -10,7 +10,7 @@ import DarkModeToggle from '../../components/dark-mode-toggle';
 
 import { mapping } from '../../data/posts-manifest';
 
-import '../../styles/main.css';
+import '../../styles/global.css';
 
 const Clipboard = dynamic(() => import('react-clipboard.js'), {
   ssr: false,

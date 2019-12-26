@@ -8,8 +8,6 @@ import { i18n, withTranslation } from '../i18n';
 
 import { categories, mapping } from '../data/posts-manifest';
 
-import '../styles/main.css';
-
 const Home = ({ t }) => (
   <>
     <Head>
