@@ -7,11 +7,17 @@ class Translations extends Component {
 
   constructor(props) {
     super(props);
+    // this.state = {currentValue: 'en'}
+    // this.handleChange = this.handleChange.bind(this);
   }
 
-  toggleLang() {
-    const { toggleLang } = this.context;
-    toggleLang();
+  // handleChange(event) {
+  //   this.setState({currentValue: event.target.value});
+  // }
+
+  selectLang() {
+    const { selectLang } = this.context;
+    selectLang();
   }
 
   render() {
@@ -19,6 +25,7 @@ class Translations extends Component {
       <>
         <div className="lang">
           <select onChange={e => i18n.changeLanguage(e.target.value)}>
+          {/* <select onChange={e => this.selectLang.bind(e.target.value)}> */}
             <option value="en">en</option>
             <option value="cn">cn</option>
             <option value="kr">kr</option>

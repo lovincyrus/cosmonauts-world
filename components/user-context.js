@@ -5,7 +5,7 @@ import { i18n } from "../i18n";
 
 let UserContext = createContext({
   lang: "en",
-  toggleLang: () => {},
+  selectLang: () => {},
   registerLangListener: () => {},
   unregisterLangListener: () => {}
 });
@@ -13,14 +13,14 @@ let UserContext = createContext({
 export class UserProvider extends React.Component {
   state = {
     lang: "en",
-    toggleLang: this.toggleLang.bind(this),
+    selectLang: this.selectLang.bind(this),
     registerLangListener: this.registerLangListener.bind(this),
     unregisterLangListener: this.unregisterLangListener.bind(this)
   };
 
   constructor(props) {
     super(props);
-    this.lnNotifier = new EventEmitter();
+    this.langNotifier = new EventEmitter();
   }
 
   detectBrowserlanguage(defaultLang) {
@@ -40,27 +40,27 @@ export class UserProvider extends React.Component {
       },
       () => {
         i18n.changeLanguage(this.state.lang, () => {
-          this.lnNotifier.emit("langChanged");
+          this.langNotifier.emit("langChanged");
         });
       }
     );
   }
 
-  toggleLang() {
-    this.setState({ lang: this.state.lang === "en" ? "kr" : "en" }, () => {
+  selectLang() {
+    this.setState({ lang: this.state.lang }, () => {
       localStorage.setItem("user-lang", this.state.lang);
       i18n.changeLanguage(this.state.lang, () => {
-        this.lnNotifier.emit("langChanged");
+        this.langNotifier.emit("langChanged");
       });
     });
   }
 
   registerLangListener(fn, ctx) {
-    this.lnNotifier.on("langChanged", fn, ctx);
+    this.langNotifier.on("langChanged", fn, ctx);
   }
 
   unregisterLangListener(fn, ctx) {
-    this.lnNotifier.removeListener("langChanged", fn, ctx);
+    this.langNotifier.removeListener("langChanged", fn, ctx);
   }
 
   render() {

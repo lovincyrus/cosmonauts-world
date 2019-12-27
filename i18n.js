@@ -6,7 +6,6 @@ module.exports = new NextI18Next({
   otherLanguages: ['kr', 'cn', 'ru'],
   // https://github.com/isaachinman/next-i18next/issues/523
   localePath: typeof window === 'undefined' ? 'public/locales' : 'locales',
-  // browserLanguageDetection: true,
-  // serverLanguageDetection: false,
+  browserLanguageDetection: true,
   debug: false,
 });
