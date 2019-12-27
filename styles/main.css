@@ -17,7 +17,7 @@ button:focus {
  *
 */
 
-body.light-mode {
+body.light-mode, .navbar-container {
   background-color: #ffffff;
   color: #333;
   transition: background-color 0.3s ease;
@@ -34,6 +34,12 @@ body.light-mode .icon-color, .toggle-btn {
 body.light-mode .display-tags {
   background: rgb(13, 22, 35, 0.70);
   color: rgb(255, 255, 255);
+}
+
+body.light-mode .navbar-container {
+  background-color: #ffffff;
+  color: #333;
+  transition: background-color 0.3s ease;
 }
 
 /*
@@ -63,4 +69,10 @@ body.dark-mode .icon-color, .toggle-btn {
 body.dark-mode .display-tags {
   background: rgba(255, 255, 255, 0.1);
   color: rgb(255, 255, 255);
+}
+
+body.dark-mode .navbar-container {
+  background-color: #10171d;
+  color: #dfdfdf;
+  transition: background-color 0.3s ease;
 }
