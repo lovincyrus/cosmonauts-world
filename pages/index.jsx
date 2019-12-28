@@ -4,10 +4,9 @@ import Head from 'next/head';
 import Navbar from '../components/navbar';
 import Header from '../components/header';
 import List from '../components/list';
+import Footer from '../components/footer';
 
 import { categories, mapping } from '../data/posts-manifest';
-
-import '../styles/main.css';
 
 function Home() {
   return (
@@ -22,6 +21,8 @@ function Home() {
         <Header />
         <List projects={mapping} projectCategories={categories} />
       </div>
+
+      <Footer />
     </>
   );
 }
