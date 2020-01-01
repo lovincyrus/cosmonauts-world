@@ -1434,6 +1434,20 @@ const mapping = [
     },
     tags: ['cosmos sdk'],
   },
+  {
+    name: 'Xar',
+    description: 'Cosmos-based cross-chain decentralized finance.',
+    image: '/static/logos/xar.png',
+    network: 'mainnet',
+    verified: 'false',
+    links: {
+      proof: 'https://xar.network/',
+      github: 'https://github.com/xar-network',
+      twitter: 'https://twitter.com/xarnetwork',
+      website: 'https://xar.network/',
+    },
+    tags: ['cosmos sdk'],
+  },
 ];
 
 module.exports = {
