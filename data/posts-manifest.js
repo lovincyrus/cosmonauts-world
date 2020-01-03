@@ -1448,6 +1448,20 @@ const mapping = [
     },
     tags: ['cosmos sdk'],
   },
+  {
+    name: 'Persistence',
+    description: 'The Enterprise hub of Cosmos. The goal of Persistence is to create the most palatable and digestible ways for Enterprises to use this technology to increase their top line or reduce expenses.',
+    image: '/static/logos/persistenceone.jpg',
+    network: 'development',
+    verified: 'false',
+    links: {
+      proof: 'https://medium.com/@PersistenceOne/issue-01-introducing-persistence-ff778a9b7022',
+      twitter: 'https://twitter.com/PersistenceOne',
+      chat: 'https://t.me/PersistenceOne',
+      website: 'https://persistence.one',
+    },
+    tags: ['cosmos sdk', 'tendermint core'],
+  },
 ];
 
 module.exports = {
