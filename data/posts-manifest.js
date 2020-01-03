@@ -42,7 +42,7 @@ const mapping = [
   },
   {
     name: 'Terra',
-    description: '?',
+    description: 'A price-stable cryptocurrency designed for mass adoption. We are building financial infrastructure for the next generation of decentralized applications.',
     image: '/static/logos/terra.jpg',
     network: 'mainnet',
     verified: 'false',
@@ -200,7 +200,7 @@ const mapping = [
   },
   {
     name: 'TruStory',
-    description: '?',
+    description: 'TruStory is a building a social network for experts to identify what information is true and what isn\'t in return for tokens.',
     image: '/static/logos/trustory.png',
     network: 'development',
     verified: 'false',
