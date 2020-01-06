@@ -631,19 +631,6 @@ const mapping = [
     tags: ['?'],
   },
   {
-    name: 'PARSEC Labs',
-    description: '?',
-    image: '/static/logos/parsec-labs.png',
-    network: '?',
-    verified: 'false',
-    links: {
-      proof: 'https://parseclabs.org/blog/Development-Update-May-2018/',
-      github: 'https://github.com/parsec-labs',
-      website: 'https://parseclabs.org/',
-    },
-    tags: ['?'],
-  },
-  {
     name: 'Ercoin',
     description: '?',
     image: '/static/logos/ercoin.png',
