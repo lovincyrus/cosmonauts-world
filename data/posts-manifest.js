@@ -524,9 +524,9 @@ const mapping = [
   },
   {
     name: 'peaq',
-    description: '?',
+    description: 'The peaq DAGchain will function as an enterprise-grade framework for private or permissioned networks for corporates as well as a fully decentralized public peaq network. peaq is designed for use in the IoT, Automotive, Machine and Telecommunications industries.',
     image: '/static/logos/peaq.png',
-    network: 'The peaq DAGchain will function as an enterprise-grade framework for private or permissioned networks for corporates as well as a fully decentralized public peaq network. peaq is designed for use in the IoT, Automotive, Machine and Telecommunications industries.',
+    network: '?',
     verified: 'false',
     links: {
       proof: '?',
@@ -539,9 +539,9 @@ const mapping = [
   },
   {
     name: 'OneLedger',
-    description: '?',
+    description: 'OneLedger is a Blockchain as a Service (BaaS) Solutions company, that uses their own Blockchain technology to support their customer’s blockchain needs.',
     image: '/static/logos/oneledger.png',
-    network: 'OneLedger is a Blockchain as a Service (BaaS) Solutions company, that uses their own Blockchain technology to support their customer’s blockchain needs.',
+    network: '?',
     verified: 'false',
     links: {
       proof: 'https://imgur.com/bUH1mpm',
@@ -594,9 +594,9 @@ const mapping = [
   },
   {
     name: 'Uphack',
-    description: '?',
+    description: 'Build blockchain powered social apps.',
     image: '/static/logos/hashnode-mint.png',
-    network: 'Build blockchain powered social apps.',
+    network: '?',
     verified: 'false',
     links: {
       proof: 'https://github.com/Hashnode/mint',
@@ -728,9 +728,9 @@ const mapping = [
   },
   {
     name: 'Expload',
-    description: '?',
+    description: 'A trusted tool for the development of open-economy games, player payouts, a ready-made legal solution for digital assets and a new game distribution channel.',
     image: '/static/logos/expload.png',
-    network: 'A trusted tool for the development of open-economy games, player payouts, a ready-made legal solution for digital assets and a new game distribution channel.',
+    network: '?',
     verified: 'false',
     links: {
       proof: 'https://expload.com/blue-paper',
@@ -768,9 +768,9 @@ const mapping = [
   },
   {
     name: 'Tatau',
-    description: '?',
+    description: 'Tatau is a distributed supercomputing platform used by AI companies to perform complex deep-learning operations more cost-effectively, and efficiently than other alternatives.',
     image: '/static/logos/tatau.png',
-    network: 'Tatau is a distributed supercomputing platform used by AI companies to perform complex deep-learning operations more cost-effectively, and efficiently than other alternatives.',
+    network: '?',
     verified: 'false',
     links: {
       proof: 'https://tatau.io/img/en/final_tatau_wp.pdf',
