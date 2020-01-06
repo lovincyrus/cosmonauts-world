@@ -715,7 +715,7 @@ const mapping = [
   },
   {
     name: 'Vega Protocol',
-    description: '?',
+    description: 'Vega is a protocol for creating and trading derivatives on a fully decentralised network.',
     image: '/static/logos/vega.png',
     network: '?',
     verified: 'false',
@@ -730,7 +730,7 @@ const mapping = [
     name: 'Expload',
     description: '?',
     image: '/static/logos/expload.png',
-    network: '?',
+    network: 'A trusted tool for the development of open-economy games, player payouts, a ready-made legal solution for digital assets and a new game distribution channel.',
     verified: 'false',
     links: {
       proof: 'https://expload.com/blue-paper',
@@ -770,7 +770,7 @@ const mapping = [
     name: 'Tatau',
     description: '?',
     image: '/static/logos/tatau.png',
-    network: '?',
+    network: 'Tatau is a distributed supercomputing platform used by AI companies to perform complex deep-learning operations more cost-effectively, and efficiently than other alternatives.',
     verified: 'false',
     links: {
       proof: 'https://tatau.io/img/en/final_tatau_wp.pdf',
@@ -797,7 +797,7 @@ const mapping = [
   },
   {
     name: 'Papyrus',
-    description: '?',
+    description: 'Papyrus is an open source public blockchain network compatible with Ethereum ecosystem, which eliminates key issues of Ethereum, providing highly scalable, reliable and cost-efficient decentralized platform for application developers.',
     image: '/static/logos/papyrus.png',
     network: '?',
     verified: 'false',
@@ -819,6 +819,7 @@ const mapping = [
       proof: 'https://github.com/neocortexlab?utf8=%E2%9C%93&q=tendermint&type=&language=',
       github: 'https://github.com/neocortexlab',
       chat: 'https://t.me/joinchat/BnO6ig_CZTTF5zc8Iwx7aA',
+      website: 'https://neocortexlab.io',
     },
     tags: ['?'],
   },
