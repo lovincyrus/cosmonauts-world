@@ -496,7 +496,7 @@ const mapping = [
   },
   {
     name: 'ThetaToken',
-    description: '?',
+    description: 'Decentralized video streaming, powered by users and an innovative new blockchain.',
     image: '/static/logos/thetatoken.png',
     network: '?',
     verified: 'false',
@@ -526,7 +526,7 @@ const mapping = [
     name: 'peaq',
     description: '?',
     image: '/static/logos/peaq.png',
-    network: '?',
+    network: 'The peaq DAGchain will function as an enterprise-grade framework for private or permissioned networks for corporates as well as a fully decentralized public peaq network. peaq is designed for use in the IoT, Automotive, Machine and Telecommunications industries.',
     verified: 'false',
     links: {
       proof: '?',
@@ -541,7 +541,7 @@ const mapping = [
     name: 'OneLedger',
     description: '?',
     image: '/static/logos/oneledger.png',
-    network: '?',
+    network: 'OneLedger is a Blockchain as a Service (BaaS) Solutions company, that uses their own Blockchain technology to support their customer’s blockchain needs.',
     verified: 'false',
     links: {
       proof: 'https://imgur.com/bUH1mpm',
@@ -567,7 +567,7 @@ const mapping = [
   },
   {
     name: 'EnLedger',
-    description: '?',
+    description: '',
     image: '/static/logos/enledger.png',
     network: '?',
     verified: 'false',
@@ -596,18 +596,17 @@ const mapping = [
     name: 'Uphack',
     description: '?',
     image: '/static/logos/hashnode-mint.png',
-    network: '?',
+    network: 'Build blockchain powered social apps.',
     verified: 'false',
     links: {
-      proof: 'https://uphack.co/about',
-      github: 'https://github.com/Hashnode/mint',
-      website: 'https://uphack.co/',
+      proof: 'https://github.com/Hashnode/mint',
+      github: 'https://github.com/Hashnode',
     },
     tags: ['?'],
   },
   {
     name: 'FourthState',
-    description: '?',
+    description: 'Cosmos SDK (Tendermint consensus) side-chain implementation for plasma.',
     image: '/static/logos/fourthstate.png',
     network: 'development',
     verified: 'false',
