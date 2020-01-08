@@ -14,6 +14,7 @@ export default [
       chat: '',
       website: '',
     },
+    category: 'zone', // hub, zone, stablecoin, dex, oracle, game, social, name service
     tags: ['cosmos sdk', 'tendermint core', 'tendermint bft', 'ethermint', 'lotion', 'weave'],
   },
 ];
