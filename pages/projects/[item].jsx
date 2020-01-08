@@ -83,6 +83,10 @@ const Post = ({ post, socialLinks }) => (
           ))}
         </div>
 
+        <div className="text-center">
+          <span className="category-item">{post.category}</span>
+        </div>
+
         <p className="text-center description">{post.description}</p>
       </motion.div>
 
@@ -90,7 +94,7 @@ const Post = ({ post, socialLinks }) => (
         <div className="py-6 sm:py-12">
           <h4 className="text-gray-500 font-bold text-center text-xl sm:text-2xl md:text-3xl sm:tracking-tight">Share this project</h4>
           <div className="mt-6 flex items-center justify-center">
-            <Tooltip title="Share this project! 🎉" aria-label="Share this project! 🎉" arrow>
+            <Tooltip title="Share this project! 🎉" aria-label="Share this project! 🎉">
               <a
                 href={`https://www.facebook.com/sharer/sharer.php?u=https://cosmonauts.world/projects/${cleanUrl(post.name)}`}
                 target="blank_"
@@ -106,7 +110,7 @@ const Post = ({ post, socialLinks }) => (
                 />
               </a>
             </Tooltip>
-            <Tooltip title="Tweet this project! 🎉" aria-label="Tweet this project! 🎉" arrow>
+            <Tooltip title="Tweet this project! 🎉" aria-label="Tweet this project! 🎉">
             <a
               href={`https://twitter.com/share?url=https://cosmonauts.world/projects/${cleanUrl(post.name)}&text=Check%20out%20${post.name}%20on%20Cosmonauts%20World! 🚀`}
               target="blank_"
@@ -126,7 +130,7 @@ const Post = ({ post, socialLinks }) => (
               data-clipboard-text={`https://cosmonauts.world/projects/${cleanUrl(post.name)}`}
               className="block mr-4"
             >
-              <Tooltip title="Copy this project's URL! 🎉" aria-label="Copy this project's URL! 🎉" arrow>
+              <Tooltip title="Copy this project's URL! 🎉" aria-label="Copy this project's URL! 🎉">
                 <img
                   width={25}
                   height={25}
@@ -173,6 +177,20 @@ const Post = ({ post, socialLinks }) => (
           display: flex;
           align-items: center;
           justify-content: center;
+        }
+
+        .category-item {
+          background-color: #ecdb54;
+          color: #000;
+          font-size: 11px;
+          font-weight: bold;
+          text-transform: uppercase;
+          letter-spacing: 1px;
+          padding: 6px 12px 6px 14px;
+          border-radius: 6px;
+          display: inline-flex;
+          margin-top: 5px;
+          margin-right: 5px;
         }
 
         .description {

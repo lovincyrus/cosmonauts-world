@@ -10,6 +10,7 @@ const mapping = [
     links: {
       github: 'https://github.com/cosmos/gaia',
     },
+    category: 'hub',
     tags: ['cosmos sdk', 'tendermint core'],
   },
   {
@@ -24,6 +25,7 @@ const mapping = [
       chat: 'https://t.me/binanceexchange',
       website: 'https://binance-chain.github.io/',
     },
+    category: 'dex',
     tags: ['cosmos sdk', 'tendermint core'],
   },
   {
@@ -38,6 +40,7 @@ const mapping = [
       chat: 'https://t.me/joinchat/FkPmgRKdMAyLdWMItxYt0w',
       website: 'https://kava.io/',
     },
+    category: 'stablecoin',
     tags: ['cosmos sdk', 'tendermint core'],
   },
   {
@@ -53,6 +56,7 @@ const mapping = [
       chat: 'https://discord.gg/bYfyhUT',
       website: 'https://terra.money',
     },
+    category: 'stablecoin',
     tags: ['cosmos sdk', 'tendermint core'],
   },
   {
@@ -66,6 +70,7 @@ const mapping = [
       github: 'https://github.com/agoric',
       website: 'https://agoric.com/about/',
     },
+    category: 'stablecoin',
     tags: ['cosmos sdk'],
   },
   {
@@ -79,6 +84,7 @@ const mapping = [
       gitlab: 'https://gitlab.com/microtick',
       website: 'https://gitlab.com/microtick/mtkit',
     },
+    category: 'oracle',
     tags: ['cosmos sdk', 'tendermint core'],
   },
   {
@@ -94,6 +100,7 @@ const mapping = [
       chat: 'https://aragon.chat',
       website: 'https://aragon.org/',
     },
+    category: 'zone',
     tags: ['ethermint', 'cosmos sdk', 'tendermint core'],
   },
   {
@@ -138,6 +145,7 @@ const mapping = [
       chat: 'https://t.me/irisnetwork',
       website: 'https://www.irisnet.org/',
     },
+    category: 'hub',
     tags: ['cosmos sdk', 'tendermint core'],
   },
   {
@@ -152,6 +160,7 @@ const mapping = [
       chat: 'https://t.me/internetofvalues',
       website: 'https://www.iov.one/',
     },
+    category: 'name service',
     tags: ['weave', 'tendermint core'],
   },
   {
@@ -209,6 +218,7 @@ const mapping = [
       github: 'https://github.com/TruStory/',
       website: 'https://www.trustory.io/',
     },
+    category: 'social',
     tags: ['cosmos sdk', 'tendermint core'],
   },
   {
@@ -310,6 +320,7 @@ const mapping = [
       chat: 'https://t.me/loomnetwork',
       website: 'https://loomx.io/',
     },
+    category: 'game',
     tags: ['tendermint core'],
   },
   {
@@ -958,7 +969,7 @@ const mapping = [
     network: '?',
     verified: 'false',
     links: {
-      proof: 'https://goo.gl/pnJD67',
+      proof: 'https://www.reddit.com/r/cryptodevs/comments/9oz1a5/memecom_trade_dank_memes_on_a_bitcoin',
       website: 'https://memecom.co/',
     },
     tags: ['?'],
