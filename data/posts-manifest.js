@@ -242,7 +242,7 @@ const mapping = [
   },
   {
     name: 'Cyber',
-    description: 'A distributed relevance and answering machine. An inter-planetary search engine & a state of the art consensus computer, built with the help of go-IPFS and cosmos-SDK',
+    description: 'A decentralized Google for provable and relevant answers. A relevance machine & a state of the art consensus computer, built with the help of go-IPFS and cosmos-SDK',
     image: '/static/logos/cybercongress.png',
     network: 'testnet',
     verified: 'false',
