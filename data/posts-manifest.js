@@ -1429,7 +1429,7 @@ const mapping = [
     network: 'mainnet',
     verified: 'false',
     links: {
-      proof: 'https://xar.network/',
+      proof: 'https://www.blog.xar.network/what-is-xar-network/',
       github: 'https://github.com/xar-network',
       twitter: 'https://twitter.com/xarnetwork',
       website: 'https://xar.network/',
