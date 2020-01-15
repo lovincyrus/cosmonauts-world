@@ -242,7 +242,7 @@ const mapping = [
   },
   {
     name: 'Cyber',
-    description: 'A distributed relevance and answering machine. An inter-planetary search engine & a state of the art consensus computer, built with the help of go-IPFS and cosmos-SDK',
+    description: 'A decentralized Google for provable and relevant answers. A relevance machine & a state of the art consensus computer, built with the help of go-IPFS and cosmos-SDK',
     image: '/static/logos/cybercongress.png',
     network: 'testnet',
     verified: 'false',
@@ -282,7 +282,7 @@ const mapping = [
       chat: 'https://join.slack.com/t/oasiscommunity/shared_invite/enQtNjQ5MTA3NTgyOTkzLWIxNTg1ZWZmOTIwNmQ2MTg1YmU0MzgyMzk3OWM2ZWQ4NTQ0ZDJkNTBmMTdlM2JhODllYjg5YmJkODc2NzgwNTg',
       website: 'https://www.oasislabs.com',
     },
-    tags: ['cosmos sdk'],
+    tags: ['tendermint core'],
   },
   {
     name: 'FOAM',
@@ -1429,7 +1429,7 @@ const mapping = [
     network: 'mainnet',
     verified: 'false',
     links: {
-      proof: 'https://xar.network/',
+      proof: 'https://www.blog.xar.network/what-is-xar-network/',
       github: 'https://github.com/xar-network',
       twitter: 'https://twitter.com/xarnetwork',
       website: 'https://xar.network/',
