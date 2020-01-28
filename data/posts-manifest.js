@@ -199,19 +199,6 @@ const mapping = [
     tags: ['cosmos sdk'],
   },
   {
-    name: 'TruStory',
-    description: 'TruStory is a building a social network for experts to identify what information is true and what isn\'t in return for tokens.',
-    image: '/static/logos/trustory.png',
-    network: 'development',
-    verified: 'false',
-    links: {
-      proof: 'https://blog.cosmos.network/building-a-decentralized-app-with-cosmos-sdk-3c535cdc6a6a',
-      github: 'https://github.com/TruStory/',
-      website: 'https://www.trustory.io/',
-    },
-    tags: ['cosmos sdk', 'tendermint core'],
-  },
-  {
     name: 'Kira Interchain Exchange',
     description: 'Kira is a next generation hyperscale decentralized exchange (DEX) engineered for cross-chain transfers and frictionless trading. On the one hand, Kira aims to deliver all the liquidity, performance and trading sophistication of a centralised exchange but without the custody, downtime and fraud risk that plague our industry. On the other hand, Kira offers stronger security guarantees than state-of-the-art DEXs, but with a powerful governance model that builds trust and engagement whilst actively resisting corruption.',
     image: '/static/logos/kiraex.png',
