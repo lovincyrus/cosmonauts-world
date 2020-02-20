@@ -1451,6 +1451,36 @@ const mapping = [
     },
     tags: ['cosmos sdk'],
   },
+  {
+    name: 'Band Protocol',
+    description: 'Band Protocol connects smart contracts with trusted off-chain information, provided through community-curated data providers.',
+    image: '/static/logos/band-protocol.png',
+    network: 'development',
+    verified: 'false',
+    links: {
+      proof: 'https://medium.com/bandprotocol/january-2020-update-announcing-an-early-alpha-release-of-band-protocol-2-0-ef320969714c',
+      github: 'https://github.com/bandprotocol',
+      twitter: 'https://twitter.com/bandprotocol',
+      chat: 'https://t.me/joinchat/E48nA06UIBFmNsE9OaDusQ',
+      website: 'https://bandprotocol.com',
+    },
+    tags: ['cosmos sdk'],
+  },
+  {
+    name: 'Bluzelle',
+    description: 'Bluzelle gives dapps a place to store data that is secure, tamper-proof, and highly scalable.',
+    image: '/static/logos/bluzelle.png',
+    network: 'development',
+    verified: 'false',
+    links: {
+      proof: 'https://www.cryptoninjas.net/2019/12/02/distributed-data-service-bluzelle-to-integrate-cosmos/',
+      github: 'https://github.com/bluzelle/curium',
+      twitter: 'https://twitter.com/bluzellehq',
+      chat: 'https://t.me/bluzelle',
+      website: 'https://www.bluzelle.com',
+    },
+    tags: ['cosmos sdk'],
+  },
 ];
 
 module.exports = {
