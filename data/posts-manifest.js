@@ -1451,6 +1451,21 @@ const mapping = [
     },
     tags: ['cosmos sdk'],
   },
+  {
+    name: 'Band Protocol',
+    description: 'Band Protocol connects smart contracts with trusted off-chain information, provided through community-curated data providers.',
+    image: '/static/logos/band-protocol.png',
+    network: 'development',
+    verified: 'false',
+    links: {
+      proof: 'https://medium.com/bandprotocol/january-2020-update-announcing-an-early-alpha-release-of-band-protocol-2-0-ef320969714c',
+      github: 'https://github.com/bandprotocol',
+      twitter: 'https://twitter.com/bandprotocol',
+      chat: 'https://t.me/joinchat/E48nA06UIBFmNsE9OaDusQ',
+      website: 'https://bandprotocol.com',
+    },
+    tags: ['cosmos sdk'],
+  },
 ];
 
 module.exports = {
