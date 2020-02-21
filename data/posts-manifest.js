@@ -1481,6 +1481,21 @@ const mapping = [
     },
     tags: ['cosmos sdk'],
   },
+  {
+    name: 'Enigma',
+    description: 'A proof-of-stake-based blockchain based on Cosmos SDK/Tendermint and secured by a new native coin, Secret (SCRT).',
+    image: '/static/logos/enigma.png',
+    network: 'mainnet',
+    verified: 'false',
+    links: {
+      proof: 'https://blog.enigma.co/the-enigma-mainnet-has-launched-3bd0d40fe80d',
+      github: 'https://github.com/enigmampc/enigmachain',
+      twitter: 'https://twitter.com/EnigmaMPC',
+      chat: 'https://t.me/enigmaproject',
+      website: 'https://enigma.co',
+    },
+    tags: ['cosmos sdk', 'tendermint core'],
+  },
 ];
 
 module.exports = {
