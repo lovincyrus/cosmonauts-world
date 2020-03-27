@@ -141,6 +141,20 @@ const mapping = [
     tags: ['cosmos sdk', 'tendermint core'],
   },
   {
+    name: 'IRITA',
+    description: 'IRITA (Inter-Realm Industry Trust Alliance), powered by Tendermint, Cosmos SDK and IRIS Service (a.k.a. iService), is the first enterprise consortium blockchain product in the Cosmos ecosystem.',
+    image: '/static/logos/irita.png',
+    network: '?',
+    verified: 'false',
+    links: {
+      proof: 'https://blog.cosmos.network/team-behind-irisnet-open-sourced-its-enterprise-blockchain-product-irita-9cd44b24f23e',
+      github: 'https://github.com/bianjieai/irita',
+      twitter: 'https://twitter.com/IRITAchain',
+      website: 'https://www.bianjie.ai/products/irita',
+    },
+    tags: ['cosmos sdk', 'tendermint core'],
+  },
+  {
     name: 'IOV',
     description: 'The IOV Name Service provides a human readable address instead of blockchain addresses to receive any kind of crypto-currencies. Built on Tendermint, IOV builds a fast, secure and decentralized name service. Any kind of crypto-addresses can be registered on the IOV Name Service.',
     image: '/static/logos/iov.png',
