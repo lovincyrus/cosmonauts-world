@@ -991,7 +991,7 @@ const mapping = [
       website: 'https://crowdcontrol.network/',
       twitter: 'https://twitter.com/CrowdControlNet',
     },
-    tags: ['cosmos sdk', 'nft', 'gaming'],
+    tags: ['cosmos sdk'],
   },
   {
     name: 'THORChain',
