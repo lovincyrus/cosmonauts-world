@@ -1511,6 +1511,21 @@ const mapping = [
     },
     tags: ['cosmos sdk', 'tendermint core'],
   },
+  {
+    name: 'Dropil Chain',
+    description: 'Dropil brings a suite of tools to cater to a broad cryptocurrency audience',
+    image: '/static/logos/dropil.png',
+    network: 'testnet',
+    verified: 'false',
+    links: {
+      proof: 'https://dropil.com/dropil-chain-testnet-official-launch/',
+      github: 'https://github.com/dropilchain-testnet',
+      twitter: 'https://twitter.com/DropilCoin',
+      chat: 'https://t.me/DropilCoin',
+      website: 'https://dropilchain.com',
+    },
+    tags: ['cosmos sdk', 'tendermint core'],
+  },
 ];
 
 module.exports = {
