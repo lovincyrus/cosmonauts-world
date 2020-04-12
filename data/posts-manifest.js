@@ -1526,6 +1526,23 @@ const mapping = [
     },
     tags: ['cosmos sdk', 'tendermint core'],
   },
+  {
+    name: 'Vocdoni',
+    description: 'A user-friendly, highly secure and privacy-centric governance platform.',
+    image: '/static/logos/vocdoni.png',
+    network: 'testnet',
+    verified: 'false',
+    links: {
+      website: 'https://vocdoni.io',
+      github: 'https://github.com/vocdoni',
+      gitlab: 'https://gitlab.com/vocdoni',
+      twitter: 'https://twitter.com/vocdoni',
+      keybase: 'vocdoni.public#general',
+      telegram: 'https://t.me/vocdoni',
+      proof: 'https://blog.vocdoni.io/vocdoni-technical-overview-v1/'
+    },
+    tags: ['tendermint core'],
+  },
 ];
 
 module.exports = {
