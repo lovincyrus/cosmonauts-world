@@ -1537,8 +1537,7 @@ const mapping = [
       github: 'https://github.com/vocdoni',
       gitlab: 'https://gitlab.com/vocdoni',
       twitter: 'https://twitter.com/vocdoni',
-      keybase: 'vocdoni.public#general',
-      telegram: 'https://t.me/vocdoni',
+      chat: 'https://t.me/vocdoni',
       proof: 'https://blog.vocdoni.io/vocdoni-technical-overview-v1/'
     },
     tags: ['tendermint core'],
