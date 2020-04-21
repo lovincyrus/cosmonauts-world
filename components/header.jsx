@@ -49,6 +49,7 @@ const Header = () => (
           padding: 40px;
           border-radius: 4px;
           position: relative;
+          margin-top: 7vh;
         }
 
         @media screen and (max-width: 480px) {
