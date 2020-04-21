@@ -16,7 +16,6 @@ function Navbar() {
               Projects
               </Badge>
             </a>
-            <a href="/build">Build</a>
           </div>
         </nav>
       </div>
@@ -31,7 +30,8 @@ function Navbar() {
           z-index: 10;
           padding-bottom: 1rem;
           padding-top: 1rem;
-          box-shadow: 0 0 1.8rem rgba(0,0,0,.15);
+          box-shadow: inset 0 -1px 0 0 rgba(0,0,0,0.1);
+          backdrop-filter: blur(5px);
         }
 
         .navbar {
