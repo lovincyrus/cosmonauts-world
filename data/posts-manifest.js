@@ -98,9 +98,9 @@ const mapping = [
   },
   {
     name: 'e-Money',
-    description: 'Today’s global transaction market is filled with high and non-transparent fees as well as lengthy processes. Engaging in a global money transfer is both expensive and unnecessarily slow. What if you could transfer money from one account to another anywhere in the world, with low cost transparent fees and in real-time, making the transaction instant and painless? e-Money empowers People and Businesses to make instant global transactions using the technology of tomorrow.',
+    description: 'e-Money is the leading issuer of interest-bearing, currency-backed tokens on blockchain. Our technology facilitates sub-second payments on a global scale, settled immediately.',
     image: '/static/logos/e-money.png',
-    network: 'testnet',
+    network: 'mainnet',
     verified: 'false',
     links: {
       proof: 'https://e-money.com/documents/e-Money%20Whitepaper.pdf',
@@ -1455,16 +1455,17 @@ const mapping = [
   {
     name: 'OKChain',
     description: 'OKChain is a self-developed public blockchain by OKEx based on a Cosmos SDK forked chain. It is the underlying architecture of the OKB ecosystem, which is added with payment function. While maintaining the cross-chain features of Cosmos SDK, it will undergo security and efficiency optimization designed for DeFi. OKDEX will be the first DApp launched on OKChain.',
-    image: '/static/logos/okex.png',
-    network: 'development',
+    image: '/static/logos/okchain.jpg',
+    network: 'testnet',
     verified: 'false',
     links: {
       proof: 'https://medium.com/okex-blog/okex-in-support-of-community-and-ecosystem-building-1788065881a8',
+      github: 'https://github.com/okex',
       twitter: 'https://twitter.com/OKEx',
-      chat: 'https://t.me/okexofficial_en',
-      website: 'https://www.okex.com',
+      chat: 'https://t.me/okchaintech',
+      website: 'https://www.okex.com/okchain',
     },
-    tags: ['cosmos sdk'],
+    tags: ['cosmos sdk', 'tendermint core'],
   },
   {
     name: 'Band Protocol',
