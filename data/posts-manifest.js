@@ -1558,6 +1558,20 @@ const mapping = [
     },
     tags: ['cosmos sdk', 'tendermint core'],
   },
+  {
+    name: 'Decimal',
+    description: 'Decimal will assist you to create a liquid coin, make passive income and transfer money across our planet Earth. Create your coin on Decimal within 3 minutes',
+    image: '/static/logos/decimal.png',
+    network: 'testnet',
+    verified: 'false',
+    links: {
+      website: 'https://decimalchain.com',
+      code: 'https://bitbucket.org/decimalteam',
+      twitter: 'https://twitter.com/DecimalChain',
+      proof: 'https://decimalchain.com/WPeng.pdf'
+    },
+    tags: ['cosmos sdk', 'tendermint core'],
+  },
 ];
 
 module.exports = {
