@@ -1566,7 +1566,7 @@ const mapping = [
     verified: 'false',
     links: {
       website: 'https://decimalchain.com',
-      bitbucket: 'https://bitbucket.org/decimalteam',
+      code: 'https://bitbucket.org/decimalteam',
       twitter: 'https://twitter.com/DecimalChain',
       proof: 'https://decimalchain.com/WPeng.pdf'
     },
