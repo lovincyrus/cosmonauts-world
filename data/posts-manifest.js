@@ -1,4 +1,4 @@
-const categories = ['all', 'cosmos sdk', 'tendermint core', 'tendermint bft', 'ethermint', 'weave', '?'];
+const categories = ['all', 'cosmos sdk', 'tendermint core', 'tendermint bft', 'ethermint', '?'];
 
 const mapping = [
   {
@@ -166,7 +166,7 @@ const mapping = [
       chat: 'https://t.me/internetofvalues',
       website: 'https://www.iov.one/',
     },
-    tags: ['weave', 'tendermint core'],
+    tags: ['tendermint core'],
   },
   {
     name: 'Akash Network',
@@ -1539,7 +1539,7 @@ const mapping = [
       gitlab: 'https://gitlab.com/vocdoni',
       twitter: 'https://twitter.com/vocdoni',
       chat: 'https://t.me/vocdoni',
-      proof: 'https://blog.vocdoni.io/vocdoni-technical-overview-v1/'
+      proof: 'https://blog.vocdoni.io/vocdoni-technical-overview-v1/',
     },
     tags: ['tendermint core'],
   },
@@ -1554,7 +1554,7 @@ const mapping = [
       github: 'https://github.com/KiFoundation',
       twitter: 'https://twitter.com/Ki_Foundation',
       chat: 'https://t.me/KiFoundation',
-      proof: 'https://static.foundation.ki/documents/ki-whitepaper.pdf'
+      proof: 'https://static.foundation.ki/documents/ki-whitepaper.pdf',
     },
     tags: ['cosmos sdk', 'tendermint core'],
   },

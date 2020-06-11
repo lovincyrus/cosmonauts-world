@@ -14,9 +14,6 @@ export default [
       chat: '',
       website: '',
     },
-    tags: ['cosmos sdk', 'tendermint core', 'tendermint bft', 'ethermint', 'lotion', 'weave'],
+    tags: ['cosmos sdk', 'tendermint core', 'tendermint bft', 'ethermint'],
   },
 ];
-
-// @lotion https://github.com/nomic-io/lotion
-// @weave https://github.com/iov-one/weave
