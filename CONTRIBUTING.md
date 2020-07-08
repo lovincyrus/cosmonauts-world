@@ -9,13 +9,12 @@ Thanks for being here!
 2. Follow this format [posts-manifest.default.js](/data/posts-manifest.default.js)
 3. Name `your-project-logo.png` in kebab-case
 4. Copy your project logo with _transparent background_ (.png / .jpg) into `/static/logos/`
-5. Ensure that verified status must be `false` by default
-6. _MUST_ provide proof! (either in blog post, whitepaper, public announcement, codebase, etc)
-7. Insert social links (optional)
-8. Add relevant tags (cosmos sdk, tendermint core, tendermint bft, ethermint)
-9. Finally, update `posts-manifest.js` and double check
-10. Create a pull request with `staging` 🚀
-11. Merge into `staging` branch
+5. _MUST_ provide proof! (either in blog post, whitepaper, public announcement, codebase, etc)
+6. Insert social links (optional)
+7. Add relevant tags (cosmos sdk, tendermint core, tendermint bft, ethermint)
+8. Finally, update `posts-manifest.js` and double check
+9. Create a pull request with `staging` 🚀
+10. Merge into `staging` branch
 
 (Maintainers)
 

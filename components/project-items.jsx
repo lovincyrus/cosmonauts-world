@@ -7,7 +7,7 @@ const ProjectItems = ({ state: { projects, displayCategory } }) => (
     {projects
       .filter((item) => item.tags.includes(displayCategory) || displayCategory === 'all')
       .map(({
-        name, description, image, network, verified, tags,
+        name, description, image, network, tags,
       }) => (
         <ProjectItem
           key={name}
@@ -15,7 +15,6 @@ const ProjectItems = ({ state: { projects, displayCategory } }) => (
           description={description}
           image={image}
           network={network}
-          verified={verified}
           tags={tags}
         />
       ))}

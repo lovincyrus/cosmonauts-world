@@ -1,4 +1,4 @@
-const categories = ['all', 'cosmos sdk', 'tendermint core', 'tendermint bft', 'ethermint', 'weave', '?'];
+const categories = ['all', 'cosmos sdk', 'tendermint core', 'tendermint bft', 'ethermint', '?'];
 
 const mapping = [
   {
@@ -6,7 +6,6 @@ const mapping = [
     description: 'The Cosmos Hub is the first of thousands of interconnected blockchains that will eventually comprise the Cosmos Network . The primary token of the Cosmos Hub is the ATOM , but the Hub will support many tokens in the future.',
     image: '/static/logos/gaia.png',
     network: 'mainnet',
-    verified: 'false',
     links: {
       github: 'https://github.com/cosmos/gaia',
     },
@@ -17,7 +16,6 @@ const mapping = [
     description: 'Binance Chain is a blockchain software system developed by Binance and its community. Binance DEX refers to the decentralized exchange features developed on top of Binance Chain. The purpose of the new blockchain and DEX is to create an alternative marketplace for issuing and exchanging digital assets in a decentralized manner.',
     image: '/static/logos/binance-chain.png',
     network: 'mainnet',
-    verified: 'false',
     links: {
       proof: 'https://binance-chain.github.io/acknowledgement.html#tendermint-and-cosmos',
       github: 'https://github.com/binance-chain/',
@@ -31,7 +29,6 @@ const mapping = [
     description: 'Kava is the first cross-blockchain DeFi platform that enables traders to leverage their assets and hedge using a multi-collateral CDP system and collateral-backed stablecoin (USDX).',
     image: '/static/logos/kava.png',
     network: 'mainnet',
-    verified: 'false',
     links: {
       proof: 'https://github.com/Kava-Labs/kava',
       github: 'https://github.com/Kava-Labs/',
@@ -45,7 +42,6 @@ const mapping = [
     description: 'A price-stable cryptocurrency designed for mass adoption. We are building financial infrastructure for the next generation of decentralized applications.',
     image: '/static/logos/terra.jpg',
     network: 'mainnet',
-    verified: 'false',
     links: {
       proof: 'https://github.com/terra-project/core',
       github: 'https://github.com/terra-project',
@@ -60,7 +56,6 @@ const mapping = [
     description: 'Agoric is developing a secure distributed ocap platform for smart contracts and market-oriented programming. Our platform supports the development of smart contracts and market institutions across many different scales, from large public blockchains to small two-party contracts.',
     image: '/static/logos/agoric.png',
     network: 'testnet',
-    verified: 'false',
     links: {
       proof: 'https://agoric.com/agoric-launches-testnet',
       github: 'https://github.com/agoric',
@@ -73,7 +68,6 @@ const mapping = [
     description: 'Microtick is a market-based system for crowdsourcing and incentivizing untrusted oracles to provide accurate streaming data to the Cosmos / Tendermint ecosystem.',
     image: '/static/logos/microtick.png',
     network: 'testnet',
-    verified: 'false',
     links: {
       proof: 'https://gitlab.com/microtick/mtkit/blob/master/docs/Microtick%20Guide%201.0.pdf',
       gitlab: 'https://gitlab.com/microtick',
@@ -86,7 +80,6 @@ const mapping = [
     description: 'Aragon empowers you to freely organize and collaborate without borders or intermediaries. Create global, bureaucracy-free organizations, companies, and communities.',
     image: '/static/logos/aragon-chain.png',
     network: 'development',
-    verified: 'false',
     links: {
       proof: 'https://blog.aragon.one/aragon-chain',
       github: 'https://github.com/aragon',
@@ -101,7 +94,6 @@ const mapping = [
     description: 'e-Money is the leading issuer of interest-bearing, currency-backed tokens on blockchain. Our technology facilitates sub-second payments on a global scale, settled immediately.',
     image: '/static/logos/e-money.png',
     network: 'mainnet',
-    verified: 'false',
     links: {
       proof: 'https://e-money.com/documents/e-Money%20Whitepaper.pdf',
       github: 'https://github.com/e-money',
@@ -116,7 +108,6 @@ const mapping = [
     description: 'Regen Network is built to support a wide variety of ecological improvement agreements. These include agreements about improving practices, agreements about ecological changes and a combination of both. Changing practices isn’t 100% sure to be effective, but can be tracked in the short term. To track actual ecological impact, we look at long term indicators. Regen Network allows users to track change that is meaningful to them, not restricting metrics, and allowing us to gain a more holistic understanding of ecosystem health.',
     image: '/static/logos/regen-network.jpg',
     network: 'testnet',
-    verified: 'false',
     links: {
       proof: 'https://medium.com/regen-network/how-to-choose-a-blockchain-55a343fd7ec4',
       gitlab: 'https://gitlab.com/regen-network',
@@ -131,7 +122,6 @@ const mapping = [
     description: 'IRISnet is designed to be the foundation for next generation distributed business applications. It is a BPoS blockchain, built with Cosmos-SDK, that enables cross-chain interoperability through a unified service model.',
     image: '/static/logos/irisnet.png',
     network: 'mainnet',
-    verified: 'false',
     links: {
       proof: 'https://github.com/irisnet/irisnet/blob/master/WHITEPAPER.md',
       github: 'https://github.com/irisnet/',
@@ -145,7 +135,6 @@ const mapping = [
     description: 'IRITA (Inter-Realm Industry Trust Alliance), powered by Tendermint, Cosmos SDK and IRIS Service (a.k.a. iService), is the first enterprise consortium blockchain product in the Cosmos ecosystem.',
     image: '/static/logos/irita.png',
     network: '?',
-    verified: 'false',
     links: {
       proof: 'https://blog.cosmos.network/team-behind-irisnet-open-sourced-its-enterprise-blockchain-product-irita-9cd44b24f23e',
       github: 'https://github.com/bianjieai/irita',
@@ -159,21 +148,19 @@ const mapping = [
     description: 'The IOV Name Service provides a human readable address instead of blockchain addresses to receive any kind of crypto-currencies. Built on Tendermint, IOV builds a fast, secure and decentralized name service. Any kind of crypto-addresses can be registered on the IOV Name Service.',
     image: '/static/logos/iov.png',
     network: 'mainnet',
-    verified: 'false',
     links: {
       proof: 'https://docs.iov.one/docs/weave/welcome',
       github: 'https://github.com/iov-one',
       chat: 'https://t.me/internetofvalues',
       website: 'https://www.iov.one/',
     },
-    tags: ['weave', 'tendermint core'],
+    tags: ['tendermint core'],
   },
   {
     name: 'Akash Network',
     description: 'Akash is the world’s first super cloud for serverless computing, empowering the architects and builders of the internet with greater access, freedom, and efficiency.',
     image: '/static/logos/akash-network.png',
     network: 'testnet',
-    verified: 'false',
     links: {
       proof: 'https://github.com/ovrclk/akash/search?q=tendermint&unscoped_q=tendermint',
       github: 'https://github.com/ovrclk',
@@ -187,7 +174,6 @@ const mapping = [
     description: 'Sentinel is a network layer for p2p or decentralized applications enabling users and organizations to create Public and Private networks that provide access to both free and incentivised, payment-type (currency/token/fiat) agnostic Services & distributed Resources. With paradigms of Web3 in mind we allow users to become both producers and consumers in the network while earning and spending whitelisted tokens such as Bitcoin, Ethereum, Photons, Atoms or any other, which enables everyone to participate in the system without being forced to use any particular coin.',
     image: '/static/logos/sentinel.png',
     network: 'testnet',
-    verified: 'false',
     links: {
       proof: 'https://github.com/sentinel-official/sentinel/blob/master/README.md',
       github: 'https://github.com/sentinel-official/sentinel',
@@ -202,7 +188,6 @@ const mapping = [
     description: 'Althea is a system that lets routers pay each other for bandwidth. This allows people to set up decentralized ISPs in their communities. In an Althea network, instead of one ISP at the top collecting monthly payments, many different people can earn money by expanding and strengthening the network.',
     image: '/static/logos/althea.png',
     network: 'testnet',
-    verified: 'false',
     links: {
       proof: 'https://blog.althea.net/launching-the-althea-blockchain/',
       github: 'https://github.com/althea-net',
@@ -217,7 +202,6 @@ const mapping = [
     description: 'Kira is a next generation hyperscale decentralized exchange (DEX) engineered for cross-chain transfers and frictionless trading. On the one hand, Kira aims to deliver all the liquidity, performance and trading sophistication of a centralised exchange but without the custody, downtime and fraud risk that plague our industry. On the other hand, Kira offers stronger security guarantees than state-of-the-art DEXs, but with a powerful governance model that builds trust and engagement whilst actively resisting corruption.',
     image: '/static/logos/kiraex.png',
     network: 'development',
-    verified: 'false',
     links: {
       proof: 'https://medium.com/kira-core/introducing-kira-the-future-of-interchain-exchange-c5d8f4223607',
       github: 'https://github.com/kira-ex',
@@ -232,7 +216,6 @@ const mapping = [
     description: 'Desmos is an attempt to bootstrap a new social network tokenomics through the simplest form of social networking: microblogging.',
     image: '/static/logos/desmos.jpeg',
     network: 'development',
-    verified: 'false',
     links: {
       proof: 'https://medium.com/forbole/forbole-and-desmos-in-japan-bfdd66317d62',
       github: 'https://github.com/desmos-labs',
@@ -246,7 +229,6 @@ const mapping = [
     description: 'A decentralized Google for provable and relevant answers. A relevance machine & a state of the art consensus computer, built with the help of go-IPFS and cosmos-SDK',
     image: '/static/logos/cybercongress.png',
     network: 'testnet',
-    verified: 'false',
     links: {
       proof: 'https://github.com/cybercongress/cyberd',
       github: 'https://github.com/cybercongress',
@@ -261,7 +243,6 @@ const mapping = [
     description: 'An open source project to provide companies the ability to exchange documents and guarantee paternity, integrity, and non-repudiation.',
     image: '/static/logos/commercio-network.png',
     network: '?',
-    verified: 'false',
     links: {
       proof: 'https://github.com/commercionetwork/commercionetwork',
       github: 'https://github.com/commercionetwork',
@@ -275,7 +256,6 @@ const mapping = [
     description: 'Privacy-first cloud computing on blockchain.',
     image: '/static/logos/oasis-labs.png',
     network: 'testnet',
-    verified: 'false',
     links: {
       proof: 'https://github.com/oasislabs/oasis-core/search?utf8=%E2%9C%93&q=tendermint&type=',
       github: 'https://github.com/oasislabs',
@@ -290,7 +270,6 @@ const mapping = [
     description: 'FOAM’s dynamic proof of location protocol will enable a permissionless and privacy-preserving network of radio beacons that is independent from external centralized sources such as GPS and capable of providing secure location verification services.',
     image: '/static/logos/foam.png',
     network: 'mainnet',
-    verified: 'false',
     links: {
       proof: 'https://blog.foam.space/tendermint-foam-achieving-global-scalability-through-local-consensus-4c63c8bb51a8',
       github: 'https://github.com/f-o-a-m/',
@@ -304,7 +283,6 @@ const mapping = [
     description: 'Loom is a Layer 2 scaling solution for Ethereum that includes a network of DPoS sidechains for highly-scalable games and user-facing DApps.',
     image: '/static/logos/loom-network.png',
     network: 'mainnet',
-    verified: 'false',
     links: {
       proof: 'https://github.com/loomnetwork/loomchain',
       github: 'https://github.com/loomnetwork',
@@ -318,7 +296,6 @@ const mapping = [
     description: 'Comdex is revolutionising the archaic and laggard commodity trade industry to make it more efficient and usher it into the next era of transformation. Comdex revolutionizes the $17 trillion a year commodity trading industry by using existing banking structures and advanced technology. With a plethora of solutions including a single platform to connect trade financiers, aid in trade settlement and propel trade discoveries, Comdex is already in the pilot phase with trades of millions of dollars.',
     image: '/static/logos/comdex.jpg',
     network: 'testnet',
-    verified: 'false',
     links: {
       proof: 'https://comdex.sg/',
       website: 'https://comdex.sg/',
@@ -330,7 +307,6 @@ const mapping = [
     description: 'Minter offers you the ability to issue, transfer, or exchange your own coin in seconds with instant liquidity. All our products are open-source—iOS, Android, Web, and Telegram wallets; an API and an SDK.',
     image: '/static/logos/minter.png',
     network: 'mainnet',
-    verified: 'false',
     links: {
       proof: 'https://github.com/MinterTeam/minter-go-node',
       github: 'https://github.com/MinterTeam',
@@ -345,7 +321,6 @@ const mapping = [
     description: 'On-chain governance, voting analytics, supply chain management — processes many suspect will yield to blockchains — consume and translate vast quantities of information in all but the simplest cases. Platforms encumbered by astronomical storage costs — or inexpressive data modelling primitives — are unlikely to provide us with sustainable, cost-effective or transparent solutions to data-hungry problems. Our inaugural post, Blockchains as Information Systems, covers these ideas in more detail.',
     image: '/static/logos/datopia.png',
     network: '?',
-    verified: 'false',
     links: {
       proof: 'https://blog.datopia.io/2019/04/04/building-your-first-clojure-blockchain/',
       github: 'https://github.com/datopia',
@@ -359,7 +334,6 @@ const mapping = [
     description: 'The ProximaX Sirius core infrastructure platform leverages on an amended and augmented blockchain and is integrated with peer-to-peer, distributed off-chain storage, streaming, and database layers. These are overlaid with APIs/SDKs in a wide range of languages for developers to rapidly develop and deploy their applications. By parallelising all of these protocols into manageable but distinct layers, ProximaX leverages the advantages of blockchain whilst solving its challenges via service layers found in traditional architectures, packaged into an all-in-one extensive framework.',
     image: '/static/logos/proximax.jpg',
     network: '?',
-    verified: 'false',
     links: {
       proof: 'https://medium.com/@proximaxio/proximax-sirius-an-integrated-and-distributed-ledger-technology-platform-5ced5f38097b',
       github: 'https://github.com/proximax-storage',
@@ -374,7 +348,6 @@ const mapping = [
     description: 'Hyperledger Burrow is one of the Hyperledger projects hosted by The Linux Foundation. Hyperledger Burrow provides a modular blockchain client with a permissioned smart contract interpreter partially developed to the specification of the EVM.',
     image: '/static/logos/hyperledger-burrow.png',
     network: '?',
-    verified: 'false',
     links: {
       proof: 'https://github.com/hyperledger/burrow',
       github: 'https://github.com/hyperledger/burrow',
@@ -388,7 +361,6 @@ const mapping = [
     description: 'An open event channel and CLI for building and running modular applications. Control the flow of data and level of security between your whole stack of connected systems.',
     image: '/static/logos/mesg.png',
     network: '?',
-    verified: 'false',
     links: {
       proof: 'https://medium.com/mesg/bi-weekly-news-29-08-19-3e7ce9d3533a',
       github: 'https://github.com/mesg-foundation',
@@ -402,7 +374,6 @@ const mapping = [
     description: 'Higher security and quality randomization than any traditional service can be handled at a fraction of the cost of a network fee.',
     image: '/static/logos/decentrandom.png',
     network: 'testnet',
-    verified: 'false',
     links: {
       proof: 'https://decentrandom.com/asset/whitepaper/whitepaper_beta_kr_v.0.2.1.pdf',
       github: 'https://github.com/decentrandom',
@@ -416,7 +387,6 @@ const mapping = [
     description: 'Traditional blockchains lack what most enterprises require. BigchainDB takes a different approach, one that starts with a big data distributed database and then adds blockchain characteristics. The result is high throughput and low latency, making data-centric and high volume use cases a breeze. BigchainDB combines the all-important advantages of queryability and performance of traditional databases with the distributed, secure and immutable nature of blockchain technology into one package.',
     image: '/static/logos/bigchaindb.jpg',
     network: '?',
-    verified: 'false',
     links: {
       proof: 'https://blog.bigchaindb.com/bigchaindb-2-0-is-byzantine-fault-tolerant-5ffdac96bc44',
       github: 'https://github.com/bigchaindb',
@@ -431,7 +401,6 @@ const mapping = [
     description: 'LikeCoin aims to reinvent the Like by realigning creativity and reward. We enable attribution and cross-application collaboration on creative contents. With a reinvented Like button and our unique LikeRank algorithm, we trace content footprint and reward content creators by Proof of Creativity mechanism.',
     image: '/static/logos/likecoin.png',
     network: 'mainnet',
-    verified: 'false',
     links: {
       proof: 'https://github.com/likecoin/likechain',
       github: 'https://github.com/likecoin',
@@ -445,7 +414,6 @@ const mapping = [
     description: 'A value-sharing content economy where content creators, viewers, and other contributors are fairly incentivized to maximize sustainable economic growth.',
     image: '/static/logos/lino-network.png',
     network: 'testnet',
-    verified: 'false',
     links: {
       proof: 'https://github.com/lino-network/cosmos-sdk',
       github: 'https://github.com/lino-network',
@@ -459,7 +427,6 @@ const mapping = [
     description: 'Our mission is to remove opacity and inefficiencies from the global alternative investment industry via blockchain solutions. The Konstellation Network will continue to attract leading global financial firms and industry leaders as node operators, service providers, and users.',
     image: '/static/logos/konstellation.png',
     network: 'development',
-    verified: 'false',
     links: {
       proof: 'https://medium.com/@KONSTELLATION/konstellation-network-will-be-developed-on-cosmos-4d8c01ff0871',
       github: 'https://github.com/Konstellation',
@@ -473,7 +440,6 @@ const mapping = [
     description: 'MediBloc has been building a patient-centric medical data ecosystem, utilizing blockchain technology and its ability to add security and reliability to data.',
     image: '/static/logos/mediblock.png',
     network: 'mainnet',
-    verified: 'false',
     links: {
       proof: 'https://bert.substack.com/p/an-ehr-project-launches-their-own',
       github: 'https://github.com/medibloc/panacea-core',
@@ -487,7 +453,6 @@ const mapping = [
     description: '?',
     image: '/static/logos/peerity.png',
     network: '?',
-    verified: 'false',
     links: {
       proof: 'http://peerity.io/whitepaper/',
       github: 'https://github.com/Peerity',
@@ -500,7 +465,6 @@ const mapping = [
     description: 'Decentralized video streaming, powered by users and an innovative new blockchain.',
     image: '/static/logos/thetatoken.png',
     network: '?',
-    verified: 'false',
     links: {
       proof: 'https://medium.com/@ThetaLabs/theta-network-roadmap-for-2018-90c4fbf2cf4a',
       github: 'https://github.com/thetatoken',
@@ -514,7 +478,6 @@ const mapping = [
     description: 'FXCH is a new approach to Spot-FX clearing. Our settlement technology is remarkable in its simplicity. Our goal is simple: cut out superfluous steps in the trade clearing process, thereby leaving out unnecessary associated costs.',
     image: '/static/logos/fxch.png',
     network: '?',
-    verified: 'false',
     links: {
       proof: 'https://fxclr.com/',
       github: 'https://github.com/fxch-ltd',
@@ -528,7 +491,6 @@ const mapping = [
     description: 'The peaq DAGchain will function as an enterprise-grade framework for private or permissioned networks for corporates as well as a fully decentralized public peaq network. peaq is designed for use in the IoT, Automotive, Machine and Telecommunications industries.',
     image: '/static/logos/peaq.png',
     network: '?',
-    verified: 'false',
     links: {
       proof: '?',
       github: '?',
@@ -543,7 +505,6 @@ const mapping = [
     description: 'OneLedger is a Blockchain as a Service (BaaS) Solutions company, that uses their own Blockchain technology to support their customer’s blockchain needs.',
     image: '/static/logos/oneledger.png',
     network: '?',
-    verified: 'false',
     links: {
       proof: 'https://imgur.com/bUH1mpm',
       github: 'https://github.com/Oneledger/',
@@ -557,7 +518,6 @@ const mapping = [
     description: 'Stratumn\'s Proof of Process Technology enables people and organizations to trust the millions of processes that connect our world',
     image: '/static/logos/stratumn.jpeg',
     network: '?',
-    verified: 'false',
     links: {
       proof: 'https://github.com/stratumn/go-indigocore',
       github: 'https://github.com/stratumn',
@@ -571,7 +531,6 @@ const mapping = [
     description: '',
     image: '/static/logos/enledger.png',
     network: '?',
-    verified: 'false',
     links: {
       proof: 'https://github.com/enledger/standAlonePassGenerate',
       github: 'https://github.com/enledger',
@@ -584,7 +543,6 @@ const mapping = [
     description: '?',
     image: '/static/logos/altcoin.png',
     network: '?',
-    verified: 'false',
     links: {
       proof: 'https://blog.altcoin.io/why-weve-chosen-a-plasma-like-sidechain-solution-for-our-dex-97737ca46b86',
       github: 'https://github.com/AltCoinExchange',
@@ -598,7 +556,6 @@ const mapping = [
     description: 'Build blockchain powered social apps.',
     image: '/static/logos/hashnode-mint.png',
     network: '?',
-    verified: 'false',
     links: {
       proof: 'https://github.com/Hashnode/mint',
       github: 'https://github.com/Hashnode',
@@ -610,7 +567,6 @@ const mapping = [
     description: 'Cosmos SDK (Tendermint consensus) side-chain implementation for plasma.',
     image: '/static/logos/fourthstate.png',
     network: 'development',
-    verified: 'false',
     links: {
       proof: 'https://medium.com/blockchain-at-berkeley/fourthstate-is-implementing-plasma-6fe99019edb2',
       github: 'https://github.com/fourthstate',
@@ -622,7 +578,6 @@ const mapping = [
     description: '?',
     image: '/static/logos/moraclenetwork.png',
     network: '?',
-    verified: 'false',
     links: {
       proof: 'https://moracle.network/',
       github: 'https://github.com/MoracleNetwork',
@@ -636,7 +591,6 @@ const mapping = [
     description: '?',
     image: '/static/logos/ercoin.png',
     network: '?',
-    verified: 'false',
     links: {
       proof: 'https://goo.gl/hQyRy5',
       gitlab: 'https://gitlab.com/Ercoin',
@@ -650,7 +604,6 @@ const mapping = [
     description: '?',
     image: '/static/logos/smartpesa.png',
     network: '?',
-    verified: 'false',
     links: {
       proof: 'https://tozzi21.wordpress.com/author/tozzi21/',
       github: 'http://github.com/smartpesa',
@@ -661,24 +614,22 @@ const mapping = [
   },
   {
     name: 'ShareRing',
-    description: '?',
+    description: "The world's first trusted token for sharing services",
     image: '/static/logos/sharering.jpeg',
     network: '?',
-    verified: 'false',
     links: {
       proof: 'https://venturebeat.com/2019/01/14/sharering-launches-blockchain-powered-car-sharing-on-top-of-existing-rental-services/',
       github: 'https://github.com/ShareRing/',
       chat: 'https://t.me/ShareRing',
       website: 'https://sharering.network/',
     },
-    tags: ['?'],
+    tags: ['cosmos sdk', 'tendermint core'],
   },
   {
     name: 'CyberMiles',
     description: '?',
     image: '/static/logos/cybermiles.png',
     network: 'mainnet',
-    verified: 'false',
     links: {
       proof: 'https://www.cybermiles.io/en-us/cmt/whitepaper/',
       github: 'https://github.com/cybermiles',
@@ -692,7 +643,6 @@ const mapping = [
     description: '?',
     image: '/static/logos/fluence.png',
     network: '?',
-    verified: 'false',
     links: {
       proof: 'https://github.com/fluencelabs/tendermint-demo',
       github: 'https://github.com/fluencelabs',
@@ -706,7 +656,6 @@ const mapping = [
     description: '?',
     image: '/static/logos/boid.png',
     network: '?',
-    verified: 'false',
     links: {
       proof: 'https://forum.cosmos.network/t/about-the-ecosystem-category/15/2',
       chat: 'https://t.me/Boidcom_official',
@@ -719,7 +668,6 @@ const mapping = [
     description: 'Vega is a protocol for creating and trading derivatives on a fully decentralised network.',
     image: '/static/logos/vega.png',
     network: '?',
-    verified: 'false',
     links: {
       proof: 'https://www.mbarlow.com/ethereum-london-meetup-vega/',
       github: 'https://github.com/vegaprotocol',
@@ -732,7 +680,6 @@ const mapping = [
     description: 'A trusted tool for the development of open-economy games, player payouts, a ready-made legal solution for digital assets and a new game distribution channel.',
     image: '/static/logos/expload.png',
     network: '?',
-    verified: 'false',
     links: {
       proof: 'https://expload.com/blue-paper',
       chat: 'https://t.me/expload_en',
@@ -745,7 +692,6 @@ const mapping = [
     description: 'ixo is a blockchain built to ledger impact projects and work done in pursuit of the sustainable development goals. Its makes this project data visible, so that the progress of these projects can be easily tracked by investors. It is built on tendermint and uses the cosmos SDK.',
     image: '/static/logos/ixo.png',
     network: '?',
-    verified: 'false',
     links: {
       proof: 'https://medium.com/ixo-blog/weekly-update-may-14th-2018-ce306efdc66',
       github: 'https://github.com/ixofoundation',
@@ -759,7 +705,6 @@ const mapping = [
     description: 'Programmable open source blockchain technology optimal for developing and customizing multi-asset management systems.',
     image: '/static/logos/codechain.png',
     network: 'mainnet',
-    verified: 'false',
     links: {
       proof: 'https://codechain.readthedocs.io/en/latest/basic-usage.html?highlight=tendermint',
       github: 'https://github.com/CodeChain-io',
@@ -772,7 +717,6 @@ const mapping = [
     description: 'Tatau is a distributed supercomputing platform used by AI companies to perform complex deep-learning operations more cost-effectively, and efficiently than other alternatives.',
     image: '/static/logos/tatau.png',
     network: '?',
-    verified: 'false',
     links: {
       proof: 'https://tatau.io/img/en/final_tatau_wp.pdf',
       github: 'https://github.com/TatauCloud',
@@ -786,7 +730,6 @@ const mapping = [
     description: '',
     image: '/static/logos/ndidplatform.png',
     network: '?',
-    verified: 'false',
     links: {
       proof: 'https://github.com/ndidplatform/smart-contract/blob/master/go.mod#L22',
       github: 'https://github.com/ndidplatform',
@@ -801,7 +744,6 @@ const mapping = [
     description: 'Papyrus is an open source public blockchain network compatible with Ethereum ecosystem, which eliminates key issues of Ethereum, providing highly scalable, reliable and cost-efficient decentralized platform for application developers.',
     image: '/static/logos/papyrus.png',
     network: '?',
-    verified: 'false',
     links: {
       proof: 'https://i.imgur.com/ok5CORM.png',
       github: 'https://github.com/papyrusglobal',
@@ -815,7 +757,6 @@ const mapping = [
     description: '?',
     image: '/static/logos/neocortex.png',
     network: '?',
-    verified: 'false',
     links: {
       proof: 'https://github.com/neocortexlab?utf8=%E2%9C%93&q=tendermint&type=&language=',
       github: 'https://github.com/neocortexlab',
@@ -829,7 +770,6 @@ const mapping = [
     description: '?',
     image: '/static/logos/oracle.png',
     network: '?',
-    verified: 'false',
     links: {
       proof: 'http://www.freepatentsonline.com/y2017/0236120.html',
     },
@@ -840,7 +780,6 @@ const mapping = [
     description: 'Hashgard is a world leading high functionality digital finance public chain.',
     image: '/static/logos/hashgard.png',
     network: 'mainnet',
-    verified: 'false',
     links: {
       proof: 'https://medium.com/@hashgard/hashgard-establishes-strategic-partnership-with-irisnet-in-depth-analysis-d00cc8fa5db5',
       github: 'https://github.com/hashgard',
@@ -854,7 +793,6 @@ const mapping = [
     description: '?',
     image: '/static/logos/cosmic-bridge.jpeg',
     network: '?',
-    verified: 'false',
     links: {
       proof: 'https://github.com/CosmicBridge/server/blob/master/README.md',
       github: 'https://github.com/CosmicBridge',
@@ -866,7 +804,6 @@ const mapping = [
     description: 'UniCoins is a Dapp used as a red pocket in China based on Cosmos and IRISnet. It enables users to send cryptocurrency directly to others using a function of red pocket, create and share a lucky draw event, and make an intelligent bulk transfer',
     image: '/static/logos/unicoins.png',
     network: '?',
-    verified: 'false',
     links: {
       proof: 'https://t.me/cosmosproject/176383',
       chat: 'https://t.me/UniCoinsUs',
@@ -879,7 +816,6 @@ const mapping = [
     description: 'Kuende is the first blockchain fueled social network that uses gamified challenges to reward real life social interaction.',
     image: '/static/logos/kuende.png',
     network: '?',
-    verified: 'false',
     links: {
       proof: 'https://medium.com/kuende/cosmos-network-kuendes-home-for-its-own-decentralized-solution-e60d9a74cb4',
       github: 'https://github.com/kuende',
@@ -893,7 +829,6 @@ const mapping = [
     description: '?',
     image: '/static/logos/woc.jpeg',
     network: '?',
-    verified: 'false',
     links: {
       proof: 'https://medium.com/wisdom-of-crowd/wisdom-of-crowd-decentralized-prediction-market-on-lotionjs-with-tendermint-blockchain-77082e7c37d4',
       github: 'https://github.com/swswsw/predictionmkt',
@@ -907,7 +842,6 @@ const mapping = [
     description: 'The Agreements Network is a prime opportunity to build a new legal layer in networked commerce, backed by the certainty of blockchain and smart contract-based evidence and processes. Lawyers with zero coding experience can combine their savvy, their clients’ needs and the Agreements Network to turn today’s legal problem into tomorrow’s market opportunity.',
     image: '/static/logos/the-agreements-network.png',
     network: '?',
-    verified: 'false',
     links: {
       proof: 'https://docs.agreements.network/#introduction-to-the-agreements-network',
       github: 'https://github.com/agreements-network',
@@ -921,7 +855,6 @@ const mapping = [
     description: '?',
     image: '/static/logos/peerity.png',
     network: '?',
-    verified: 'false',
     links: {
       proof: 'https://datapace.io/datapace_whitepaper.pdf',
       website: 'https://datapace.io/',
@@ -933,7 +866,6 @@ const mapping = [
     description: 'Playlist provides a fully licensed, ad-supported music streaming service that generates 10 times the user engagement of Pandora and Spotify. For the first time, token economics can enable millions of music fans to participate in the music economy. However, bringing Playlist users into the token economy right now would overwhelm conventional smart contract platforms. To overcome that challenge, Playlist is leveraging the unique capabilities of the Cosmos platform to bring incentivized cooperation at consumer scale.',
     image: '/static/logos/playlist.png',
     network: '?',
-    verified: 'false',
     links: {
       proof: 'https://medium.com/tendermint/tokenizing-the-music-industry-with-play-protocol-ea929de52210',
       website: 'https://www.playlist.com/',
@@ -945,7 +877,6 @@ const mapping = [
     description: 'Clearing.cc is the new approach for Crypto Currency Exchanges. Our goal is to provide a solid Crypto Currency clearing process using our new technology designed for the Crypto Currency market. This is the solution for the new Crypto Currency era.',
     image: '/static/logos/peerity.png',
     network: '?',
-    verified: 'false',
     links: {
       proof: 'https://i.imgur.com/kWCkPIY.png',
       website: 'https://www.clearing.cc/',
@@ -957,7 +888,6 @@ const mapping = [
     description: 'Collect and trade dank memes on the blockchain.',
     image: '/static/logos/memecom.png',
     network: '?',
-    verified: 'false',
     links: {
       proof: 'https://goo.gl/pnJD67',
       website: 'https://memecom.co/',
@@ -969,7 +899,6 @@ const mapping = [
     description: 'Paradigm provides simple interfaces and libraries for developers to implement smart contract based financial primitives. These settlement systems can be anything from spot exchange to derivatives, loans, and more. Any hybrid decentralized settlement logic (with off-chain order relay with on-chain settlement) can be implemented. Paradigm enables diverse and open marketplaces for custom exchange logic and tokenized financial instrumentation.',
     image: '/static/logos/paradigm.png',
     network: '?',
-    verified: 'false',
     links: {
       proof: 'https://paradigm.market/whitepaper',
       github: 'https://github.com/ParadigmFoundation',
@@ -983,7 +912,6 @@ const mapping = [
     description: 'Trading Card Game where you can create your own cards and balance all cards by voting on the blockchain.',
     image: '/static/logos/crowd-control.png',
     network: 'development',
-    verified: 'false',
     links: {
       proof: 'https://github.com/DecentralCardGame/whitepaper/blob/master/whitepaper.pdf',
       github: 'https://github.com/DecentralCardGame',
@@ -998,7 +926,6 @@ const mapping = [
     description: '?',
     image: '/static/logos/thorchain.png',
     network: 'mainnet',
-    verified: 'false',
     links: {
       proof: 'https://github.com/thorchain/thorchain-wasm-bridge',
       github: 'https://github.com/thorchain',
@@ -1012,7 +939,6 @@ const mapping = [
     description: '?',
     image: '/static/logos/xmn-services.png',
     network: '?',
-    verified: 'false',
     links: {
       proof: 'https://github.com/xmnservices/xmnsuite',
       github: 'https://github.com/xmnservices',
@@ -1025,7 +951,6 @@ const mapping = [
     description: 'BitSong’s mission is to enable a simple global blockchain infrastructure that empowers the music industry.',
     image: '/static/logos/bitsong.jpeg',
     network: 'testnet',
-    verified: 'false',
     links: {
       proof: 'https://medium.com/@BitSongOfficial/important-bitsongs-public-sale-notice-e70e448bd90c',
       github: 'https://github.com/BitSongOfficial',
@@ -1039,7 +964,6 @@ const mapping = [
     description: 'Ockam is a new approach to help developers innovate with the Internet of Things. The platform rolls up the best practices in secure connected device systems, and abstracts away technical complexity below a developer experience layer. Ockam’s blockchain based infrastructure provides a serverless experience so developers can innovate - fast.',
     image: '/static/logos/ockam.png',
     network: '?',
-    verified: 'false',
     links: {
       proof: 'https://medium.com/ockam/ockam-is-tuned-for-iot-c2f04cae019a',
       github: 'https://github.com/ockam-network/ockam',
@@ -1052,7 +976,6 @@ const mapping = [
     description: '?',
     image: '/static/logos/mold.png',
     network: '?',
-    verified: 'false',
     links: {
       proof: 'https://medium.com/mold-project/roadmap-jp-93da9e0d9db4',
       github: 'https://github.com/moldcoin',
@@ -1066,7 +989,6 @@ const mapping = [
     description: 'We present a design for a Bitcoin sidechain based on the Tendermint consensus protocol, enabling the development of decentralized networks which coordinate to manage reserves of Bitcoin, allowing for custom application code and smart contracts which use Bitcoin as the native currency. We also avoid the long-range attack problem of proof-of-stake networks by periodically timestamping the sidechain on the Bitcoin blockchain, gaining the security of Bitcoin’s proof-of-work in addition to the instant finality of BFT consensus protocols.',
     image: '/static/logos/default.png',
     network: '?',
-    verified: 'false',
     links: {
       proof: 'https://github.com/mappum/bitcoin-peg/blob/master/bitcoinPeg.md',
       github: 'https://github.com/mappum',
@@ -1078,7 +1000,6 @@ const mapping = [
     description: '?',
     image: '/static/logos/bytom.png',
     network: '?',
-    verified: 'false',
     links: {
       proof: 'https://cointelegraph.com/press-releases/bytom-blockchain-developers-takes-home-the-second-prize-in-the-2nd-cosmos-hackathon',
       github: 'https://github.com/Bytom/',
@@ -1092,7 +1013,6 @@ const mapping = [
     description: 'QOS is an operating system based on the hybrid of public and consortium chains, unified identity authentication system, self-motivated double-layer token protocol, a double-layer mining mechanism for super nodes + transaction mining, Distributed file system, and an interactive community between developers and users, serve the community with massive users in consume, traditional finance, financial technology, new media, etc., allow various service providers to easily publish their own new applications under the protocol, and gradually maximize the value of community citizenship through data transactions.',
     image: '/static/logos/qos.png',
     network: '?',
-    verified: 'false',
     links: {
       proof: 'https://github.com/QOSGroup/qmoon',
       github: 'https://github.com/QOSGroup',
@@ -1106,7 +1026,6 @@ const mapping = [
     description: 'We intend that Crypto.com Chain will be a high performing native blockchain solution, which will make the transaction flows between crypto users and merchants accepting crypto seamless, cost-efficient and secure.',
     image: '/static/logos/crypto-com.png',
     network: 'mainnet',
-    verified: 'false',
     links: {
       proof: 'https://blog.crypto.com/crypto-com-chain-dev-update-1/',
       github: 'https://github.com/crypto-com',
@@ -1120,7 +1039,6 @@ const mapping = [
     description: '?',
     image: '/static/logos/chainpoint.png',
     network: '?',
-    verified: 'false',
     links: {
       proof: 'https://medium.com/chainpoint/chainpoint-roadmap-2019-d04e726b6e85',
       github: 'https://github.org/chainpoint',
@@ -1133,7 +1051,6 @@ const mapping = [
     description: 'C# Smart Contracts framework over Tendermint consensus',
     image: '/static/logos/strongforce.png',
     network: '?',
-    verified: 'false',
     links: {
       github: 'https://github.com/comrade-coop/strongforce',
       chat: 'https://discordapp.com/invite/KrtQdXX',
@@ -1146,7 +1063,6 @@ const mapping = [
     description: 'based on Strong Force',
     image: '/static/logos/wetonomy.png',
     network: '?',
-    verified: 'false',
     links: {
       github: 'https://github.com/comrade-coop/wetonomy',
     },
@@ -1157,7 +1073,6 @@ const mapping = [
     description: '?',
     image: '/static/logos/cryptape.png',
     network: '?',
-    verified: 'false',
     links: {
       proof: 'https://github.com/cryptape/cita-whitepaper/blob/master/en/technical-whitepaper.md',
       github: 'https://github.com/cryptape/',
@@ -1170,7 +1085,6 @@ const mapping = [
     description: 'Given our analysis of this environment in addition to thorough understanding of the technology, we created CITA, an enterprise oriented blockchain framework that supports smart contract execution and design. CITA provides a stable, efficient, flexible and future-proof platform for enterprise-level blockchain applications.',
     image: '/static/logos/lightstreams-network.png',
     network: '?',
-    verified: 'false',
     links: {
       proof: 'https://github.com/lightstreams-network/lightchain',
       github: 'https://github.com/lightstreams-network',
@@ -1184,7 +1098,6 @@ const mapping = [
     description: 'A Multi-Currency Digital Wallet — The Spend App gives our users access to a Digital Wallet that enables them to store and spend with their smart phone or Spend Visa® Card.',
     image: '/static/logos/spend.png',
     network: '?',
-    verified: 'false',
     links: {
       proof: 'https://blog.spend.com/introducing-spendchain/',
       github: 'https://github.com/Spend',
@@ -1197,7 +1110,6 @@ const mapping = [
     description: '?',
     image: '/static/logos/dgaming.png',
     network: '?',
-    verified: 'false',
     links: {
       proof: 'https://www.cryptoninjas.net/2019/05/29/dgaming-to-launch-decentralized-gaming-hub-on-the-cosmos-network/',
       website: 'https://hub.dgaming.com/',
@@ -1209,7 +1121,6 @@ const mapping = [
     description: '?',
     image: '/static/logos/color-platform.png',
     network: 'testnet',
-    verified: 'false',
     links: {
       proof: 'https://color-platform.org/~colors/_assets/down/Color_Prism.pdf',
       chat: 'https://open.kakao.com/o/gN5YMamb',
@@ -1222,7 +1133,6 @@ const mapping = [
     description: '?',
     image: '/static/logos/amo.png',
     network: '?',
-    verified: 'false',
     links: {
       proof: 'https://github.com/amolabs/docs/blob/master/protocol.md',
       github: 'https://github.com/amolabs/amoabci',
@@ -1235,7 +1145,6 @@ const mapping = [
     description: 'hiblocks is a blockchain-based social media platform. Anyone can become a content curator or creator and get rewarded.',
     image: '/static/logos/default.png',
     network: '?',
-    verified: 'false',
     links: {
       proof: 'https://medium.com/@hiblocks/why-were-using-tendermint-consensus-algorithm-for-the-hiblocks-platform-21737a14b21f',
       chat: 'https://t.me/hiblocks_eng',
@@ -1248,7 +1157,6 @@ const mapping = [
     description: 'Tichex is a DPoS blockchain based on Tendermint and Cosmos SDK. The first pegged zone in EUR, that is the EUR/Crypto bridge of Cosmos and at the same time it is the technological evolution of an already existing European Financial Institution, namely Em@ney plc.',
     image: '/static/logos/tichex.png',
     network: '?',
-    verified: 'false',
     links: {
       proof: 'https://medium.com/@Tichex/tichex-the-first-eur-pegged-zone-on-cosmos-96dd8810dd90',
       github: 'https://github.com/tichex-project',
@@ -1262,7 +1170,6 @@ const mapping = [
     description: 'Kadena is powering new ideas and business models with a hybrid blockchain platform that offers scale, security, and simplicity.',
     image: '/static/logos/kadena.jpeg',
     network: '?',
-    verified: 'false',
     links: {
       proof: 'https://medium.com/kadena-io/introducing-kadenamint-and-chainweb-testnet-v2-cde077c02ebc',
       github: 'https://github.com/kadena-io/',
@@ -1276,7 +1183,6 @@ const mapping = [
     description: 'Our philosophy is to increase economic welfare through fintech with blockchains. The means are to spread the idea of incentive mechanism design and to realize Narrow Bank. We are developing the first stable coin business in Japan.',
     image: '/static/logos/lcnem.png',
     network: '?',
-    verified: 'false',
     links: {
       proof: 'https://lcnem.com/services/lcnemint',
       github: 'https://github.com/lcnem',
@@ -1289,7 +1195,6 @@ const mapping = [
     description: 'Nym provides strong network-level privacy against sophisticated end-to-end attackers, and anonymous transactions using blinded, re-randomizable, decentralized credentials.',
     image: '/static/logos/nym.jpeg',
     network: 'testnet',
-    verified: 'false',
     links: {
       proof: 'https://medium.com/@nymtech/happy-birthday-bitcoin-hello-world-nym-mixnet-600cc7539190',
       github: 'https://github.com/nymtech',
@@ -1304,7 +1209,6 @@ const mapping = [
     description: 'Swap and stake BNB and BEP2 assets. BEPSwap is Binance Chain’s first decentralized finance application allowing BEP2 token holders to swap their assets, or stake them to provide liquidity to the market. Powered by THORChain technology.',
     image: '/static/logos/bepswap.png',
     network: '?',
-    verified: 'false',
     links: {
       proof: 'https://bepswap.com/',
       website: 'https://bepswap.com/',
@@ -1313,21 +1217,19 @@ const mapping = [
   },
   {
     name: 'DeTicket',
-    description: 'verified via @Berliner1234 on TG',
+    description: 'Secure Ticketing',
     image: '/static/logos/default.png',
-    network: '?',
-    verified: 'false',
+    network: 'development',
     links: {
       twitter: 'https://twitter.com/DeTicket1',
     },
-    tags: ['?'],
+    tags: ['cosmos sdk'],
   },
   {
     name: 'EVERETT',
     description: 'A staking derivative middle-layer protocol to solve the problem of competing interest rates between staking and DeFi liquidity.',
     image: '/static/logos/everett.png',
     network: 'development',
-    verified: 'false',
     links: {
       proof: 'https://medium.com/everett-protocol/introducing-everett-1ae9b7e73164',
       github: 'https://github.com/mesg-foundation',
@@ -1341,7 +1243,6 @@ const mapping = [
     description: 'DATA is a blockchain based digital data authentication protocol powered by AI & P2P mobile storage infrastructure.',
     image: '/static/logos/data.jpg',
     network: 'mainnet',
-    verified: 'false',
     links: {
       proof: 'https://data.eco/#technology',
       github: 'https://github.com/BlockchainDATA',
@@ -1356,7 +1257,6 @@ const mapping = [
     description: '?',
     image: '/static/logos/leapdao.png',
     network: 'testnet',
-    verified: 'false',
     links: {
       proof: 'https://leapdao.org/blog/Plasma-Testnet-Launched/',
       github: 'https://github.com/leapdao',
@@ -1370,7 +1270,6 @@ const mapping = [
     description: 'Proof-of-Person blockchain. It allows for proof of humanity and uniqueness for its participants by running AI-hard Turing test globally at the same time.',
     image: '/static/logos/idena.png',
     network: '?',
-    verified: 'false',
     links: {
       proof: 'https://leapdao.org/blog/Plasma-Testnet-Launched/',
       github: 'https://github.com/idena-network',
@@ -1385,7 +1284,6 @@ const mapping = [
     description: 'Dawn is a global, self-governed and open-sourced Blockchain built for gamers. — “Cosmos Zone” Gaming Protocol',
     image: '/static/logos/dawn.png',
     network: '?',
-    verified: 'false',
     links: {
       proof: 'https://dawn.org/what-is-dawn.html',
       github: 'https://github.com/Dawn-Protocol',
@@ -1400,7 +1298,6 @@ const mapping = [
     description: 'Supernova is a Cosmos Zone that allows any project to build an engaged community from day one. On Supernova, any project can perform a decentralized lockdrop. Anyone interested in the project can participate in the lockdrop using Supernova tokens.',
     image: '/static/logos/supernova.jpg',
     network: 'development',
-    verified: 'false',
     links: {
       proof: 'https://supernova.community',
       github: 'https://github.com/hicommonwealth/supernova-lockdrop',
@@ -1415,7 +1312,6 @@ const mapping = [
     description: 'Unification creates rapidly deployable blockchain tools with built-in cost & speed predictability that bring security & efficiency to your business operations.',
     image: '/static/logos/unification.png',
     network: 'mainnet',
-    verified: 'false',
     links: {
       proof: 'https://medium.com/unificationfoundation/und-november-19-devnews-mainnet-is-coming-21f2d9327cb5',
       github: 'https://github.com/unification-com/mainchain',
@@ -1429,7 +1325,6 @@ const mapping = [
     description: 'Cosmos-based cross-chain decentralized finance.',
     image: '/static/logos/xar.png',
     network: 'mainnet',
-    verified: 'false',
     links: {
       proof: 'https://www.blog.xar.network/what-is-xar-network/',
       github: 'https://github.com/xar-network',
@@ -1443,7 +1338,6 @@ const mapping = [
     description: 'The Enterprise hub of Cosmos. The goal of Persistence is to create the most palatable and digestible ways for Enterprises to use this technology to increase their top line or reduce expenses.',
     image: '/static/logos/persistenceone.jpg',
     network: 'development',
-    verified: 'false',
     links: {
       proof: 'https://medium.com/@PersistenceOne/issue-01-introducing-persistence-ff778a9b7022',
       twitter: 'https://twitter.com/PersistenceOne',
@@ -1457,7 +1351,6 @@ const mapping = [
     description: 'OKChain is a self-developed public blockchain by OKEx based on a Cosmos SDK forked chain. It is the underlying architecture of the OKB ecosystem, which is added with payment function. While maintaining the cross-chain features of Cosmos SDK, it will undergo security and efficiency optimization designed for DeFi. OKDEX will be the first DApp launched on OKChain.',
     image: '/static/logos/okchain.jpg',
     network: 'testnet',
-    verified: 'false',
     links: {
       proof: 'https://medium.com/okex-blog/okex-in-support-of-community-and-ecosystem-building-1788065881a8',
       github: 'https://github.com/okex',
@@ -1472,7 +1365,6 @@ const mapping = [
     description: 'Band Protocol connects smart contracts with trusted off-chain information, provided through community-curated data providers.',
     image: '/static/logos/band-protocol.png',
     network: 'development',
-    verified: 'false',
     links: {
       proof: 'https://medium.com/bandprotocol/january-2020-update-announcing-an-early-alpha-release-of-band-protocol-2-0-ef320969714c',
       github: 'https://github.com/bandprotocol',
@@ -1487,7 +1379,6 @@ const mapping = [
     description: 'Bluzelle gives dapps a place to store data that is secure, tamper-proof, and highly scalable.',
     image: '/static/logos/bluzelle.png',
     network: 'development',
-    verified: 'false',
     links: {
       proof: 'https://www.cryptoninjas.net/2019/12/02/distributed-data-service-bluzelle-to-integrate-cosmos/',
       github: 'https://github.com/bluzelle/curium',
@@ -1502,7 +1393,6 @@ const mapping = [
     description: 'A proof-of-stake-based blockchain based on Cosmos SDK/Tendermint and secured by a new native coin, Secret (SCRT).',
     image: '/static/logos/enigma.png',
     network: 'mainnet',
-    verified: 'false',
     links: {
       proof: 'https://blog.enigma.co/the-enigma-mainnet-has-launched-3bd0d40fe80d',
       github: 'https://github.com/enigmampc/enigmachain',
@@ -1517,7 +1407,6 @@ const mapping = [
     description: 'Dropil brings a suite of tools to cater to a broad cryptocurrency audience',
     image: '/static/logos/dropil.png',
     network: 'testnet',
-    verified: 'false',
     links: {
       proof: 'https://dropil.com/dropil-chain-testnet-official-launch/',
       github: 'https://github.com/dropilchain-testnet',
@@ -1532,14 +1421,13 @@ const mapping = [
     description: 'A user-friendly, highly secure and privacy-centric governance platform.',
     image: '/static/logos/vocdoni.png',
     network: 'testnet',
-    verified: 'false',
     links: {
       website: 'https://vocdoni.io',
       github: 'https://github.com/vocdoni',
       gitlab: 'https://gitlab.com/vocdoni',
       twitter: 'https://twitter.com/vocdoni',
       chat: 'https://t.me/vocdoni',
-      proof: 'https://blog.vocdoni.io/vocdoni-technical-overview-v1/'
+      proof: 'https://blog.vocdoni.io/vocdoni-technical-overview-v1/',
     },
     tags: ['tendermint core'],
   },
@@ -1548,13 +1436,12 @@ const mapping = [
     description: 'The Ki Foundation creates a strong and fair ecosystem of value by deploying a new currency with a sustainable business model. For a better world. Block by block.',
     image: '/static/logos/ki.png',
     network: 'testnet',
-    verified: 'false',
     links: {
       website: 'https://foundation.ki',
       github: 'https://github.com/KiFoundation',
       twitter: 'https://twitter.com/Ki_Foundation',
       chat: 'https://t.me/KiFoundation',
-      proof: 'https://static.foundation.ki/documents/ki-whitepaper.pdf'
+      proof: 'https://static.foundation.ki/documents/ki-whitepaper.pdf',
     },
     tags: ['cosmos sdk', 'tendermint core'],
   },
@@ -1563,12 +1450,11 @@ const mapping = [
     description: 'Decimal will assist you to create a liquid coin, make passive income and transfer money across our planet Earth. Create your coin on Decimal within 3 minutes',
     image: '/static/logos/decimal.png',
     network: 'testnet',
-    verified: 'false',
     links: {
       website: 'https://decimalchain.com',
       code: 'https://bitbucket.org/decimalteam',
       twitter: 'https://twitter.com/DecimalChain',
-      proof: 'https://decimalchain.com/WPeng.pdf'
+      proof: 'https://decimalchain.com/WPeng.pdf',
     },
     tags: ['cosmos sdk', 'tendermint core'],
   },

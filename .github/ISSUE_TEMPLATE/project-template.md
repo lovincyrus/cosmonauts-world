@@ -13,7 +13,6 @@ assignees: ''
 - description: 
 - image: 
 - network: 
-- verified: false
 - proof: 
 - github: 
 - gitlab: 
