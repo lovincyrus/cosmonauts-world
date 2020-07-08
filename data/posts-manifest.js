@@ -661,7 +661,7 @@ const mapping = [
   },
   {
     name: 'ShareRing',
-    description: '?',
+    description: "The world's first trusted token for sharing services",
     image: '/static/logos/sharering.jpeg',
     network: '?',
     verified: 'false',
@@ -671,7 +671,7 @@ const mapping = [
       chat: 'https://t.me/ShareRing',
       website: 'https://sharering.network/',
     },
-    tags: ['?'],
+    tags: ['cosmos sdk', 'tendermint core'],
   },
   {
     name: 'CyberMiles',
@@ -1568,7 +1568,7 @@ const mapping = [
       website: 'https://decimalchain.com',
       code: 'https://bitbucket.org/decimalteam',
       twitter: 'https://twitter.com/DecimalChain',
-      proof: 'https://decimalchain.com/WPeng.pdf'
+      proof: 'https://decimalchain.com/WPeng.pdf',
     },
     tags: ['cosmos sdk', 'tendermint core'],
   },
