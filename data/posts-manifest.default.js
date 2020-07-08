@@ -5,7 +5,6 @@ export default [
     description: '',
     image: '',
     network: 'mainnet || testnet || development',
-    verified: 'false',
     links: {
       proof: '',
       github: '',

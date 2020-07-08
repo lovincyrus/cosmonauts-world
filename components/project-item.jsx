@@ -26,7 +26,7 @@ const postVariants = {
 };
 
 const ProjectItem = ({
-  name, image, network, verified, tags,
+  name, image, network, tags,
 }) => (
   <motion.div
     initial="initial"
@@ -65,25 +65,10 @@ const ProjectItem = ({
                   alt={name}
                   className="w-16 h-16"
                 />
-                {verified === 'true' ? (
-                  <h3 className="font-medium py-3 title">
-                    {name}
-                    {' '}
-                    <img
-                      width={15}
-                      height={15}
-                      src="/static/icons/check-circle.svg"
-                      alt="Verified by cosmonauts! 👩‍🚀"
-                      title="Verified by cosmonauts! 👩‍🚀"
-                      className="is-verified"
-                    />
-                  </h3>
-                ) : (
-                  <h3 className="font-medium py-3">
-                    {name}
-                    {' '}
-                  </h3>
-                )}
+                <h3 className="font-medium py-3">
+                  {name}
+                  {' '}
+                </h3>
                 {tags.map((tag, index) => (
                   <span className="display-tags" key={index}>
                     {tag}
@@ -120,11 +105,6 @@ const ProjectItem = ({
         .title {
           display: flex;
           width: fit-content;
-        }
-
-        .is-verified {
-          margin-left: 5px;
-          cursor: help;
         }
 
         .display-tags {

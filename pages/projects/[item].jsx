@@ -66,8 +66,6 @@ const Post = ({ post, socialLinks }) => (
           {post.name}
         </p>
 
-        {post.verified === 'true' ? (<p className="pt-5 text-center">Verified by cosmonauts! 👩‍🚀</p>) : ('')}
-
         <div className="icons-container">
           {socialLinks.map((item, index) => (
             <a href={post.links[item]} target="blank_" rel="noopener noreferrer" className="icon-item" key={index}>
