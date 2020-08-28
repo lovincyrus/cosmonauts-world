@@ -145,7 +145,7 @@ const mapping = [
   },
   {
     name: 'IOV',
-    description: 'The IOV Name Service provides a human readable address instead of blockchain addresses to receive any kind of crypto-currencies. Built on Tendermint, IOV builds a fast, secure and decentralized name service. Any kind of crypto-addresses can be registered on the IOV Name Service.',
+    description: 'The IOV Name Service provides a human-readable address instead of a blockchain address. Starname is a universal username to receive any kind of crypto-currencies or to log in to blockchain applications in a seamless way. Built on Cosmos-SDK, IOV’s name service is fast, secure and the decentralized.',
     image: '/static/logos/iov.png',
     network: 'mainnet',
     links: {
@@ -154,7 +154,7 @@ const mapping = [
       chat: 'https://t.me/internetofvalues',
       website: 'https://www.iov.one/',
     },
-    tags: ['tendermint core'],
+    tags: ['tendermint core', 'cosmos sdk'],
   },
   {
     name: 'Akash Network',
