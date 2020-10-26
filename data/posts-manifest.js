@@ -24,20 +24,6 @@ const mapping = [
     },
     tags: ['cosmos sdk', 'tendermint core'],
   },
-    {
-    name: 'Switcheo TradeHub',
-    description: 'Switcheo TradeHub is a purpose-built sidechain for trading. It is run by a decentralized network of public nodes that each hosts a copy of Switcheo’s order matching engine, validating every trade submission. After validation and execution of trades on Switcheo TradeHub, transactions is broadcasted in batches to be settled on Layer-1 blockchains such as Bitcoin, Ethereum and Neo. The order matching engine is based on our existing, proven off-chain order matching engine, which has thus far been running on centralized servers hosted by Switcheo.',
-    image: '/static/logos/switcheo-tradehub.png',
-    network: 'mainnet',
-    links: {
-      proof: 'https://github.com/Switcheo/tradehub',
-      github: 'https://github.com/Switcheo/tradehub',
-      chat: 'https://t.me/switcheo',
-      website: 'https://switcheo.network/',
-      discord: 'https://discord.gg/2bfwaVA'
-    },
-    tags: ['cosmos sdk', 'tendermint core'],
-  },
   {
     name: 'Kava',
     description: 'Kava is the first cross-blockchain DeFi platform that enables traders to leverage their assets and hedge using a multi-collateral CDP system and collateral-backed stablecoin (USDX).',
@@ -1469,6 +1455,19 @@ const mapping = [
       code: 'https://bitbucket.org/decimalteam',
       twitter: 'https://twitter.com/DecimalChain',
       proof: 'https://decimalchain.com/WPeng.pdf',
+    },
+    tags: ['cosmos sdk', 'tendermint core'],
+  },
+  {
+    name: 'Switcheo TradeHub',
+    description: 'Switcheo TradeHub is a purpose-built sidechain for trading. It is run by a decentralized network of public nodes that each hosts a copy of Switcheo’s order matching engine, validating every trade submission. After validation and execution of trades on Switcheo TradeHub, transactions is broadcasted in batches to be settled on Layer-1 blockchains such as Bitcoin, Ethereum and Neo. The order matching engine is based on our existing, proven off-chain order matching engine, which has thus far been running on centralized servers hosted by Switcheo.',
+    image: '/static/logos/switcheo-tradehub.png',
+    network: 'mainnet',
+    links: {
+      proof: 'https://github.com/Switcheo/tradehub',
+      github: 'https://github.com/Switcheo/tradehub',
+      chat: 'https://t.me/switcheo',
+      website: 'https://switcheo.network/',
     },
     tags: ['cosmos sdk', 'tendermint core'],
   },
