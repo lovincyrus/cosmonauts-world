@@ -1471,6 +1471,19 @@ const mapping = [
     },
     tags: ['cosmos sdk', 'tendermint core'],
   },
+  {
+    name: 'Centaur',
+    description: 'By combining the best elements of decentralised finance with measured regulatory control, Centaur is bridging DeFi and traditional finance.',
+    image: '/static/logos/centaur.png',
+    network: 'testnet',
+    links: {
+      proof: 'https://cntr.finance/docs/whitepaper.pdf',
+      chat: 'https://t.me/OfficialCentaur',
+      website: 'https://cntr.finance/',
+      twitter: 'https://twitter.com/officialcentaur',
+    },
+    tags: ['cosmos sdk', 'tendermint core'],
+  },
 ];
 
 module.exports = {
