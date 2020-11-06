@@ -213,11 +213,11 @@ const mapping = [
     name: 'Akash Network',
     description: 'Akash is the world’s first super cloud for serverless computing, empowering the architects and builders of the internet with greater access, freedom, and efficiency.',
     image: '/static/logos/akash-network.png',
-    network: 'testnet',
+    network: 'mainnet',
     links: {
       proof: 'https://github.com/ovrclk/akash/search?q=tendermint&unscoped_q=tendermint',
       github: 'https://github.com/ovrclk',
-      chat: 'https://akash.network/chat',
+      chat: 'https://t.me/AkashNW',
       website: 'https://akash.network/',
     },
     tags: ['cosmos sdk', 'tendermint core'],
