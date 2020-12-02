@@ -4,8 +4,6 @@
 
 Projects in the Cosmos and Tendermint ecosystem 🌌
 
-Built with `Next.js` + `Tailwind CSS` + `Framer Motion API` + `Feather icons`
-
 Live site: https://cosmonauts.world
 
 📣: This is an experimental project by [@lovincyrus](https://github.com/lovincyrus), and it is not a Cosmos organization project.
@@ -29,11 +27,7 @@ This repository will be the singular source of truth for the Cosmos & Tendermint
 
 ## Contribution
 
-To submit a feature, bug fix, typo, or enhancement to the site, you may add an issue or (even better) create a pull request to [this repository](https://github.com/lovincyrus/cosmonauts-world).
-
-If you'd like to learn more about how to add or suggest a project, please read [Contributing guideline](CONTRIBUTING.md)
-
-**Note:** Please abide by the [Code of Conduct](CODE_OF_CONDUCT.md) in all interactions.
+We no longer accept any new submissions to update https://www.cosmonauts.world. For any new projects, please submit your information using [this Airtable form 📮](https://airtable.com/shrHJJ4U4ChUxjILk)
 
 ## Related resources
 
@@ -42,10 +36,4 @@ If you'd like to learn more about how to add or suggest a project, please read [
 - [cosmos/awesome](https://github.com/cosmos/awesome)
 - [tendermint/awesome](https://github.com/tendermint/awesome)
 
-## Feedback
-
-Please open issues at any time for general feedback, or you can reach me directly at cyrus@tendermint.com. We really appreciate any contribution.
-
-## Credits
-
-Bright Center Star Cluster by [NASA](https://unsplash.com/photos/OVO8nK-7Rfs)
+**Note:** Please abide by the [Code of Conduct](CODE_OF_CONDUCT.md) in all interactions.
