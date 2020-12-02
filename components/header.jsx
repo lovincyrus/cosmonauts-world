@@ -9,35 +9,17 @@ const Header = () => (
         Cosmonauts World
       </h1>
       <p className="pt-2 subpixel-antialiased max-w-full text-gray-300 text-lg">
-        Welcome! We&apos;re helping each other to learn more about the projects in
-        the Cosmos and Tendermint ecosystem.
+        The canonical list of the projects in the Cosmos and Tendermint ecosystem.
       </p>
-      <p className="pt-2 text-gray-400">
-        Built by
+      <p className="pt-2 text-gray-400 note">
+        👉 We no longer accept any new submissions to update cosmonauts.world. For any new projects, please submit your information using
         {' '}
-        <a
-          href="https://github.com/lovincyrus"
-          target="blank_"
-          rel="noopener noreferrer"
-        >
-          @lovincyrus
-        </a>
-        <span>  &#183; </span>
-        <a
-          href="https://github.com/lovincyrus/cosmonauts-world"
-          target="blank_"
-          rel="noopener noreferrer"
-        >
-          GitHub
-        </a>
-        <span> &#183; </span>
-        <a
-          href="https://twitter.com/CosmonautsWorld"
-          target="blank_"
-          rel="noopener noreferrer"
-        >
-          Twitter
-        </a>
+        <a href="https://airtable.com/shrHJJ4U4ChUxjILk" target="blank_" rel="noopener noreferrer">this Airtable form</a>
+        <br />
+        <br />
+        View the
+        {' '}
+        <a href="https://airtable.com/shrapBPVHSLsfhKzk/tblii5D2VeOOFZA4c/viwDRWlFKDPpHZOII" target="blank_" rel="noopener noreferrer">Airtable spreadsheet</a>
       </p>
     </div>
 
@@ -50,6 +32,19 @@ const Header = () => (
           border-radius: 4px;
           position: relative;
           margin-top: 7vh;
+        }
+
+        a {
+          color: #0070f3;
+        }
+
+        .note {
+          margin-top: 1rem;
+          border-color: #42b983;
+          border-left-width: 0.5rem;
+          border-left-style: solid;
+          margin: 1rem 0;
+          padding: .1rem 1.5rem;
         }
 
         @media screen and (max-width: 480px) {

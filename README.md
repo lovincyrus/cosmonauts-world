@@ -2,7 +2,7 @@
 
 [![Mergify Status](https://img.shields.io/endpoint.svg?url=https://gh.mergify.io/badges/lovincyrus/cosmonauts-world)](https://mergify.io)
 
-Projects in the Cosmos and Tendermint ecosystem 🌌
+The canonical list of the projects in the Cosmos and Tendermint ecosystem 🌌
 
 Live site: https://cosmonauts.world
 
