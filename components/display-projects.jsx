@@ -25,6 +25,10 @@ const DisplayProjects = ({ state, state: { projectCategories, displayCategory },
           overflow-y: hidden;
           white-space: nowrap;
         }
+        
+        .scrolling-wrapper::-webkit-scrollbar {
+          display: none;
+        }
 
         .btn-container {
           margin-top: 2rem;
