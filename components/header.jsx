@@ -35,12 +35,13 @@ const Header = () => (
         }
 
         a {
-          color: #0070f3;
+          color: antiquewhite;
+          font-weight: bold;
         }
 
         .note {
           margin-top: 1rem;
-          border-color: #42b983;
+          border-color: antiquewhite;
           border-left-width: 0.5rem;
           border-left-style: solid;
           margin: 1rem 0;
