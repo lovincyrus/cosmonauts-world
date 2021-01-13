@@ -20,7 +20,14 @@ function Footer() {
             justify-content: center;
             align-items: center;
             flex-direction: column;
-            height: 22vh;
+            position: absolute;
+            margin-left: auto;
+            margin-right: auto;
+            bottom: 0;
+            left: 0;
+            right: 0;
+            text-align: center;
+            z-index: -1;
           }
 
           .rocket {
