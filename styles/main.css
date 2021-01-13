@@ -47,7 +47,7 @@ body.light-mode .navbar-container {
 */
 
 body.dark-mode {
-  background-color: #10171d;
+  background-color: transparent;
   color: #dfdfdf;
   transition: background-color 0.3s ease;
 }
