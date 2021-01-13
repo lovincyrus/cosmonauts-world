@@ -28,6 +28,7 @@ const Header = () => (
           position: relative;
           display: grid;
           place-items: center;
+          backdrop-filter: blur(3px);
         }
 
         a {
